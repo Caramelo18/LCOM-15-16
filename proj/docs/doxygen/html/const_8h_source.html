@@ -1,0 +1,223 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.10"/>
+<title>CBALL: Código-Fonte de C:/Users/Bruno/Desktop/proj/const.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">CBALL
+   &#160;<span id="projectnumber">1</span>
+   </div>
+   <div id="projectbrief">LCOM Project</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Gerado por Doxygen 1.8.10 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Localizar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="modules.html"><span>Módulos</span></a></li>
+      <li><a href="annotated.html"><span>Estruturas&#160;de&#160;dados</span></a></li>
+      <li class="current"><a href="files.html"><span>Ficheiros</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Localizar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Lista&#160;de&#160;ficheiros</span></a></li>
+      <li><a href="globals.html"><span>Globais</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_c166a637ad9f8f09f1307a666349b968.html">proj</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">const.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="const_8h.html">Ir para a documentação deste ficheiro.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef __CONST_H</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define __CONST_H</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;</div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;minix/drivers.h&gt;</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &lt;minix/syslib.h&gt;</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &lt;minix/com.h&gt;</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#include &lt;minix/sysutil.h&gt;</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#include &lt;machine/int86.h&gt;</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#include &lt;sys/mman.h&gt;</span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#include &lt;sys/types.h&gt;</span></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#include &quot;math.h&quot;</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;</div>
+<div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="const_8h.html#acfb42dde389e8ca36ab267002fbf5c6a">   13</a></span>&#160;<span class="preprocessor">#define OUT_BUF 0x60 </span></div>
+<div class="line"><a name="l00014"></a><span class="lineno"><a class="line" href="const_8h.html#a783be5698cf07b1daaf126ef89c19063">   14</a></span>&#160;<span class="preprocessor">#define IN_BUF 0x64 </span></div>
+<div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="const_8h.html#a89c4d098b53809674457b1660b1af780">   15</a></span>&#160;<span class="preprocessor">#define STAT_REG 0x64 </span></div>
+<div class="line"><a name="l00016"></a><span class="lineno"><a class="line" href="const_8h.html#a3c48b10907056351582baf9f6478598e">   16</a></span>&#160;<span class="preprocessor">#define IBF 0x02 </span></div>
+<div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="const_8h.html#addcd204eb15a640ac18a8675c1f8366a">   17</a></span>&#160;<span class="preprocessor">#define WRITEB 0xD4 </span></div>
+<div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="const_8h.html#a210e589169f76e11c465669f282dbada">   18</a></span>&#160;<span class="preprocessor">#define SSTRM 0xF4 </span></div>
+<div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="const_8h.html#ad43bda2db014417ed0a07535a6680a90">   19</a></span>&#160;<span class="preprocessor">#define DISTRM 0xF5 </span></div>
+<div class="line"><a name="l00020"></a><span class="lineno"><a class="line" href="const_8h.html#a71ce5fe692e4c2868bd0307ff23f9fca">   20</a></span>&#160;<span class="preprocessor">#define STATREQ 0xE9 </span></div>
+<div class="line"><a name="l00021"></a><span class="lineno"><a class="line" href="const_8h.html#a6f6489887e08bff4887d0bc5dcf214d8">   21</a></span>&#160;<span class="preprocessor">#define ACK 0xFA </span></div>
+<div class="line"><a name="l00022"></a><span class="lineno"><a class="line" href="const_8h.html#a958518a45b12053ae33606ee7cb68a55">   22</a></span>&#160;<span class="preprocessor">#define NACK 0xFE </span></div>
+<div class="line"><a name="l00023"></a><span class="lineno"><a class="line" href="const_8h.html#a8fe83ac76edc595f6b98cd4a4127aed5">   23</a></span>&#160;<span class="preprocessor">#define ERROR 0xFC </span></div>
+<div class="line"><a name="l00024"></a><span class="lineno"><a class="line" href="const_8h.html#aa554763d6a066605edecacdea834da9b">   24</a></span>&#160;<span class="preprocessor">#define WAIT_KBC 20000 </span></div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="preprocessor">#define BIT(n) (0x01&lt;&lt;(n))</span></div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;</div>
+<div class="line"><a name="l00027"></a><span class="lineno"><a class="line" href="const_8h.html#a307ab71673e26ec42b28a3bca05d4cb5">   27</a></span>&#160;<span class="preprocessor">#define PAR_ERR 0x80 </span></div>
+<div class="line"><a name="l00028"></a><span class="lineno"><a class="line" href="const_8h.html#ad16f61e2bf70f6c7685e826224ed177f">   28</a></span>&#160;<span class="preprocessor">#define TO_ERR 0x40 </span></div>
+<div class="line"><a name="l00030"></a><span class="lineno"><a class="line" href="const_8h.html#a9d120d89092a608ee5baf2000c0cd5af">   30</a></span>&#160;<span class="preprocessor">#define VBE 0x10 </span></div>
+<div class="line"><a name="l00031"></a><span class="lineno"><a class="line" href="const_8h.html#a6941abc8920f011c68d53c66f79a4db3">   31</a></span>&#160;<span class="preprocessor">#define SETVBEMODE 0x02 </span></div>
+<div class="line"><a name="l00032"></a><span class="lineno"><a class="line" href="const_8h.html#aaba14ebc565b0a9a1ea8c46abdff37bc">   32</a></span>&#160;<span class="preprocessor">#define VBEBIOSFUNC 0x4F </span></div>
+<div class="line"><a name="l00033"></a><span class="lineno"><a class="line" href="const_8h.html#ac7e3e2419255ce18955c72b6ee60e0dd">   33</a></span>&#160;<span class="preprocessor">#define VBEMI 0x01 </span></div>
+<div class="line"><a name="l00034"></a><span class="lineno"><a class="line" href="const_8h.html#a63e28e614a2796cb874f4bf10531b4fa">   34</a></span>&#160;<span class="preprocessor">#define FCF 0x01 </span></div>
+<div class="line"><a name="l00035"></a><span class="lineno"><a class="line" href="const_8h.html#a6583cc1ee7f1d8acaa212a6849e11006">   35</a></span>&#160;<span class="preprocessor">#define FCNS 0x02 </span></div>
+<div class="line"><a name="l00036"></a><span class="lineno"><a class="line" href="const_8h.html#a9de74c27de8744df0f343ebe89d13dfa">   36</a></span>&#160;<span class="preprocessor">#define FICVM 0x03 </span></div>
+<div class="line"><a name="l00037"></a><span class="lineno"><a class="line" href="const_8h.html#a0007120a310d0ec70307f51f43eb81a3">   37</a></span>&#160;<span class="preprocessor">#define LINEAR_MODEL_BIT 14 </span></div>
+<div class="line"><a name="l00039"></a><span class="lineno"><a class="line" href="const_8h.html#a710b98232df2c563009e6f8a6cd18220">   39</a></span>&#160;<span class="preprocessor">#define RTC_ADDR_REG 0x70 </span></div>
+<div class="line"><a name="l00040"></a><span class="lineno"><a class="line" href="const_8h.html#a2f258a00c59c3f347c8d2d4a75471ce0">   40</a></span>&#160;<span class="preprocessor">#define RTC_DATA_REG 0x71 </span></div>
+<div class="line"><a name="l00041"></a><span class="lineno"><a class="line" href="const_8h.html#a871557447a6fe92581aa4905362f3526">   41</a></span>&#160;<span class="preprocessor">#define REGA 10 </span></div>
+<div class="line"><a name="l00042"></a><span class="lineno"><a class="line" href="const_8h.html#ac7a5df986ee5b01c21774a26460625b3">   42</a></span>&#160;<span class="preprocessor">#define REGB 11 </span></div>
+<div class="line"><a name="l00043"></a><span class="lineno"><a class="line" href="const_8h.html#aa14fed75241f317200591276a0040c1f">   43</a></span>&#160;<span class="preprocessor">#define REGC 12 </span></div>
+<div class="line"><a name="l00046"></a><span class="lineno"><a class="line" href="const_8h.html#a30bf84c312af248cb81bb224e09f9ba8">   46</a></span>&#160;<span class="preprocessor">#define TIMER0_IRQ 0 </span></div>
+<div class="line"><a name="l00047"></a><span class="lineno"><a class="line" href="const_8h.html#a5c1072213ce8d8cd43628c4319ae0391">   47</a></span>&#160;<span class="preprocessor">#define KBD_IRQ 1 </span></div>
+<div class="line"><a name="l00048"></a><span class="lineno"><a class="line" href="const_8h.html#a85964cb90343bb1a029b1d1b4229f910">   48</a></span>&#160;<span class="preprocessor">#define MOUSE_IRQ 12 </span></div>
+<div class="line"><a name="l00049"></a><span class="lineno"><a class="line" href="const_8h.html#a4e22feb6ffbc1cda32fadff5c740dc51">   49</a></span>&#160;<span class="preprocessor">#define RTC_IRQ 8 </span></div>
+<div class="line"><a name="l00052"></a><span class="lineno"><a class="line" href="const_8h.html#a3a8ea58898cb58fc96013383d39f482c">   52</a></span>&#160;<span class="preprocessor">#define BIT(n) (0x01&lt;&lt;(n)) </span></div>
+<div class="line"><a name="l00053"></a><span class="lineno"><a class="line" href="const_8h.html#a68b87c2339cb305d66b69b5551b96c73">   53</a></span>&#160;<span class="preprocessor">#define PB2BASE(x) (((x) &gt;&gt; 4) &amp; 0x0F000) </span></div>
+<div class="line"><a name="l00054"></a><span class="lineno"><a class="line" href="const_8h.html#a70c65ed4c6d71865daa96d31befb33fd">   54</a></span>&#160;<span class="preprocessor">#define PB2OFF(x) ((x) &amp; 0x0FFFF) </span></div>
+<div class="line"><a name="l00057"></a><span class="lineno"><a class="line" href="const_8h.html#a72a3e9ef9bf5498ac6083dcdd6627b38">   57</a></span>&#160;<span class="preprocessor">static int TIMER_HOOK = 0; </span></div>
+<div class="line"><a name="l00058"></a><span class="lineno"><a class="line" href="const_8h.html#a360b85caff22c0915a425e17b68ed629">   58</a></span>&#160;<span class="preprocessor">static int KBD_HOOK = 1; </span></div>
+<div class="line"><a name="l00059"></a><span class="lineno"><a class="line" href="const_8h.html#a0f7c407c13f8ac95f8b2f707777dfe42">   59</a></span>&#160;<span class="preprocessor">static int MOUSE_HOOK = 2; </span></div>
+<div class="line"><a name="l00060"></a><span class="lineno"><a class="line" href="const_8h.html#af35174a9972b829d72ae2719e7ff9716">   60</a></span>&#160;<span class="preprocessor">static int RTC_HOOK = 3; </span></div>
+<div class="line"><a name="l00063"></a><span class="lineno"><a class="line" href="const_8h.html#a81551d85c0b26101a01a40e83aa389aa">   63</a></span>&#160;<span class="preprocessor">#define CLOCKY 90 </span></div>
+<div class="line"><a name="l00064"></a><span class="lineno"><a class="line" href="const_8h.html#af917ff9cc0600b52ea60e4d3fc6e37d3">   64</a></span>&#160;<span class="preprocessor">#define CLOCKMIN 620 </span></div>
+<div class="line"><a name="l00065"></a><span class="lineno"><a class="line" href="const_8h.html#aee7b903a04ac759b14fed460cf2ab2f6">   65</a></span>&#160;<span class="preprocessor">#define CLOCKDP 642 </span></div>
+<div class="line"><a name="l00066"></a><span class="lineno"><a class="line" href="const_8h.html#abe90ddee11347243497ad5939fd66856">   66</a></span>&#160;<span class="preprocessor">#define CLOCKSEC1 655 </span></div>
+<div class="line"><a name="l00067"></a><span class="lineno"><a class="line" href="const_8h.html#a839fe95f45df19efda8e4b6e9b72784f">   67</a></span>&#160;<span class="preprocessor">#define CLOCKSEC2 680 </span></div>
+<div class="line"><a name="l00069"></a><span class="lineno"><a class="line" href="const_8h.html#a6df672f549a9f146078a04d61669333e">   69</a></span>&#160;<span class="preprocessor">#define RTCHRS1 40 </span></div>
+<div class="line"><a name="l00070"></a><span class="lineno"><a class="line" href="const_8h.html#a238fc0141a022d03a8d76f1190117d51">   70</a></span>&#160;<span class="preprocessor">#define RTCHRS2 60 </span></div>
+<div class="line"><a name="l00071"></a><span class="lineno"><a class="line" href="const_8h.html#aa7e5c060f051005491e31ee4305ad107">   71</a></span>&#160;<span class="preprocessor">#define RTCMIN1 90 </span></div>
+<div class="line"><a name="l00072"></a><span class="lineno"><a class="line" href="const_8h.html#aebdfa7f2670b29b5bd9583ff96318102">   72</a></span>&#160;<span class="preprocessor">#define RTCMIN2 110 </span></div>
+<div class="line"><a name="l00073"></a><span class="lineno"><a class="line" href="const_8h.html#a58c6323c5614ddcc0899eb6813ae6d81">   73</a></span>&#160;<span class="preprocessor">#define RTCSEC1 140 </span></div>
+<div class="line"><a name="l00074"></a><span class="lineno"><a class="line" href="const_8h.html#a379eefb0576feac55c42c60f842be62f">   74</a></span>&#160;<span class="preprocessor">#define RTCSEC2 160 </span></div>
+<div class="line"><a name="l00075"></a><span class="lineno"><a class="line" href="const_8h.html#a82d43c87b8462e1613a5bd4512997b85">   75</a></span>&#160;<span class="preprocessor">#define RTCDATEY 130 </span></div>
+<div class="line"><a name="l00076"></a><span class="lineno"><a class="line" href="const_8h.html#a95546d33568225262dafe6a0c116e276">   76</a></span>&#160;<span class="preprocessor">#define RTCA1 40 </span></div>
+<div class="line"><a name="l00077"></a><span class="lineno"><a class="line" href="const_8h.html#a84bb348b2f02a08e672ec870e3af08cd">   77</a></span>&#160;<span class="preprocessor">#define RTCA2 60 </span></div>
+<div class="line"><a name="l00078"></a><span class="lineno"><a class="line" href="const_8h.html#a44682140ca6faa54f6587f5a64e7308c">   78</a></span>&#160;<span class="preprocessor">#define RTCYR1 80 </span></div>
+<div class="line"><a name="l00079"></a><span class="lineno"><a class="line" href="const_8h.html#aeabb2cf325d8643cb214dbee6c445974">   79</a></span>&#160;<span class="preprocessor">#define RTCYR2 100 </span></div>
+<div class="line"><a name="l00080"></a><span class="lineno"><a class="line" href="const_8h.html#a17b15efeee28bc2d2058534efc83be5a">   80</a></span>&#160;<span class="preprocessor">#define RTCM1 135 </span></div>
+<div class="line"><a name="l00081"></a><span class="lineno"><a class="line" href="const_8h.html#a0a2c9affa8bfd4dd3c5707e0883ece51">   81</a></span>&#160;<span class="preprocessor">#define RTCM2 155 </span></div>
+<div class="line"><a name="l00082"></a><span class="lineno"><a class="line" href="const_8h.html#a0db57d12da167413ac5919283c404a9f">   82</a></span>&#160;<span class="preprocessor">#define RTCD1 190 </span></div>
+<div class="line"><a name="l00083"></a><span class="lineno"><a class="line" href="const_8h.html#a8f551340398beec5fa7ddd0637a9b588">   83</a></span>&#160;<span class="preprocessor">#define RTCD2 210 </span></div>
+<div class="line"><a name="l00084"></a><span class="lineno"><a class="line" href="const_8h.html#a1aa2ab18469c03d097626d7a035c67ff">   84</a></span>&#160;<span class="preprocessor">#define RTCDPHM 81 </span></div>
+<div class="line"><a name="l00085"></a><span class="lineno"><a class="line" href="const_8h.html#ab11284c5338741af58ea8e662b78d62c">   85</a></span>&#160;<span class="preprocessor">#define RTCDPMS 131 </span></div>
+<div class="line"><a name="l00086"></a><span class="lineno"><a class="line" href="const_8h.html#a8a2b6d62a60826f59fd31667401a7f5c">   86</a></span>&#160;<span class="preprocessor">#define RTCDPY 93 </span></div>
+<div class="line"><a name="l00087"></a><span class="lineno"><a class="line" href="const_8h.html#ae8d68ea64e2af0a7b8298a2cf28c95c1">   87</a></span>&#160;<span class="preprocessor">#define RTCTR1 115 </span></div>
+<div class="line"><a name="l00088"></a><span class="lineno"><a class="line" href="const_8h.html#af5a6f218d8304f916c21a118da8c293f">   88</a></span>&#160;<span class="preprocessor">#define RTCTR2 169 </span></div>
+<div class="line"><a name="l00089"></a><span class="lineno"><a class="line" href="const_8h.html#a6c0dc89de56ab17990ceb1782deeb586">   89</a></span>&#160;<span class="preprocessor">#define RTCTRY 132 </span></div>
+<div class="line"><a name="l00090"></a><span class="lineno"><a class="line" href="const_8h.html#a0fb4c082958feada3ed1fb2e3ddd4964">   90</a></span>&#160;<span class="preprocessor">#define RTCDOTWY 168 </span></div>
+<div class="line"><a name="l00091"></a><span class="lineno"><a class="line" href="const_8h.html#abdbd981515eb5cc22d8c0203be2b3b05">   91</a></span>&#160;<span class="preprocessor">#define RTCDOTWX 42 </span></div>
+<div class="line"><a name="l00093"></a><span class="lineno"><a class="line" href="const_8h.html#abda57faed6f9351ea31b5e41b281942a">   93</a></span>&#160;<span class="preprocessor">#define P1SCOREX 210 </span></div>
+<div class="line"><a name="l00094"></a><span class="lineno"><a class="line" href="const_8h.html#acc1e1ffaed4610a2553ac5e179318383">   94</a></span>&#160;<span class="preprocessor">#define P2SCOREX 270 </span></div>
+<div class="line"><a name="l00095"></a><span class="lineno"><a class="line" href="const_8h.html#a31c7daefaa19f74b7042562cd03341a5">   95</a></span>&#160;<span class="preprocessor">#define SCORESEP 238 </span></div>
+<div class="line"><a name="l00096"></a><span class="lineno"><a class="line" href="const_8h.html#a764e20bfc42e76a92e241ae8f2c07299">   96</a></span>&#160;<span class="preprocessor">#define SCOREY 90 </span></div>
+<div class="line"><a name="l00098"></a><span class="lineno"><a class="line" href="const_8h.html#ae64244a12c09cfe7eb73b9f29a414564">   98</a></span>&#160;<span class="preprocessor">#define MENSELX 280 </span></div>
+<div class="line"><a name="l00099"></a><span class="lineno"><a class="line" href="const_8h.html#aefbbf4f7f75378acd25cc7d2f2b66c4f">   99</a></span>&#160;<span class="preprocessor">#define MENSELY 306 </span></div>
+<div class="line"><a name="l00100"></a><span class="lineno"><a class="line" href="const_8h.html#a143f09b9731005220e5143ad8cd9477c">  100</a></span>&#160;<span class="preprocessor">#define LAX 250 </span></div>
+<div class="line"><a name="l00101"></a><span class="lineno"><a class="line" href="const_8h.html#a21538a757097d3cdbdffdfaf3cb5e570">  101</a></span>&#160;<span class="preprocessor">#define RAX 754 </span></div>
+<div class="line"><a name="l00103"></a><span class="lineno"><a class="line" href="const_8h.html#a47f3690c75ac92dd2304ed29f990ab4b">  103</a></span>&#160;<span class="preprocessor">#define GLX 510 </span></div>
+<div class="line"><a name="l00104"></a><span class="lineno"><a class="line" href="const_8h.html#a02129dc12f863c33e1f495f44a7e741d">  104</a></span>&#160;<span class="preprocessor">#define GLY 475 </span></div>
+<div class="line"><a name="l00105"></a><span class="lineno"><a class="line" href="const_8h.html#ab4fa14ac804e3a2133d3bb0f9dd3f31a">  105</a></span>&#160;<span class="preprocessor">#define TLX 510 </span></div>
+<div class="line"><a name="l00106"></a><span class="lineno"><a class="line" href="const_8h.html#a11d43c3dded45eb3cc08f31cc09aa493">  106</a></span>&#160;<span class="preprocessor">#define TLY 397 </span></div>
+<div class="line"><a name="l00107"></a><span class="lineno"><a class="line" href="const_8h.html#ab6ce1f4b18f29507b2c5353425c5ca1d">  107</a></span>&#160;<span class="preprocessor">#define MLX 500 </span></div>
+<div class="line"><a name="l00108"></a><span class="lineno"><a class="line" href="const_8h.html#ac87f5a19e48e063f25734a21a17bbb09">  108</a></span>&#160;<span class="preprocessor">#define MLY 560 </span></div>
+<div class="line"><a name="l00110"></a><span class="lineno"><a class="line" href="const_8h.html#ab95daa096888dd875906e33fb5db0c94">  110</a></span>&#160;<span class="preprocessor">#define IGGCOL 47 </span></div>
+<div class="line"><a name="l00112"></a><span class="lineno"><a class="line" href="const_8h.html#a7e49c0004749dd2461e791b4c4a97895">  112</a></span>&#160;<span class="preprocessor">#define MAXSPEED 2 </span></div>
+<div class="line"><a name="l00113"></a><span class="lineno"><a class="line" href="const_8h.html#ad6d926742732a3a873763d272db832a1">  113</a></span>&#160;<span class="preprocessor">#define NMAXSPEED -2 </span></div>
+<div class="line"><a name="l00114"></a><span class="lineno"><a class="line" href="const_8h.html#a843fb3282f2da44037b59783f877297e">  114</a></span>&#160;<span class="preprocessor">#define PACC 1 </span></div>
+<div class="line"><a name="l00115"></a><span class="lineno"><a class="line" href="const_8h.html#acb2f71dd64a559fd50508897c86b99ad">  115</a></span>&#160;<span class="preprocessor">#define P2ACC 2 </span></div>
+<div class="line"><a name="l00116"></a><span class="lineno"><a class="line" href="const_8h.html#a086a357d9abb24e7c897698111ccb889">  116</a></span>&#160;<span class="preprocessor">#define PDACC 0.2 </span></div>
+<div class="line"><a name="l00117"></a><span class="lineno"><a class="line" href="const_8h.html#a956eb9736d5196e8a22897a36d331f2c">  117</a></span>&#160;<span class="preprocessor">#define BGRIP 0.05 </span></div>
+<div class="line"><a name="l00118"></a><span class="lineno"><a class="line" href="const_8h.html#aed6d58d07a380a9cc73355b2de7bcdcb">  118</a></span>&#160;<span class="preprocessor">#define BSPEED 2.1 </span></div>
+<div class="line"><a name="l00119"></a><span class="lineno"><a class="line" href="const_8h.html#a33943f3b716d5c73d7dc52e7979ae0b0">  119</a></span>&#160;<span class="preprocessor">#define NBSPEED -2.1 </span></div>
+<div class="line"><a name="l00121"></a><span class="lineno"><a class="line" href="const_8h.html#a8f3e780f413676cf6afa4deb460e92f7">  121</a></span>&#160;<span class="preprocessor">#define LEFTL 99 </span></div>
+<div class="line"><a name="l00122"></a><span class="lineno"><a class="line" href="const_8h.html#ac1bbcb779d89d4fbb4945484c91cfde8">  122</a></span>&#160;<span class="preprocessor">#define RIGHTL 926 </span></div>
+<div class="line"><a name="l00123"></a><span class="lineno"><a class="line" href="const_8h.html#a22a744702c4398352b7c110809055867">  123</a></span>&#160;<span class="preprocessor">#define UPL 185 </span></div>
+<div class="line"><a name="l00124"></a><span class="lineno"><a class="line" href="const_8h.html#a00e152f69cd28df46f7ae5a3b7e5ba51">  124</a></span>&#160;<span class="preprocessor">#define DOWNL 716 </span></div>
+<div class="line"><a name="l00125"></a><span class="lineno"><a class="line" href="const_8h.html#a789d156f2ca932105c123bf001d4c081">  125</a></span>&#160;<span class="preprocessor">#define PUPL 137 </span></div>
+<div class="line"><a name="l00126"></a><span class="lineno"><a class="line" href="const_8h.html#a9f8a0e69b4efed08c90755653893c84f">  126</a></span>&#160;<span class="preprocessor">#define PLEFTL 0 </span></div>
+<div class="line"><a name="l00127"></a><span class="lineno"><a class="line" href="const_8h.html#a5f270240387d6501ead72c705da5e65c">  127</a></span>&#160;<span class="preprocessor">#define PRIGHTL 1024 </span></div>
+<div class="line"><a name="l00128"></a><span class="lineno"><a class="line" href="const_8h.html#ad9351102660f9782a64f4ff07dd88e86">  128</a></span>&#160;<span class="preprocessor">#define PDOWNL 768 </span></div>
+<div class="line"><a name="l00130"></a><span class="lineno"><a class="line" href="const_8h.html#a1d0732190791200a7202f40b7ecc3647">  130</a></span>&#160;<span class="preprocessor">#define UPOST 359 </span></div>
+<div class="line"><a name="l00131"></a><span class="lineno"><a class="line" href="const_8h.html#af37be1371d3b9aba7f0a5cc54b35282a">  131</a></span>&#160;<span class="preprocessor">#define DPOST 542 </span></div>
+<div class="line"><a name="l00133"></a><span class="lineno"><a class="line" href="const_8h.html#a15a2dfebe69ad2aabc3b88fc2613a12f">  133</a></span>&#160;<span class="preprocessor">#define LNET 21 </span></div>
+<div class="line"><a name="l00134"></a><span class="lineno"><a class="line" href="const_8h.html#ad45fa0bfffe0c87584096234aa1b20a4">  134</a></span>&#160;<span class="preprocessor">#define RNET 1003 </span></div>
+<div class="line"><a name="l00136"></a><span class="lineno"><a class="line" href="const_8h.html#adeb446cc3f5cbeb9ee18a5ac37b19940">  136</a></span>&#160;<span class="preprocessor">#define P1STARTPOSX 301 </span></div>
+<div class="line"><a name="l00137"></a><span class="lineno"><a class="line" href="const_8h.html#ad1832d5ae57dba178183c34e99d4bc6f">  137</a></span>&#160;<span class="preprocessor">#define P2STARTPOSX 701 </span></div>
+<div class="line"><a name="l00138"></a><span class="lineno"><a class="line" href="const_8h.html#aba0f0ffdb9743e7285f974ca70e6ffff">  138</a></span>&#160;<span class="preprocessor">#define PSTARTPOSY 420 </span></div>
+<div class="line"><a name="l00139"></a><span class="lineno"><a class="line" href="const_8h.html#af3dcfc8ae514e5db4930a6c60527f951">  139</a></span>&#160;<span class="preprocessor">#define BSTARTPOSX 501 </span></div>
+<div class="line"><a name="l00140"></a><span class="lineno"><a class="line" href="const_8h.html#a5b4ba4fa8533a4fe92156113df08f396">  140</a></span>&#160;<span class="preprocessor">#define BSTARTPOSY 430 </span></div>
+<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;<span class="preprocessor">#endif</span></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Gerado por &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.10
+</small></address>
+</body>
+</html>

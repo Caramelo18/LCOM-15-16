@@ -1,0 +1,6 @@
+<map id="destroy_sprite" name="destroy_sprite">
+<area shape="rect" id="node2" href="$proj_8c.html#a460cfa57cc9fe97500d2f2cf510fd3d3" title="Funcao que inicia o jogo apenas com o teclado. " alt="" coords="163,5,217,32"/>
+<area shape="rect" id="node5" href="$proj_8c.html#aebbb7a5fa40a19e1f662848b478eec53" title="Funcao que inicia o jogo com o teclado e o rato. " alt="" coords="157,56,223,83"/>
+<area shape="rect" id="node3" href="$proj_8c.html#aad96881d8e20c112ebe31f76842a27f9" title="Funcao que inicia um dos dois jogos mediante o modo escolhido. " alt="" coords="271,31,373,57"/>
+<area shape="rect" id="node4" href="$proj_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="main" alt="" coords="421,31,472,57"/>
+</map>

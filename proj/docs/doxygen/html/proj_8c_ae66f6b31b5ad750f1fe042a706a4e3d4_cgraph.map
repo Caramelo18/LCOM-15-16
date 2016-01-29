@@ -1,0 +1,58 @@
+<map id="main" name="main">
+<area shape="rect" id="node2" href="$keyboard_8c.html#a0c7d6ebe1e1129b76e27ce54b19378f8" title="Funcao que vai subscrever as interrupcoes do teclado. " alt="" coords="114,68,253,95"/>
+<area shape="rect" id="node3" href="$timer_8c.html#ae68b8752ab7cdb69c747634070cb0696" title="Funcao que vai subscrever as interrupcoes do timer. " alt="" coords="126,119,241,145"/>
+<area shape="rect" id="node4" href="$mouse_8c.html#a45667d65540f45bba6cd5f805e21a273" title="Funcao que vai subscrever as interrupcoes do rato. " alt="" coords="121,169,245,196"/>
+<area shape="rect" id="node5" href="$mouse_8c.html#a3f2e7846b89ac30b1227f4bb98165cf2" title="Funcao que envia um comando e o respectivo argumento para o rato. " alt="" coords="104,220,263,247"/>
+<area shape="rect" id="node6" href="$rtc_8c.html#ad541628ec8bd836bbd3b2eefd316069b" title="Funcao que vai subscrever as interrupcoes do rtc. " alt="" coords="133,271,233,297"/>
+<area shape="rect" id="node7" href="$video_8c.html#acef21667c79365d57a084bed994c2189" title="Funcao que inicia o modo de video definido. " alt="" coords="154,321,213,348"/>
+<area shape="rect" id="node10" href="$video_8c.html#a9805b7e746b90143a74ad077d5d68223" title="Funcao que sai do modo de video. " alt="" coords="516,157,579,184"/>
+<area shape="rect" id="node13" href="$read__xpm_8c.html#a05b2c5e4dbcaffa701703b50a2111783" title="read_xpm" alt="" coords="967,537,1045,564"/>
+<area shape="rect" id="node14" href="$rtc_8c.html#a5bc627c1610d9b2e3fb76ae88a9a6987" title="Funcao que recolher a informacao do RTC e guarda&#45;la na struct que e passada como argumento. " alt="" coords="150,473,217,500"/>
+<area shape="rect" id="node15" href="$rtc_8c.html#a486f22824bd83c5308a0d70ffac6f758" title="Funcao que vai activar as interrupcoes por actualizacao do rtc. " alt="" coords="347,625,407,652"/>
+<area shape="rect" id="node16" href="$video_8c.html#aa55320d571dc2cb8179422a9d8114de0" title="Funcao que retorna a resolucao horizontal do ecra. " alt="" coords="511,1272,583,1299"/>
+<area shape="rect" id="node17" href="$video_8c.html#a36218c155eade74951ce7ffd60711a9e" title="Funcao que retorna a resolucao vertical do ecra. " alt="" coords="511,259,583,285"/>
+<area shape="rect" id="node18" href="$video_8c.html#a5c30cdd3eab0edd2734ab3871f7000c7" title="Funcao que retorna a quantidade de bits por cada pixel. " alt="" coords="491,512,603,539"/>
+<area shape="rect" id="node19" href="$keyboard_8c.html#a1013ba5b068ff02e34eb999e27a0e8b8" title="Funcao que vai alterar a caixa de selecao mediante a opcao escolhida no menu. " alt="" coords="141,759,226,785"/>
+<area shape="rect" id="node20" href="$proj_8c.html#ade82443ceede71076503da50a0677398" title="Altera o estado atual do menu mediante a posicao y, com o teclado. " alt="" coords="134,809,233,836"/>
+<area shape="rect" id="node21" href="$proj_8c.html#aad96881d8e20c112ebe31f76842a27f9" title="Funcao que inicia um dos dois jogos mediante o modo escolhido. " alt="" coords="132,708,235,735"/>
+<area shape="rect" id="node22" href="$rtc_8c.html#a8cfbbe53c1cf6e3054736daea3044c0f" title="Funcao que vai desactivar as interrupcoes por actualizacao do rtc. " alt="" coords="345,860,408,887"/>
+<area shape="rect" id="node25" href="$video_8c.html#ab36f1e43a3d76e1236e10d306004f1f3" title="Funcao que desenha o xpm no ecra. " alt="" coords="968,917,1044,944"/>
+<area shape="rect" id="node48" href="$proj_8c.html#ae7d43579456e83856339f2422849028c" title="Altera o tempo na opcao do menu. " alt="" coords="137,1012,229,1039"/>
+<area shape="rect" id="node49" href="$proj_8c.html#ac7770d968c65ecaee6c8c77a0114d2eb" title="Altera o numero de golos na opcao do menu. " alt="" coords="134,1063,233,1089"/>
+<area shape="rect" id="node50" href="$proj_8c.html#ae2cdaf20d565b3090b8a6282ef2e35b6" title="Altera o modo na opcao do menu. " alt="" coords="135,1113,231,1140"/>
+<area shape="rect" id="node51" href="$mouse_8c.html#a0eea5631027c6579399ae603628fcda2" title="Funcao que altera a movimentacao do cursor do rato, no menu. " alt="" coords="327,1252,426,1279"/>
+<area shape="rect" id="node52" href="$proj_8c.html#a15b7f5f6ef5495d96a5a61915ab2b8e3" title="Altera o estado atual do menu mediante as posicos mx e my, com o rato. " alt="" coords="124,1215,243,1241"/>
+<area shape="rect" id="node53" href="$video_8c.html#a4c8fbcbca54f70001b78061e5a9a53d7" title="Imprime a data e horas atuais no ecra. " alt="" coords="821,1120,911,1147"/>
+<area shape="rect" id="node54" href="$timer_8c.html#a10260b74f313089215e302d62bed3916" title="Funcao que vai desactivar as interrupcoes do timer. " alt="" coords="119,1316,247,1343"/>
+<area shape="rect" id="node55" href="$keyboard_8c.html#ac5a55c875cfe613e7fc3dec67ab0dde8" title="Funcao que vai desactivar as interrupcoes do teclado. " alt="" coords="107,1367,259,1393"/>
+<area shape="rect" id="node56" href="$mouse_8c.html#abb62339e13d96f9050f69a71428f8eb9" title="Funcao que vai desativar as interrupcoes do rato. " alt="" coords="114,1417,253,1444"/>
+<area shape="rect" id="node57" href="$rtc_8c.html#a8ee1ffb1e38bc735ccf645370fe5b573" title="Funcao que vai desactivar as interrupcoes do rtc. " alt="" coords="126,1468,241,1495"/>
+<area shape="rect" id="node8" href="$video_8c.html#a4ef3234e41f2050bc094a22049b69e45" title="Funcao que inicia e alloca a memoria de video. " alt="" coords="311,107,443,133"/>
+<area shape="rect" id="node9" href="$group__lmlib.html#ga00a9c17c01e794a6bfc80fc5c6ab1ed1" title="Initializes the low memory area, the region up to the 1 MByte physical address, by mapping it on the ..." alt="" coords="517,5,577,32"/>
+<area shape="rect" id="node11" href="$group__lmlib.html#gae45d971ce2ffcf4dc2677eba033a92cd" title="Allocates a memory block in low memory area with the specified size. " alt="" coords="512,56,583,83"/>
+<area shape="rect" id="node12" href="$group__lmlib.html#ga73e89d9c297b7390021fb545513579c6" title="Frees a memory block in the low memory area, previously allocated using lm_alloc() ..." alt="" coords="515,107,579,133"/>
+<area shape="rect" id="node23" href="$proj_8c.html#a460cfa57cc9fe97500d2f2cf510fd3d3" title="Funcao que inicia o jogo apenas com o teclado. " alt="" coords="349,676,404,703"/>
+<area shape="rect" id="node44" href="$proj_8c.html#aebbb7a5fa40a19e1f662848b478eec53" title="Funcao que inicia o jogo com o teclado e o rato. " alt="" coords="344,809,409,836"/>
+<area shape="rect" id="node24" href="$timer_8c.html#a291e73a2f4a9140f4d20bed57e96aa6f" title="Funcao que imprime no ecra o tempo pela primeira vez. " alt="" coords="671,563,747,589"/>
+<area shape="rect" id="node28" href="$video_8c.html#a9017b0659a0bc0c6611328d9d9f42e94" title="Imprime o score do jogo no ecra. " alt="" coords="817,512,915,539"/>
+<area shape="rect" id="node29" href="$sprite_8c.html#a3f7728feb84b250670d1ef33731ea7b4" title="Funcao que inicializar o &quot;objecto&quot;, lendo o xpm correspondente a sprite. " alt="" coords="817,765,915,792"/>
+<area shape="rect" id="node30" href="$keyboard_8c.html#a7728c66e2e9db9eb8817e4508949976b" title="Funcao que mediante o input do teclado vai definir o m1 e m2 que sao as movimentacoes mediante as set..." alt="" coords="496,411,599,437"/>
+<area shape="rect" id="node31" href="$sprite_8c.html#a605fc554aaa4a7ddf248793976a3f8bc" title="Funcao responsavel por actualizar as velocidades das sprites. " alt="" coords="498,715,597,741"/>
+<area shape="rect" id="node32" href="$sprite_8c.html#ab009384a9aeb421c51d2d13f85b7b319" title="Funcao responsavel por actualizar o frame a mostrar no ecra. " alt="" coords="498,1019,597,1045"/>
+<area shape="rect" id="node41" href="$timer_8c.html#a237f6284703d25e34532e7f73b0eb209" title="Funcao que actualiza no ecra o tempo de jogo restante. " alt="" coords="665,411,754,437"/>
+<area shape="rect" id="node43" href="$sprite_8c.html#af16c6befaac9ffb673b9e3c798d542ed" title="Funcao responsavel por destruir a sprite, libertando a memoria alocada para a sprite. " alt="" coords="495,664,599,691"/>
+<area shape="rect" id="node26" href="$video_8c.html#a9a74d03fd11068ed1707d8267a7ad910" title="Imprime os minutos de jogo no ecra. " alt="" coords="824,461,908,488"/>
+<area shape="rect" id="node27" href="$video_8c.html#a3546f839cb7d4e3d98328d7ca1e4bc6e" title="Funcao que apaga o xpm da memoria de video. " alt="" coords="965,461,1047,488"/>
+<area shape="rect" id="node33" href="$sprite_8c.html#ae7da390876c239f1bbdb3a57f96333c5" title="Funcao que verifica se existe colisao entre duas sprites. " alt="" coords="815,1019,917,1045"/>
+<area shape="rect" id="node34" href="$sprite_8c.html#a2a5140e844ac8bf7f0dbdbb15cf08ff8" title="Funcao que altera a posicao das duas sprites consoante as suas velocidades. " alt="" coords="655,968,763,995"/>
+<area shape="rect" id="node35" href="$sprite_8c.html#a48eef171979f7cc2cb2acefe405cd942" title="Funcao que efectua o tratamento das colisoes entre as sprites dos dois jogadores. ..." alt="" coords="656,867,763,893"/>
+<area shape="rect" id="node36" href="$sprite_8c.html#aa058ce198ff0ced63ead3b1510914cb1" title="Funcao que movimenta a bola. " alt="" coords="672,917,747,944"/>
+<area shape="rect" id="node37" href="$sprite_8c.html#a6ff45b3e88989483a4d4058635b47ae8" title="Funcao que actualiza a posicao e a velocidade da bola. " alt="" coords="668,1019,751,1045"/>
+<area shape="rect" id="node38" href="$sprite_8c.html#a33ff853b6897c18e8c414d26fcce2c27" title="Funcao que mantem os jogadores a bola dentro dos limites de jogo e actualiza o numero de golos marcad..." alt="" coords="666,613,753,640"/>
+<area shape="rect" id="node40" href="$sprite_8c.html#a74560924f6d0d263514ecdcd5dd7758d" title="Funcao que anima a bola. " alt="" coords="821,816,911,843"/>
+<area shape="rect" id="node39" href="$sprite_8c.html#a9943321a7c59b1bf899a030f0cebcb3b" title="Funcao que reinicia as posicoes das sprites dos jogadores e da bola, pondo as velocidades das sprites..." alt="" coords="835,664,897,691"/>
+<area shape="rect" id="node42" href="$video_8c.html#ac1b63a4a1ce54d502d4eece3005d91dc" title="Imprime os segundos de jogo no ecra. " alt="" coords="823,411,909,437"/>
+<area shape="rect" id="node45" href="$keyboard_8c.html#a7d9c87cc5bb4080cd24bb0223435d6d0" title="Funcao que mediante o input do teclado vai definir o m1 que representa a movimentacao do jogador 1 me..." alt="" coords="491,1120,604,1147"/>
+<area shape="rect" id="node46" href="$mouse_8c.html#a8b8249c6ce158458f9c65993913c7bbd" title="Funcao que altera a movimentacao do jogador mediante o movimento do rato. Esta funcao e usada quando ..." alt="" coords="504,1221,591,1248"/>
+<area shape="rect" id="node47" href="$mouse_8h.html#a60d910b8ae18d85640f28eb2a8dd00f9" title="twoComplement" alt="" coords="652,1297,767,1324"/>
+</map>

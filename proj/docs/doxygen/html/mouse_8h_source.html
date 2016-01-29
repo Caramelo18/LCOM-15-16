@@ -1,0 +1,136 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.10"/>
+<title>CBALL: Código-Fonte de C:/Users/Bruno/Desktop/proj/mouse.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">CBALL
+   &#160;<span id="projectnumber">1</span>
+   </div>
+   <div id="projectbrief">LCOM Project</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Gerado por Doxygen 1.8.10 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Localizar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="modules.html"><span>Módulos</span></a></li>
+      <li><a href="annotated.html"><span>Estruturas&#160;de&#160;dados</span></a></li>
+      <li class="current"><a href="files.html"><span>Ficheiros</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Localizar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Lista&#160;de&#160;ficheiros</span></a></li>
+      <li><a href="globals.html"><span>Globais</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_c166a637ad9f8f09f1307a666349b968.html">proj</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">mouse.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="mouse_8h.html">Ir para a documentação deste ficheiro.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef __MOUSE_H</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define __MOUSE_H</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;</div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="read__xpm_8h.html">read_xpm.h</a>&quot;</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="const_8h.html">const.h</a>&quot;</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="video_8h.html">video.h</a>&quot;</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="keyboard_8h.html">keyboard.h</a>&quot;</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="sprite_8h.html">sprite.h</a>&quot;</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="keywordtype">int</span> <a class="code" href="mouse_8h.html#a45667d65540f45bba6cd5f805e21a273">mouse_subscribe</a>();</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="keywordtype">int</span> <a class="code" href="mouse_8h.html#abb62339e13d96f9050f69a71428f8eb9">mouse_unsubscribe</a>();</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="keywordtype">int</span> <a class="code" href="mouse_8h.html#a3f2e7846b89ac30b1227f4bb98165cf2">mouse_write_command</a> (<span class="keywordtype">unsigned</span> <span class="keywordtype">long</span> command, <span class="keywordtype">unsigned</span> <span class="keywordtype">long</span> argument);</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="keywordtype">void</span> <a class="code" href="mouse_8h.html#a8b8249c6ce158458f9c65993913c7bbd">readMouse</a>(<a class="code" href="structmov.html">mov</a>* m, <span class="keywordtype">unsigned</span> <span class="keywordtype">long</span>* packet, <span class="keywordtype">int</span>* byt);</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<span class="keywordtype">void</span> <a class="code" href="mouse_8h.html#a0eea5631027c6579399ae603628fcda2">mouseCursor</a>(<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span>* byt, <span class="keywordtype">unsigned</span> <span class="keywordtype">long</span>* mousePacket, <span class="keywordtype">int</span>* mx, <span class="keywordtype">int</span>* my, <span class="keywordtype">int</span>* lb);</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;<span class="keywordtype">unsigned</span> <span class="keywordtype">long</span> <a class="code" href="mouse_8h.html#a60d910b8ae18d85640f28eb2a8dd00f9">twoComplement</a>(<span class="keywordtype">unsigned</span> <span class="keywordtype">long</span> byte);</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="ttc" id="read__xpm_8h_html"><div class="ttname"><a href="read__xpm_8h.html">read_xpm.h</a></div></div>
+<div class="ttc" id="keyboard_8h_html"><div class="ttname"><a href="keyboard_8h.html">keyboard.h</a></div></div>
+<div class="ttc" id="mouse_8h_html_a3f2e7846b89ac30b1227f4bb98165cf2"><div class="ttname"><a href="mouse_8h.html#a3f2e7846b89ac30b1227f4bb98165cf2">mouse_write_command</a></div><div class="ttdeci">int mouse_write_command(unsigned long command, unsigned long argument)</div><div class="ttdoc">Funcao que envia um comando e o respectivo argumento para o rato. </div><div class="ttdef"><b>Definition:</b> mouse.c:21</div></div>
+<div class="ttc" id="video_8h_html"><div class="ttname"><a href="video_8h.html">video.h</a></div></div>
+<div class="ttc" id="structmov_html"><div class="ttname"><a href="structmov.html">mov</a></div><div class="ttdoc">Estrutura que mediante o input do teclado vai definir o movimento do jogador. </div><div class="ttdef"><b>Definition:</b> keyboard.h:8</div></div>
+<div class="ttc" id="mouse_8h_html_a45667d65540f45bba6cd5f805e21a273"><div class="ttname"><a href="mouse_8h.html#a45667d65540f45bba6cd5f805e21a273">mouse_subscribe</a></div><div class="ttdeci">int mouse_subscribe()</div><div class="ttdoc">Funcao que vai subscrever as interrupcoes do rato. </div><div class="ttdef"><b>Definition:</b> mouse.c:3</div></div>
+<div class="ttc" id="mouse_8h_html_a0eea5631027c6579399ae603628fcda2"><div class="ttname"><a href="mouse_8h.html#a0eea5631027c6579399ae603628fcda2">mouseCursor</a></div><div class="ttdeci">void mouseCursor(unsigned int *byt, unsigned long *mousePacket, int *mx, int *my, int *lb)</div><div class="ttdoc">Funcao que altera a movimentacao do cursor do rato, no menu. </div><div class="ttdef"><b>Definition:</b> mouse.c:136</div></div>
+<div class="ttc" id="mouse_8h_html_abb62339e13d96f9050f69a71428f8eb9"><div class="ttname"><a href="mouse_8h.html#abb62339e13d96f9050f69a71428f8eb9">mouse_unsubscribe</a></div><div class="ttdeci">int mouse_unsubscribe()</div><div class="ttdoc">Funcao que vai desativar as interrupcoes do rato. </div><div class="ttdef"><b>Definition:</b> mouse.c:13</div></div>
+<div class="ttc" id="const_8h_html"><div class="ttname"><a href="const_8h.html">const.h</a></div></div>
+<div class="ttc" id="sprite_8h_html"><div class="ttname"><a href="sprite_8h.html">sprite.h</a></div></div>
+<div class="ttc" id="mouse_8h_html_a8b8249c6ce158458f9c65993913c7bbd"><div class="ttname"><a href="mouse_8h.html#a8b8249c6ce158458f9c65993913c7bbd">readMouse</a></div><div class="ttdeci">void readMouse(mov *m, unsigned long *packet, int *byt)</div><div class="ttdoc">Funcao que altera a movimentacao do jogador mediante o movimento do rato. Esta funcao e usada quando ...</div><div class="ttdef"><b>Definition:</b> mouse.c:60</div></div>
+<div class="ttc" id="mouse_8h_html_a60d910b8ae18d85640f28eb2a8dd00f9"><div class="ttname"><a href="mouse_8h.html#a60d910b8ae18d85640f28eb2a8dd00f9">twoComplement</a></div><div class="ttdeci">unsigned long twoComplement(unsigned long byte)</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Gerado por &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.10
+</small></address>
+</body>
+</html>

@@ -1,0 +1,131 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.10"/>
+<title>CBALL: Código-Fonte de C:/Users/Bruno/Desktop/proj/rtc.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">CBALL
+   &#160;<span id="projectnumber">1</span>
+   </div>
+   <div id="projectbrief">LCOM Project</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Gerado por Doxygen 1.8.10 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Localizar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="modules.html"><span>Módulos</span></a></li>
+      <li><a href="annotated.html"><span>Estruturas&#160;de&#160;dados</span></a></li>
+      <li class="current"><a href="files.html"><span>Ficheiros</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Localizar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Lista&#160;de&#160;ficheiros</span></a></li>
+      <li><a href="globals.html"><span>Globais</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_c166a637ad9f8f09f1307a666349b968.html">proj</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">rtc.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="rtc_8h.html">Ir para a documentação deste ficheiro.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef __RTC_H</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define __RTC_H</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;</div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="const_8h.html">const.h</a>&quot;</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;</div>
+<div class="line"><a name="l00009"></a><span class="lineno"><a class="line" href="struct_date.html">    9</a></span>&#160;<span class="keyword">typedef</span> <span class="keyword">struct</span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;{</div>
+<div class="line"><a name="l00011"></a><span class="lineno"><a class="line" href="struct_date.html#a3c8e0753ac2dd4b54f84cfb2b4663c08">   11</a></span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">long</span> <a class="code" href="struct_date.html#a3c8e0753ac2dd4b54f84cfb2b4663c08">year</a>, month, day, hours, minutes, seconds, dotw;</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;} <a class="code" href="struct_date.html">Date</a>;</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="keywordtype">int</span> <a class="code" href="rtc_8h.html#ad541628ec8bd836bbd3b2eefd316069b">rtc_subscribe</a>();</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="keywordtype">int</span> <a class="code" href="rtc_8h.html#a8ee1ffb1e38bc735ccf645370fe5b573">rtc_unsubscribe</a>();</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="keywordtype">void</span> <a class="code" href="rtc_8h.html#a486f22824bd83c5308a0d70ffac6f758">enable</a>();</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="keywordtype">void</span> <a class="code" href="rtc_8h.html#a8cfbbe53c1cf6e3054736daea3044c0f">disable</a>();</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="keywordtype">void</span> <a class="code" href="rtc_8h.html#a60f4588d027cf4c5d91a32d7fab293c4">getDate</a>(<a class="code" href="struct_date.html">Date</a>* d1);</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="ttc" id="rtc_8h_html_ad541628ec8bd836bbd3b2eefd316069b"><div class="ttname"><a href="rtc_8h.html#ad541628ec8bd836bbd3b2eefd316069b">rtc_subscribe</a></div><div class="ttdeci">int rtc_subscribe()</div><div class="ttdoc">Funcao que vai subscrever as interrupcoes do rtc. </div><div class="ttdef"><b>Definition:</b> rtc.c:3</div></div>
+<div class="ttc" id="rtc_8h_html_a60f4588d027cf4c5d91a32d7fab293c4"><div class="ttname"><a href="rtc_8h.html#a60f4588d027cf4c5d91a32d7fab293c4">getDate</a></div><div class="ttdeci">void getDate(Date *d1)</div><div class="ttdoc">Funcao que recolher a informacao do RTC e guarda-la na struct que e passada como argumento. </div><div class="ttdef"><b>Definition:</b> rtc.c:45</div></div>
+<div class="ttc" id="struct_date_html"><div class="ttname"><a href="struct_date.html">Date</a></div><div class="ttdoc">Estrutura que guarda a informacao da data e hora atual. </div><div class="ttdef"><b>Definition:</b> rtc.h:9</div></div>
+<div class="ttc" id="rtc_8h_html_a8ee1ffb1e38bc735ccf645370fe5b573"><div class="ttname"><a href="rtc_8h.html#a8ee1ffb1e38bc735ccf645370fe5b573">rtc_unsubscribe</a></div><div class="ttdeci">int rtc_unsubscribe()</div><div class="ttdoc">Funcao que vai desactivar as interrupcoes do rtc. </div><div class="ttdef"><b>Definition:</b> rtc.c:13</div></div>
+<div class="ttc" id="rtc_8h_html_a8cfbbe53c1cf6e3054736daea3044c0f"><div class="ttname"><a href="rtc_8h.html#a8cfbbe53c1cf6e3054736daea3044c0f">disable</a></div><div class="ttdeci">void disable()</div><div class="ttdoc">Funcao que vai desactivar as interrupcoes por actualizacao do rtc. </div><div class="ttdef"><b>Definition:</b> rtc.c:33</div></div>
+<div class="ttc" id="rtc_8h_html_a486f22824bd83c5308a0d70ffac6f758"><div class="ttname"><a href="rtc_8h.html#a486f22824bd83c5308a0d70ffac6f758">enable</a></div><div class="ttdeci">void enable()</div><div class="ttdoc">Funcao que vai activar as interrupcoes por actualizacao do rtc. </div><div class="ttdef"><b>Definition:</b> rtc.c:21</div></div>
+<div class="ttc" id="const_8h_html"><div class="ttname"><a href="const_8h.html">const.h</a></div></div>
+<div class="ttc" id="struct_date_html_a3c8e0753ac2dd4b54f84cfb2b4663c08"><div class="ttname"><a href="struct_date.html#a3c8e0753ac2dd4b54f84cfb2b4663c08">Date::year</a></div><div class="ttdeci">unsigned long year</div><div class="ttdef"><b>Definition:</b> rtc.h:11</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Gerado por &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.10
+</small></address>
+</body>
+</html>

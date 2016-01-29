@@ -1,0 +1,7 @@
+<map id="displaySec" name="displaySec">
+<area shape="rect" id="node2" href="$timer_8h.html#a237f6284703d25e34532e7f73b0eb209" title="Funcao que actualiza no ecra o tempo de jogo restante. " alt="" coords="140,31,229,57"/>
+<area shape="rect" id="node3" href="$proj_8c.html#a460cfa57cc9fe97500d2f2cf510fd3d3" title="Funcao que inicia o jogo apenas com o teclado. " alt="" coords="283,5,337,32"/>
+<area shape="rect" id="node6" href="$proj_8c.html#aebbb7a5fa40a19e1f662848b478eec53" title="Funcao que inicia o jogo com o teclado e o rato. " alt="" coords="277,56,343,83"/>
+<area shape="rect" id="node4" href="$proj_8c.html#aad96881d8e20c112ebe31f76842a27f9" title="Funcao que inicia um dos dois jogos mediante o modo escolhido. " alt="" coords="391,31,493,57"/>
+<area shape="rect" id="node5" href="$proj_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="main" alt="" coords="541,31,592,57"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="touchWalls" name="touchWalls">
+<area shape="rect" id="node2" href="$video_8c.html#a9017b0659a0bc0c6611328d9d9f42e94" title="Imprime o score do jogo no ecra. " alt="" coords="140,56,237,83"/>
+<area shape="rect" id="node6" href="$sprite_8c.html#a9943321a7c59b1bf899a030f0cebcb3b" title="Funcao que reinicia as posicoes das sprites dos jogadores e da bola, pondo as velocidades das sprites..." alt="" coords="157,107,220,133"/>
+<area shape="rect" id="node3" href="$read__xpm_8c.html#a05b2c5e4dbcaffa701703b50a2111783" title="read_xpm" alt="" coords="287,5,365,32"/>
+<area shape="rect" id="node4" href="$video_8c.html#a3546f839cb7d4e3d98328d7ca1e4bc6e" title="Funcao que apaga o xpm da memoria de video. " alt="" coords="285,56,367,83"/>
+<area shape="rect" id="node5" href="$video_8c.html#ab36f1e43a3d76e1236e10d306004f1f3" title="Funcao que desenha o xpm no ecra. " alt="" coords="288,107,364,133"/>
+</map>

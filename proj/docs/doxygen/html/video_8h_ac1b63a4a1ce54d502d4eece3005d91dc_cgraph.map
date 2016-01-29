@@ -1,0 +1,5 @@
+<map id="displaySec" name="displaySec">
+<area shape="rect" id="node2" href="$read__xpm_8c.html#a05b2c5e4dbcaffa701703b50a2111783" title="read_xpm" alt="" coords="141,5,220,32"/>
+<area shape="rect" id="node3" href="$video_8c.html#a3546f839cb7d4e3d98328d7ca1e4bc6e" title="Funcao que apaga o xpm da memoria de video. " alt="" coords="140,56,221,83"/>
+<area shape="rect" id="node4" href="$video_8c.html#ab36f1e43a3d76e1236e10d306004f1f3" title="Funcao que desenha o xpm no ecra. " alt="" coords="143,107,219,133"/>
+</map>

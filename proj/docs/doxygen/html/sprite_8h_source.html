@@ -1,0 +1,171 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.10"/>
+<title>CBALL: Código-Fonte de C:/Users/Bruno/Desktop/proj/sprite.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">CBALL
+   &#160;<span id="projectnumber">1</span>
+   </div>
+   <div id="projectbrief">LCOM Project</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Gerado por Doxygen 1.8.10 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Localizar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="modules.html"><span>Módulos</span></a></li>
+      <li><a href="annotated.html"><span>Estruturas&#160;de&#160;dados</span></a></li>
+      <li class="current"><a href="files.html"><span>Ficheiros</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Localizar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Lista&#160;de&#160;ficheiros</span></a></li>
+      <li><a href="globals.html"><span>Globais</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_c166a637ad9f8f09f1307a666349b968.html">proj</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">sprite.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="sprite_8h.html">Ir para a documentação deste ficheiro.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef __SPRITE_H</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define __SPRITE_H</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;</div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="read__xpm_8h.html">read_xpm.h</a>&quot;</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="const_8h.html">const.h</a>&quot;</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="video_8h.html">video.h</a>&quot;</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="keyboard_8h.html">keyboard.h</a>&quot;</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;</div>
+<div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="struct_sprite.html">   12</a></span>&#160;<span class="keyword">typedef</span> <span class="keyword">struct </span>{</div>
+<div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="struct_sprite.html#a0a2f84ed7838f07779ae24c5a9086d33">   13</a></span>&#160;<span class="keywordtype">int</span> x, <a class="code" href="struct_sprite.html#a0a2f84ed7838f07779ae24c5a9086d33">y</a>; <span class="comment">// current position</span></div>
+<div class="line"><a name="l00014"></a><span class="lineno"><a class="line" href="struct_sprite.html#a2474a5474cbff19523a51eb1de01cda4">   14</a></span>&#160;<span class="keywordtype">int</span> <a class="code" href="struct_sprite.html#a2474a5474cbff19523a51eb1de01cda4">width</a>, height; <span class="comment">// dimensions</span></div>
+<div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="struct_sprite.html#aae9a3d5ef891624a6deba53f08a48fa9">   15</a></span>&#160;<span class="keywordtype">float</span> xspeed, <a class="code" href="struct_sprite.html#aae9a3d5ef891624a6deba53f08a48fa9">yspeed</a>; <span class="comment">// current speed</span></div>
+<div class="line"><a name="l00016"></a><span class="lineno"><a class="line" href="struct_sprite.html#a7f15439fc349b3654af13ffe5d670bc8">   16</a></span>&#160;<span class="keywordtype">float</span> subpx, <a class="code" href="struct_sprite.html#a7f15439fc349b3654af13ffe5d670bc8">subpy</a>;</div>
+<div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="struct_sprite.html#a28eaf985e2b9b08da51703abf28477db">   17</a></span>&#160;<span class="keywordtype">int</span> cenx, <a class="code" href="struct_sprite.html#a28eaf985e2b9b08da51703abf28477db">ceny</a>; <span class="comment">//center of the sprite</span></div>
+<div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="struct_sprite.html#a395279899207ce7f17adf9fdb8ee97ee">   18</a></span>&#160;<span class="keywordtype">int</span> <a class="code" href="struct_sprite.html#a395279899207ce7f17adf9fdb8ee97ee">radius</a>;</div>
+<div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="struct_sprite.html#a7b00b1bfd666e26484471bd17a74eaa9">   19</a></span>&#160;<span class="keywordtype">char</span> *<a class="code" href="struct_sprite.html#a7b00b1bfd666e26484471bd17a74eaa9">map</a>; <span class="comment">// the pixmap</span></div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;} <a class="code" href="struct_sprite.html">Sprite</a>;</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<a class="code" href="struct_sprite.html">Sprite</a> *<a class="code" href="sprite_8h.html#a3f7728feb84b250670d1ef33731ea7b4">create_sprite</a>(<span class="keywordtype">char</span> *pic[], <span class="keywordtype">char</span> *bas, <span class="keywordtype">int</span> px, <span class="keywordtype">int</span> py);</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="keywordtype">void</span> <a class="code" href="sprite_8h.html#af16c6befaac9ffb673b9e3c798d542ed">destroy_sprite</a>(<a class="code" href="struct_sprite.html">Sprite</a> *sp);</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="keywordtype">void</span> <a class="code" href="sprite_8h.html#a605fc554aaa4a7ddf248793976a3f8bc">updateSpeed</a>(<a class="code" href="struct_sprite.html">Sprite</a> *sp1, <a class="code" href="struct_sprite.html">Sprite</a> *sp2, <a class="code" href="structmov.html">mov</a> m1, <a class="code" href="structmov.html">mov</a> m2);</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;<span class="keywordtype">void</span> <a class="code" href="sprite_8h.html#ab009384a9aeb421c51d2d13f85b7b319">updateFrame</a>(<a class="code" href="struct_sprite.html">Sprite</a> *sp1, <a class="code" href="struct_sprite.html">Sprite</a> *sp2, <a class="code" href="struct_sprite.html">Sprite</a> *bal, <span class="keywordtype">char</span> *base, <a class="code" href="structmov.html">mov</a> m1, <a class="code" href="structmov.html">mov</a> m2, <span class="keywordtype">int</span> *pl1score, <span class="keywordtype">int</span> *pl2score, <span class="keywordtype">int</span> secs);</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;<span class="keywordtype">int</span> <a class="code" href="sprite_8h.html#ae7da390876c239f1bbdb3a57f96333c5">checkColision</a>(<a class="code" href="struct_sprite.html">Sprite</a> *sp1, <a class="code" href="struct_sprite.html">Sprite</a> *sp2);</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;<span class="keywordtype">void</span> <a class="code" href="sprite_8h.html#a2a5140e844ac8bf7f0dbdbb15cf08ff8">updatePosition</a>(<a class="code" href="struct_sprite.html">Sprite</a> *sp1, <a class="code" href="struct_sprite.html">Sprite</a> *sp2, <a class="code" href="struct_sprite.html">Sprite</a> *bal);</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;<span class="keywordtype">void</span> <a class="code" href="sprite_8h.html#a6ff45b3e88989483a4d4058635b47ae8">updateBall</a>(<a class="code" href="struct_sprite.html">Sprite</a> *bal, <a class="code" href="struct_sprite.html">Sprite</a> *sp1, <a class="code" href="struct_sprite.html">Sprite</a> *sp2);</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;<span class="keywordtype">void</span> <a class="code" href="sprite_8h.html#a48eef171979f7cc2cb2acefe405cd942">handleColision</a>(<a class="code" href="struct_sprite.html">Sprite</a> *sp1, <a class="code" href="struct_sprite.html">Sprite</a> *sp2);</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;<span class="keywordtype">void</span> <a class="code" href="sprite_8h.html#aa058ce198ff0ced63ead3b1510914cb1">moveBall</a>(<a class="code" href="struct_sprite.html">Sprite</a> *sp1, <a class="code" href="struct_sprite.html">Sprite</a> *bal, <span class="keywordtype">int</span> shoot);</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;<span class="keywordtype">void</span> <a class="code" href="sprite_8h.html#a33ff853b6897c18e8c414d26fcce2c27">touchWalls</a>(<a class="code" href="struct_sprite.html">Sprite</a> *sp1, <a class="code" href="struct_sprite.html">Sprite</a> *sp2, <a class="code" href="struct_sprite.html">Sprite</a> * bal, <span class="keywordtype">int</span> *pl1score, <span class="keywordtype">int</span> *pl2score, <span class="keywordtype">char</span>* base);</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;<span class="keywordtype">void</span> <a class="code" href="sprite_8h.html#a9943321a7c59b1bf899a030f0cebcb3b">kickOff</a>(<a class="code" href="struct_sprite.html">Sprite</a> *sp1, <a class="code" href="struct_sprite.html">Sprite</a> *sp2, <a class="code" href="struct_sprite.html">Sprite</a> * bal);</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;<span class="keywordtype">void</span> <a class="code" href="sprite_8h.html#a74560924f6d0d263514ecdcd5dd7758d">animateBall</a>(<a class="code" href="struct_sprite.html">Sprite</a> *bal, <span class="keywordtype">int</span> secs);</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;</div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="ttc" id="sprite_8h_html_ab009384a9aeb421c51d2d13f85b7b319"><div class="ttname"><a href="sprite_8h.html#ab009384a9aeb421c51d2d13f85b7b319">updateFrame</a></div><div class="ttdeci">void updateFrame(Sprite *sp1, Sprite *sp2, Sprite *bal, char *base, mov m1, mov m2, int *pl1score, int *pl2score, int secs)</div><div class="ttdoc">Funcao responsavel por actualizar o frame a mostrar no ecra. </div><div class="ttdef"><b>Definition:</b> sprite.c:84</div></div>
+<div class="ttc" id="sprite_8h_html_a74560924f6d0d263514ecdcd5dd7758d"><div class="ttname"><a href="sprite_8h.html#a74560924f6d0d263514ecdcd5dd7758d">animateBall</a></div><div class="ttdeci">void animateBall(Sprite *bal, int secs)</div><div class="ttdoc">Funcao que anima a bola. </div><div class="ttdef"><b>Definition:</b> sprite.c:570</div></div>
+<div class="ttc" id="struct_sprite_html_a0a2f84ed7838f07779ae24c5a9086d33"><div class="ttname"><a href="struct_sprite.html#a0a2f84ed7838f07779ae24c5a9086d33">Sprite::y</a></div><div class="ttdeci">int y</div><div class="ttdef"><b>Definition:</b> sprite.h:13</div></div>
+<div class="ttc" id="read__xpm_8h_html"><div class="ttname"><a href="read__xpm_8h.html">read_xpm.h</a></div></div>
+<div class="ttc" id="keyboard_8h_html"><div class="ttname"><a href="keyboard_8h.html">keyboard.h</a></div></div>
+<div class="ttc" id="struct_sprite_html"><div class="ttname"><a href="struct_sprite.html">Sprite</a></div><div class="ttdoc">Struct que guarda a informacao do "objecto" sprite. </div><div class="ttdef"><b>Definition:</b> sprite.h:12</div></div>
+<div class="ttc" id="struct_sprite_html_a7b00b1bfd666e26484471bd17a74eaa9"><div class="ttname"><a href="struct_sprite.html#a7b00b1bfd666e26484471bd17a74eaa9">Sprite::map</a></div><div class="ttdeci">char * map</div><div class="ttdef"><b>Definition:</b> sprite.h:19</div></div>
+<div class="ttc" id="sprite_8h_html_a605fc554aaa4a7ddf248793976a3f8bc"><div class="ttname"><a href="sprite_8h.html#a605fc554aaa4a7ddf248793976a3f8bc">updateSpeed</a></div><div class="ttdeci">void updateSpeed(Sprite *sp1, Sprite *sp2, mov m1, mov m2)</div><div class="ttdoc">Funcao responsavel por actualizar as velocidades das sprites. </div><div class="ttdef"><b>Definition:</b> sprite.c:52</div></div>
+<div class="ttc" id="video_8h_html"><div class="ttname"><a href="video_8h.html">video.h</a></div></div>
+<div class="ttc" id="structmov_html"><div class="ttname"><a href="structmov.html">mov</a></div><div class="ttdoc">Estrutura que mediante o input do teclado vai definir o movimento do jogador. </div><div class="ttdef"><b>Definition:</b> keyboard.h:8</div></div>
+<div class="ttc" id="sprite_8h_html_a2a5140e844ac8bf7f0dbdbb15cf08ff8"><div class="ttname"><a href="sprite_8h.html#a2a5140e844ac8bf7f0dbdbb15cf08ff8">updatePosition</a></div><div class="ttdeci">void updatePosition(Sprite *sp1, Sprite *sp2, Sprite *bal)</div><div class="ttdoc">Funcao que altera a posicao das duas sprites consoante as suas velocidades. </div><div class="ttdef"><b>Definition:</b> sprite.c:160</div></div>
+<div class="ttc" id="sprite_8h_html_ae7da390876c239f1bbdb3a57f96333c5"><div class="ttname"><a href="sprite_8h.html#ae7da390876c239f1bbdb3a57f96333c5">checkColision</a></div><div class="ttdeci">int checkColision(Sprite *sp1, Sprite *sp2)</div><div class="ttdoc">Funcao que verifica se existe colisao entre duas sprites. </div><div class="ttdef"><b>Definition:</b> sprite.c:147</div></div>
+<div class="ttc" id="sprite_8h_html_a33ff853b6897c18e8c414d26fcce2c27"><div class="ttname"><a href="sprite_8h.html#a33ff853b6897c18e8c414d26fcce2c27">touchWalls</a></div><div class="ttdeci">void touchWalls(Sprite *sp1, Sprite *sp2, Sprite *bal, int *pl1score, int *pl2score, char *base)</div><div class="ttdoc">Funcao que mantem os jogadores a bola dentro dos limites de jogo e actualiza o numero de golos marcad...</div><div class="ttdef"><b>Definition:</b> sprite.c:410</div></div>
+<div class="ttc" id="sprite_8h_html_a9943321a7c59b1bf899a030f0cebcb3b"><div class="ttname"><a href="sprite_8h.html#a9943321a7c59b1bf899a030f0cebcb3b">kickOff</a></div><div class="ttdeci">void kickOff(Sprite *sp1, Sprite *sp2, Sprite *bal)</div><div class="ttdoc">Funcao que reinicia as posicoes das sprites dos jogadores e da bola, pondo as velocidades das sprites...</div><div class="ttdef"><b>Definition:</b> sprite.c:546</div></div>
+<div class="ttc" id="const_8h_html"><div class="ttname"><a href="const_8h.html">const.h</a></div></div>
+<div class="ttc" id="sprite_8h_html_aa058ce198ff0ced63ead3b1510914cb1"><div class="ttname"><a href="sprite_8h.html#aa058ce198ff0ced63ead3b1510914cb1">moveBall</a></div><div class="ttdeci">void moveBall(Sprite *sp1, Sprite *bal, int shoot)</div><div class="ttdoc">Funcao que movimenta a bola. </div><div class="ttdef"><b>Definition:</b> sprite.c:367</div></div>
+<div class="ttc" id="struct_sprite_html_aae9a3d5ef891624a6deba53f08a48fa9"><div class="ttname"><a href="struct_sprite.html#aae9a3d5ef891624a6deba53f08a48fa9">Sprite::yspeed</a></div><div class="ttdeci">float yspeed</div><div class="ttdef"><b>Definition:</b> sprite.h:15</div></div>
+<div class="ttc" id="sprite_8h_html_a3f7728feb84b250670d1ef33731ea7b4"><div class="ttname"><a href="sprite_8h.html#a3f7728feb84b250670d1ef33731ea7b4">create_sprite</a></div><div class="ttdeci">Sprite * create_sprite(char *pic[], char *bas, int px, int py)</div><div class="ttdoc">Funcao que inicializar o "objecto", lendo o xpm correspondente a sprite. </div><div class="ttdef"><b>Definition:</b> sprite.c:10</div></div>
+<div class="ttc" id="sprite_8h_html_a6ff45b3e88989483a4d4058635b47ae8"><div class="ttname"><a href="sprite_8h.html#a6ff45b3e88989483a4d4058635b47ae8">updateBall</a></div><div class="ttdeci">void updateBall(Sprite *bal, Sprite *sp1, Sprite *sp2)</div><div class="ttdoc">Funcao que actualiza a posicao e a velocidade da bola. </div><div class="ttdef"><b>Definition:</b> sprite.c:235</div></div>
+<div class="ttc" id="struct_sprite_html_a2474a5474cbff19523a51eb1de01cda4"><div class="ttname"><a href="struct_sprite.html#a2474a5474cbff19523a51eb1de01cda4">Sprite::width</a></div><div class="ttdeci">int width</div><div class="ttdef"><b>Definition:</b> sprite.h:14</div></div>
+<div class="ttc" id="struct_sprite_html_a395279899207ce7f17adf9fdb8ee97ee"><div class="ttname"><a href="struct_sprite.html#a395279899207ce7f17adf9fdb8ee97ee">Sprite::radius</a></div><div class="ttdeci">int radius</div><div class="ttdef"><b>Definition:</b> sprite.h:18</div></div>
+<div class="ttc" id="struct_sprite_html_a7f15439fc349b3654af13ffe5d670bc8"><div class="ttname"><a href="struct_sprite.html#a7f15439fc349b3654af13ffe5d670bc8">Sprite::subpy</a></div><div class="ttdeci">float subpy</div><div class="ttdef"><b>Definition:</b> sprite.h:16</div></div>
+<div class="ttc" id="sprite_8h_html_a48eef171979f7cc2cb2acefe405cd942"><div class="ttname"><a href="sprite_8h.html#a48eef171979f7cc2cb2acefe405cd942">handleColision</a></div><div class="ttdeci">void handleColision(Sprite *sp1, Sprite *sp2)</div><div class="ttdoc">Funcao que efectua o tratamento das colisoes entre as sprites dos dois jogadores. ...</div><div class="ttdef"><b>Definition:</b> sprite.c:303</div></div>
+<div class="ttc" id="sprite_8h_html_af16c6befaac9ffb673b9e3c798d542ed"><div class="ttname"><a href="sprite_8h.html#af16c6befaac9ffb673b9e3c798d542ed">destroy_sprite</a></div><div class="ttdeci">void destroy_sprite(Sprite *sp)</div><div class="ttdoc">Funcao responsavel por destruir a sprite, libertando a memoria alocada para a sprite. </div><div class="ttdef"><b>Definition:</b> sprite.c:43</div></div>
+<div class="ttc" id="struct_sprite_html_a28eaf985e2b9b08da51703abf28477db"><div class="ttname"><a href="struct_sprite.html#a28eaf985e2b9b08da51703abf28477db">Sprite::ceny</a></div><div class="ttdeci">int ceny</div><div class="ttdef"><b>Definition:</b> sprite.h:17</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Gerado por &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.10
+</small></address>
+</body>
+</html>

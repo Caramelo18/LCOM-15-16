@@ -1,0 +1,7 @@
+<map id="vg_init" name="vg_init">
+<area shape="rect" id="node2" href="$video_8c.html#a4ef3234e41f2050bc094a22049b69e45" title="Funcao que inicia e alloca a memoria de video. " alt="" coords="112,56,244,83"/>
+<area shape="rect" id="node4" href="$video_8c.html#a9805b7e746b90143a74ad077d5d68223" title="Funcao que sai do modo de video. " alt="" coords="296,5,359,32"/>
+<area shape="rect" id="node3" href="$group__lmlib.html#ga00a9c17c01e794a6bfc80fc5c6ab1ed1" title="Initializes the low memory area, the region up to the 1 MByte physical address, by mapping it on the ..." alt="" coords="297,56,357,83"/>
+<area shape="rect" id="node5" href="$group__lmlib.html#gae45d971ce2ffcf4dc2677eba033a92cd" title="Allocates a memory block in low memory area with the specified size. " alt="" coords="292,107,363,133"/>
+<area shape="rect" id="node6" href="$group__lmlib.html#ga73e89d9c297b7390021fb545513579c6" title="Frees a memory block in the low memory area, previously allocated using lm_alloc() ..." alt="" coords="295,157,359,184"/>
+</map>

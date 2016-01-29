@@ -1,0 +1,9 @@
+<map id="checkColision" name="checkColision">
+<area shape="rect" id="node2" href="$sprite_8h.html#ab009384a9aeb421c51d2d13f85b7b319" title="Funcao responsavel por actualizar o frame a mostrar no ecra. " alt="" coords="312,31,411,57"/>
+<area shape="rect" id="node7" href="$sprite_8h.html#a2a5140e844ac8bf7f0dbdbb15cf08ff8" title="Funcao que altera a posicao das duas sprites consoante as suas velocidades. " alt="" coords="156,31,264,57"/>
+<area shape="rect" id="node8" href="$sprite_8h.html#a6ff45b3e88989483a4d4058635b47ae8" title="Funcao que actualiza a posicao e a velocidade da bola. " alt="" coords="169,81,251,108"/>
+<area shape="rect" id="node3" href="$proj_8c.html#a460cfa57cc9fe97500d2f2cf510fd3d3" title="Funcao que inicia o jogo apenas com o teclado. " alt="" coords="464,5,519,32"/>
+<area shape="rect" id="node6" href="$proj_8c.html#aebbb7a5fa40a19e1f662848b478eec53" title="Funcao que inicia o jogo com o teclado e o rato. " alt="" coords="459,56,524,83"/>
+<area shape="rect" id="node4" href="$proj_8c.html#aad96881d8e20c112ebe31f76842a27f9" title="Funcao que inicia um dos dois jogos mediante o modo escolhido. " alt="" coords="572,31,675,57"/>
+<area shape="rect" id="node5" href="$proj_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="main" alt="" coords="723,31,773,57"/>
+</map>

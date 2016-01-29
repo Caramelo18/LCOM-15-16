@@ -1,0 +1,7 @@
+<map id="updateTime" name="updateTime">
+<area shape="rect" id="node2" href="$video_8c.html#a9a74d03fd11068ed1707d8267a7ad910" title="Imprime os minutos de jogo no ecra. " alt="" coords="144,31,228,57"/>
+<area shape="rect" id="node6" href="$video_8c.html#ac1b63a4a1ce54d502d4eece3005d91dc" title="Imprime os segundos de jogo no ecra. " alt="" coords="143,81,229,108"/>
+<area shape="rect" id="node3" href="$read__xpm_8c.html#a05b2c5e4dbcaffa701703b50a2111783" title="read_xpm" alt="" coords="279,5,357,32"/>
+<area shape="rect" id="node4" href="$video_8c.html#a3546f839cb7d4e3d98328d7ca1e4bc6e" title="Funcao que apaga o xpm da memoria de video. " alt="" coords="277,56,359,83"/>
+<area shape="rect" id="node5" href="$video_8c.html#ab36f1e43a3d76e1236e10d306004f1f3" title="Funcao que desenha o xpm no ecra. " alt="" coords="280,107,356,133"/>
+</map>

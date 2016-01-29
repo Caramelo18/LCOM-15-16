@@ -1,0 +1,1560 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.10"/>
+<title>CBALL: Referência ao ficheiro C:/Users/Bruno/Desktop/proj/proj.c</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">CBALL
+   &#160;<span id="projectnumber">1</span>
+   </div>
+   <div id="projectbrief">LCOM Project</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Gerado por Doxygen 1.8.10 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Localizar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="modules.html"><span>Módulos</span></a></li>
+      <li><a href="annotated.html"><span>Estruturas&#160;de&#160;dados</span></a></li>
+      <li class="current"><a href="files.html"><span>Ficheiros</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Localizar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Lista&#160;de&#160;ficheiros</span></a></li>
+      <li><a href="globals.html"><span>Globais</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_c166a637ad9f8f09f1307a666349b968.html">proj</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#enum-members">Enumerações</a> &#124;
+<a href="#func-members">Funções</a>  </div>
+  <div class="headertitle">
+<div class="title">Referência ao ficheiro proj.c</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &quot;<a class="el" href="keyboard_8h_source.html">keyboard.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="timer_8h_source.html">timer.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="const_8h_source.html">const.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="pixmap_8h_source.html">pixmap.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="sprite_8h_source.html">sprite.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="mouse_8h_source.html">mouse.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="_campo_8h_source.html">Campo.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="rtc_8h_source.html">rtc.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="goal-limit_8h_source.html">goal-limit.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="minute-limit_8h_source.html">minute-limit.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="mode_8h_source.html">mode.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="menu-selection_8h_source.html">menu-selection.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="mtxt_8h_source.html">mtxt.h</a>&quot;</code><br />
+</div><div class="textblock"><div class="dynheader">
+Diagrama de dependências de inclusão para proj.c:</div>
+<div class="dyncontent">
+<div class="center"><img src="proj_8c__incl.png" border="0" usemap="#_c_1_2_users_2_bruno_2_desktop_2proj_2proj_8c" alt=""/></div>
+<map name="_c_1_2_users_2_bruno_2_desktop_2proj_2proj_8c" id="_c_1_2_users_2_bruno_2_desktop_2proj_2proj_8c">
+<area shape="rect" id="node2" href="keyboard_8h.html" title="keyboard.h" alt="" coords="257,244,344,271"/>
+<area shape="rect" id="node3" href="const_8h.html" title="const.h" alt="" coords="467,393,532,420"/>
+<area shape="rect" id="node12" href="timer_8h.html" title="timer.h" alt="" coords="673,169,736,196"/>
+<area shape="rect" id="node14" href="pixmap_8h.html" title="pixmap.h" alt="" coords="702,319,777,345"/>
+<area shape="rect" id="node16" href="rtc_8h.html" title="rtc.h" alt="" coords="249,319,297,345"/>
+<area shape="rect" id="node18" href="sprite_8h.html" title="sprite.h" alt="" coords="417,169,483,196"/>
+<area shape="rect" id="node19" href="mouse_8h.html" title="mouse.h" alt="" coords="511,95,583,121"/>
+<area shape="rect" id="node20" href="_campo_8h.html" title="Campo.h" alt="" coords="862,95,937,121"/>
+<area shape="rect" id="node21" href="goal-limit_8h.html" title="goal&#45;limit.h" alt="" coords="961,95,1046,121"/>
+<area shape="rect" id="node22" href="minute-limit_8h.html" title="minute&#45;limit.h" alt="" coords="1071,95,1171,121"/>
+<area shape="rect" id="node23" href="mode_8h.html" title="mode.h" alt="" coords="1195,95,1260,121"/>
+<area shape="rect" id="node24" href="menu-selection_8h.html" title="menu&#45;selection.h" alt="" coords="1284,95,1405,121"/>
+<area shape="rect" id="node25" href="mtxt_8h.html" title="mtxt.h" alt="" coords="1430,95,1489,121"/>
+<area shape="rect" id="node13" href="video_8h.html" title="video.h" alt="" coords="420,244,483,271"/>
+<area shape="rect" id="node15" href="read__xpm_8h.html" title="read_xpm.h" alt="" coords="537,319,627,345"/>
+<area shape="rect" id="node17" href="weekdays_8h.html" title="weekdays.h" alt="" coords="371,319,462,345"/>
+</map>
+</div>
+</div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
+Enumerações</h2></td></tr>
+<tr class="memitem:a63775c0553a6f57aca7b67f7be477b75"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="proj_8c.html#a63775c0553a6f57aca7b67f7be477b75">MenuOptions</a> { <br />
+&#160;&#160;<a class="el" href="proj_8c.html#a63775c0553a6f57aca7b67f7be477b75a0352906d1ea1dfcd663c918f3a86755b">PLAY</a>, 
+<a class="el" href="proj_8c.html#a63775c0553a6f57aca7b67f7be477b75a5889a64b6298bb7cd5c91b96782ab11e">TIMEL</a>, 
+<a class="el" href="proj_8c.html#a63775c0553a6f57aca7b67f7be477b75acc2a643e91e2cd7b89f5c9eef5d9b015">GOALL</a>, 
+<a class="el" href="proj_8c.html#a63775c0553a6f57aca7b67f7be477b75a865d4bfdc2dd5f698e4558474765cba8">MODE</a>, 
+<br />
+&#160;&#160;<a class="el" href="proj_8c.html#a63775c0553a6f57aca7b67f7be477b75a81ee9ebe7f7566a2ccfce0361c85bc56">EXITG</a>
+<br />
+ }<tr class="separator:a63775c0553a6f57aca7b67f7be477b75"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Funções</h2></td></tr>
+<tr class="memitem:ade82443ceede71076503da50a0677398"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="proj_8c.html#ade82443ceede71076503da50a0677398">updateOption</a> (<a class="el" href="proj_8c.html#a63775c0553a6f57aca7b67f7be477b75">MenuOptions</a> *current, int y)</td></tr>
+<tr class="memdesc:ade82443ceede71076503da50a0677398"><td class="mdescLeft">&#160;</td><td class="mdescRight">Altera o estado atual do menu mediante a posicao y, com o teclado.  <a href="#ade82443ceede71076503da50a0677398">Mais...</a><br /></td></tr>
+<tr class="separator:ade82443ceede71076503da50a0677398"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a15b7f5f6ef5495d96a5a61915ab2b8e3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="proj_8c.html#a15b7f5f6ef5495d96a5a61915ab2b8e3">updateMouseSel</a> (<a class="el" href="proj_8c.html#a63775c0553a6f57aca7b67f7be477b75">MenuOptions</a> *current, int mx, int my, int *mensely, int lb, int *rl)</td></tr>
+<tr class="memdesc:a15b7f5f6ef5495d96a5a61915ab2b8e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Altera o estado atual do menu mediante as posicos mx e my, com o rato.  <a href="#a15b7f5f6ef5495d96a5a61915ab2b8e3">Mais...</a><br /></td></tr>
+<tr class="separator:a15b7f5f6ef5495d96a5a61915ab2b8e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae7d43579456e83856339f2422849028c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="proj_8c.html#ae7d43579456e83856339f2422849028c">changeTime</a> (int rl, int *time)</td></tr>
+<tr class="memdesc:ae7d43579456e83856339f2422849028c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Altera o tempo na opcao do menu.  <a href="#ae7d43579456e83856339f2422849028c">Mais...</a><br /></td></tr>
+<tr class="separator:ae7d43579456e83856339f2422849028c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac7770d968c65ecaee6c8c77a0114d2eb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="proj_8c.html#ac7770d968c65ecaee6c8c77a0114d2eb">changeGoals</a> (int rl, int *goals)</td></tr>
+<tr class="memdesc:ac7770d968c65ecaee6c8c77a0114d2eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Altera o numero de golos na opcao do menu.  <a href="#ac7770d968c65ecaee6c8c77a0114d2eb">Mais...</a><br /></td></tr>
+<tr class="separator:ac7770d968c65ecaee6c8c77a0114d2eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae2cdaf20d565b3090b8a6282ef2e35b6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="proj_8c.html#ae2cdaf20d565b3090b8a6282ef2e35b6">changeMode</a> (int rl, int *mode)</td></tr>
+<tr class="memdesc:ae2cdaf20d565b3090b8a6282ef2e35b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Altera o modo na opcao do menu.  <a href="#ae2cdaf20d565b3090b8a6282ef2e35b6">Mais...</a><br /></td></tr>
+<tr class="separator:ae2cdaf20d565b3090b8a6282ef2e35b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aad96881d8e20c112ebe31f76842a27f9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="proj_8c.html#aad96881d8e20c112ebe31f76842a27f9">modeSelector</a> (int mode, int kbc_set, int timer_set, int mouse_set, char *add, int time, int goals)</td></tr>
+<tr class="memdesc:aad96881d8e20c112ebe31f76842a27f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Funcao que inicia um dos dois jogos mediante o modo escolhido.  <a href="#aad96881d8e20c112ebe31f76842a27f9">Mais...</a><br /></td></tr>
+<tr class="separator:aad96881d8e20c112ebe31f76842a27f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a460cfa57cc9fe97500d2f2cf510fd3d3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="proj_8c.html#a460cfa57cc9fe97500d2f2cf510fd3d3">game</a> (int kbc_set, int timer_set, char *add, int time, int goals)</td></tr>
+<tr class="memdesc:a460cfa57cc9fe97500d2f2cf510fd3d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Funcao que inicia o jogo apenas com o teclado.  <a href="#a460cfa57cc9fe97500d2f2cf510fd3d3">Mais...</a><br /></td></tr>
+<tr class="separator:a460cfa57cc9fe97500d2f2cf510fd3d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aebbb7a5fa40a19e1f662848b478eec53"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="proj_8c.html#aebbb7a5fa40a19e1f662848b478eec53">gameM</a> (int kbc_set, int timer_set, int mouse_set, char *add, int time, int goals)</td></tr>
+<tr class="memdesc:aebbb7a5fa40a19e1f662848b478eec53"><td class="mdescLeft">&#160;</td><td class="mdescRight">Funcao que inicia o jogo com o teclado e o rato.  <a href="#aebbb7a5fa40a19e1f662848b478eec53">Mais...</a><br /></td></tr>
+<tr class="separator:aebbb7a5fa40a19e1f662848b478eec53"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae66f6b31b5ad750f1fe042a706a4e3d4"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="proj_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a> ()</td></tr>
+<tr class="separator:ae66f6b31b5ad750f1fe042a706a4e3d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Documentação dos valores da enumeração</h2>
+<a class="anchor" id="a63775c0553a6f57aca7b67f7be477b75"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="proj_8c.html#a63775c0553a6f57aca7b67f7be477b75">MenuOptions</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Valores de enumerações</th></tr><tr><td class="fieldname"><a class="anchor" id="a63775c0553a6f57aca7b67f7be477b75a0352906d1ea1dfcd663c918f3a86755b"></a>PLAY&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="a63775c0553a6f57aca7b67f7be477b75a5889a64b6298bb7cd5c91b96782ab11e"></a>TIMEL&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="a63775c0553a6f57aca7b67f7be477b75acc2a643e91e2cd7b89f5c9eef5d9b015"></a>GOALL&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="a63775c0553a6f57aca7b67f7be477b75a865d4bfdc2dd5f698e4558474765cba8"></a>MODE&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="a63775c0553a6f57aca7b67f7be477b75a81ee9ebe7f7566a2ccfce0361c85bc56"></a>EXITG&#160;</td><td class="fielddoc">
+</td></tr>
+</table>
+<div class="fragment"><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;{<a class="code" href="proj_8c.html#a63775c0553a6f57aca7b67f7be477b75a0352906d1ea1dfcd663c918f3a86755b">PLAY</a>, <a class="code" href="proj_8c.html#a63775c0553a6f57aca7b67f7be477b75a5889a64b6298bb7cd5c91b96782ab11e">TIMEL</a>, <a class="code" href="proj_8c.html#a63775c0553a6f57aca7b67f7be477b75acc2a643e91e2cd7b89f5c9eef5d9b015">GOALL</a>, <a class="code" href="proj_8c.html#a63775c0553a6f57aca7b67f7be477b75a865d4bfdc2dd5f698e4558474765cba8">MODE</a>, <a class="code" href="proj_8c.html#a63775c0553a6f57aca7b67f7be477b75a81ee9ebe7f7566a2ccfce0361c85bc56">EXITG</a>} <a class="code" href="proj_8c.html#a63775c0553a6f57aca7b67f7be477b75">MenuOptions</a>;</div>
+<div class="ttc" id="proj_8c_html_a63775c0553a6f57aca7b67f7be477b75acc2a643e91e2cd7b89f5c9eef5d9b015"><div class="ttname"><a href="proj_8c.html#a63775c0553a6f57aca7b67f7be477b75acc2a643e91e2cd7b89f5c9eef5d9b015">GOALL</a></div><div class="ttdef"><b>Definition:</b> proj.c:17</div></div>
+<div class="ttc" id="proj_8c_html_a63775c0553a6f57aca7b67f7be477b75a5889a64b6298bb7cd5c91b96782ab11e"><div class="ttname"><a href="proj_8c.html#a63775c0553a6f57aca7b67f7be477b75a5889a64b6298bb7cd5c91b96782ab11e">TIMEL</a></div><div class="ttdef"><b>Definition:</b> proj.c:17</div></div>
+<div class="ttc" id="proj_8c_html_a63775c0553a6f57aca7b67f7be477b75a865d4bfdc2dd5f698e4558474765cba8"><div class="ttname"><a href="proj_8c.html#a63775c0553a6f57aca7b67f7be477b75a865d4bfdc2dd5f698e4558474765cba8">MODE</a></div><div class="ttdef"><b>Definition:</b> proj.c:17</div></div>
+<div class="ttc" id="proj_8c_html_a63775c0553a6f57aca7b67f7be477b75a0352906d1ea1dfcd663c918f3a86755b"><div class="ttname"><a href="proj_8c.html#a63775c0553a6f57aca7b67f7be477b75a0352906d1ea1dfcd663c918f3a86755b">PLAY</a></div><div class="ttdef"><b>Definition:</b> proj.c:17</div></div>
+<div class="ttc" id="proj_8c_html_a63775c0553a6f57aca7b67f7be477b75a81ee9ebe7f7566a2ccfce0361c85bc56"><div class="ttname"><a href="proj_8c.html#a63775c0553a6f57aca7b67f7be477b75a81ee9ebe7f7566a2ccfce0361c85bc56">EXITG</a></div><div class="ttdef"><b>Definition:</b> proj.c:17</div></div>
+<div class="ttc" id="proj_8c_html_a63775c0553a6f57aca7b67f7be477b75"><div class="ttname"><a href="proj_8c.html#a63775c0553a6f57aca7b67f7be477b75">MenuOptions</a></div><div class="ttdeci">MenuOptions</div><div class="ttdef"><b>Definition:</b> proj.c:17</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Documentação das funções</h2>
+<a class="anchor" id="ac7770d968c65ecaee6c8c77a0114d2eb"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void changeGoals </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>rl</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int *&#160;</td>
+          <td class="paramname"><em>goals</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Altera o numero de golos na opcao do menu. </p>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">rl</td><td>Informacao da mudanca da opcao </td></tr>
+    <tr><td class="paramname">goals</td><td>Numero de golos que vao ser alterados </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="fragment"><div class="line"><a name="l00625"></a><span class="lineno">  625</span>&#160;{</div>
+<div class="line"><a name="l00626"></a><span class="lineno">  626</span>&#160;    <span class="keywordflow">if</span>(*goals &gt; 3 &amp;&amp; rl == -1)</div>
+<div class="line"><a name="l00627"></a><span class="lineno">  627</span>&#160;        *goals -= 1;</div>
+<div class="line"><a name="l00628"></a><span class="lineno">  628</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (*goals &lt; 6 &amp;&amp; rl == 1)</div>
+<div class="line"><a name="l00629"></a><span class="lineno">  629</span>&#160;        *goals += 1;</div>
+<div class="line"><a name="l00630"></a><span class="lineno">  630</span>&#160;}</div>
+</div><!-- fragment -->
+<p><div class="dynheader">
+Este é o diagrama das funções que utilizam esta função:</div>
+<div class="dyncontent">
+<div class="center"><img src="proj_8c_ac7770d968c65ecaee6c8c77a0114d2eb_icgraph.png" border="0" usemap="#proj_8c_ac7770d968c65ecaee6c8c77a0114d2eb_icgraph" alt=""/></div>
+<map name="proj_8c_ac7770d968c65ecaee6c8c77a0114d2eb_icgraph" id="proj_8c_ac7770d968c65ecaee6c8c77a0114d2eb_icgraph">
+<area shape="rect" id="node2" href="proj_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="main" alt="" coords="152,5,203,32"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="ae2cdaf20d565b3090b8a6282ef2e35b6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void changeMode </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>rl</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int *&#160;</td>
+          <td class="paramname"><em>mode</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Altera o modo na opcao do menu. </p>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">rl</td><td>Informacao da mudanca da opcao </td></tr>
+    <tr><td class="paramname">mode</td><td>Modo que vai ser alterado </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="fragment"><div class="line"><a name="l00633"></a><span class="lineno">  633</span>&#160;{</div>
+<div class="line"><a name="l00634"></a><span class="lineno">  634</span>&#160;    <span class="keywordflow">if</span>(*mode == 1 &amp;&amp; rl == -1)</div>
+<div class="line"><a name="l00635"></a><span class="lineno">  635</span>&#160;        *mode = 0;</div>
+<div class="line"><a name="l00636"></a><span class="lineno">  636</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (*mode == 0 &amp;&amp; rl == 1)</div>
+<div class="line"><a name="l00637"></a><span class="lineno">  637</span>&#160;        *mode = 1;</div>
+<div class="line"><a name="l00638"></a><span class="lineno">  638</span>&#160;}</div>
+</div><!-- fragment -->
+<p><div class="dynheader">
+Este é o diagrama das funções que utilizam esta função:</div>
+<div class="dyncontent">
+<div class="center"><img src="proj_8c_ae2cdaf20d565b3090b8a6282ef2e35b6_icgraph.png" border="0" usemap="#proj_8c_ae2cdaf20d565b3090b8a6282ef2e35b6_icgraph" alt=""/></div>
+<map name="proj_8c_ae2cdaf20d565b3090b8a6282ef2e35b6_icgraph" id="proj_8c_ae2cdaf20d565b3090b8a6282ef2e35b6_icgraph">
+<area shape="rect" id="node2" href="proj_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="main" alt="" coords="149,5,200,32"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="ae7d43579456e83856339f2422849028c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void changeTime </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>rl</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int *&#160;</td>
+          <td class="paramname"><em>time</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Altera o tempo na opcao do menu. </p>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">rl</td><td>Informacao da mudanca da opcao </td></tr>
+    <tr><td class="paramname">time</td><td>Tempo que vai ser alterado </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="fragment"><div class="line"><a name="l00617"></a><span class="lineno">  617</span>&#160;{</div>
+<div class="line"><a name="l00618"></a><span class="lineno">  618</span>&#160;    <span class="keywordflow">if</span>(*time &gt; 2 &amp;&amp; rl == -1)</div>
+<div class="line"><a name="l00619"></a><span class="lineno">  619</span>&#160;        *time -= 1;</div>
+<div class="line"><a name="l00620"></a><span class="lineno">  620</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (*time &lt; 5 &amp;&amp; rl == 1)</div>
+<div class="line"><a name="l00621"></a><span class="lineno">  621</span>&#160;        *time += 1;</div>
+<div class="line"><a name="l00622"></a><span class="lineno">  622</span>&#160;}</div>
+</div><!-- fragment -->
+<p><div class="dynheader">
+Este é o diagrama das funções que utilizam esta função:</div>
+<div class="dyncontent">
+<div class="center"><img src="proj_8c_ae7d43579456e83856339f2422849028c_icgraph.png" border="0" usemap="#proj_8c_ae7d43579456e83856339f2422849028c_icgraph" alt=""/></div>
+<map name="proj_8c_ae7d43579456e83856339f2422849028c_icgraph" id="proj_8c_ae7d43579456e83856339f2422849028c_icgraph">
+<area shape="rect" id="node2" href="proj_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="main" alt="" coords="145,5,196,32"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a460cfa57cc9fe97500d2f2cf510fd3d3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void game </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>kbc_set</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>timer_set</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>add</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>time</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>goals</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Funcao que inicia o jogo apenas com o teclado. </p>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">kbc_set</td><td>Retorno do hook do teclado </td></tr>
+    <tr><td class="paramname">timer_set</td><td>Retorno do hook do tempo </td></tr>
+    <tr><td class="paramname">add</td><td>Apontador para a primeira posicao da memoria grafica </td></tr>
+    <tr><td class="paramname">time</td><td>Tempo de jogo definido </td></tr>
+    <tr><td class="paramname">goals</td><td>Numero de golos definido </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="fragment"><div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;{</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    <span class="keywordtype">int</span> n = 0;</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;    <span class="keywordtype">int</span> limit = time * 60;</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    <span class="keywordtype">int</span> min = time - 1;</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;    <span class="keywordtype">int</span> sec = 0;</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    <span class="keywordtype">int</span> ssec = 60;</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;    <span class="keywordtype">int</span> pl1score = 0;</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;    <span class="keywordtype">int</span> pl2score = 0;</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> fsize = <a class="code" href="video_8c.html#aa55320d571dc2cb8179422a9d8114de0">getHRes</a>() * <a class="code" href="video_8c.html#a36218c155eade74951ce7ffd60711a9e">getVRes</a>() * <a class="code" href="video_8c.html#a5c30cdd3eab0edd2734ab3871f7000c7">getBitsPerPixel</a>()/8;</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;    <span class="keywordtype">char</span>* frame = malloc(fsize);</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;    <span class="keywordtype">int</span> bkgw, bkgh;</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;    <span class="keywordtype">char</span>* bkg = <a class="code" href="read__xpm_8c.html#a05b2c5e4dbcaffa701703b50a2111783">read_xpm</a>(<a class="code" href="_campo_8h.html#a33fee3ac06e63fd5965d0769b3e8e730">Campo</a>, &amp;bkgw, &amp;bkgh);</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;    <a class="code" href="timer_8c.html#a291e73a2f4a9140f4d20bed57e96aa6f">startTime</a>(frame, time);</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;    <a class="code" href="video_8c.html#a9017b0659a0bc0c6611328d9d9f42e94">displayScore</a>(frame, &amp;pl1score, &amp;pl2score);</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;    <a class="code" href="struct_sprite.html">Sprite</a>* pl1 = <a class="code" href="sprite_8c.html#a3f7728feb84b250670d1ef33731ea7b4">create_sprite</a>(<a class="code" href="pixmap_8h.html#af83761d92167fe610d46434aa63fab7b">p1</a>, frame, <a class="code" href="const_8h.html#adeb446cc3f5cbeb9ee18a5ac37b19940">P1STARTPOSX</a>, <a class="code" href="const_8h.html#aba0f0ffdb9743e7285f974ca70e6ffff">PSTARTPOSY</a>);</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;    <a class="code" href="struct_sprite.html">Sprite</a>* pl2 = <a class="code" href="sprite_8c.html#a3f7728feb84b250670d1ef33731ea7b4">create_sprite</a>(<a class="code" href="pixmap_8h.html#ad26b4ce0442671c0471fdeab493ff397">p2</a>, frame, <a class="code" href="const_8h.html#ad1832d5ae57dba178183c34e99d4bc6f">P2STARTPOSX</a>, <a class="code" href="const_8h.html#aba0f0ffdb9743e7285f974ca70e6ffff">PSTARTPOSY</a>);</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;    <a class="code" href="struct_sprite.html">Sprite</a>* bal = <a class="code" href="sprite_8c.html#a3f7728feb84b250670d1ef33731ea7b4">create_sprite</a>(<a class="code" href="pixmap_8h.html#a3aeac812c5db8fec49a32916f9a77a6f">ball</a>, frame, <a class="code" href="const_8h.html#af3dcfc8ae514e5db4930a6c60527f951">BSTARTPOSX</a>, <a class="code" href="const_8h.html#a5b4ba4fa8533a4fe92156113df08f396">BSTARTPOSY</a>);</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;    memcpy(add, frame, fsize);</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;    <a class="code" href="structmov.html">mov</a> m1, m2;</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;    m1.<a class="code" href="structmov.html#ab75b523bb5d08140b699ac77768b90f6">pu</a> = 0;</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;    m1.<a class="code" href="structmov.html#af57c42ada61b0f6d85d521eda8713323">pd</a> = 0;</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;    m1.<a class="code" href="structmov.html#aa2517bb5160d1332ddc9f59bf8c39506">pl</a> = 0;</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;    m1.<a class="code" href="structmov.html#aff52e0513c9e8ea9ecc51efc15d2b63f">pr</a> = 0;</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;    m1.<a class="code" href="structmov.html#ac59f6609114e0f688cfe45e811217ad0">ps</a> = 0;</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;    m2.<a class="code" href="structmov.html#ab75b523bb5d08140b699ac77768b90f6">pu</a> = 0;</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;    m2.<a class="code" href="structmov.html#af57c42ada61b0f6d85d521eda8713323">pd</a> = 0;</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;    m2.<a class="code" href="structmov.html#aa2517bb5160d1332ddc9f59bf8c39506">pl</a> = 0;</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;    m2.<a class="code" href="structmov.html#aff52e0513c9e8ea9ecc51efc15d2b63f">pr</a> = 0;</div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;    m2.<a class="code" href="structmov.html#ac59f6609114e0f688cfe45e811217ad0">ps</a> = 0;</div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;    <span class="keywordflow">while</span>((sec &lt;= limit) &amp;&amp; (((pl1score &lt; goals) &amp;&amp; (pl2score &lt; goals)) || (goals == 6)))</div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;    {</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;        <span class="keywordtype">int</span> ipc_status;</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;        message msg;</div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;        <span class="keywordtype">int</span> r;</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;</div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;        <span class="keywordflow">if</span> ((r = driver_receive(ANY, &amp;msg, &amp;ipc_status)) != 0 )</div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;        {</div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;            printf(<span class="stringliteral">&quot;driver_receive failed with: %d&quot;</span>, r);</div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;            <span class="keywordflow">continue</span>;</div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;        }</div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;        <span class="keywordflow">if</span> (is_ipc_notify(ipc_status))</div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;        { <span class="comment">// received notification</span></div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;            <span class="keywordflow">switch</span> (_ENDPOINT_P(msg.m_source))</div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;            {</div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;            <span class="keywordflow">case</span> HARDWARE: <span class="comment">// hardware interrupt notification</span></div>
+<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;                <span class="keywordflow">if</span> ((msg.NOTIFY_ARG &amp; kbc_set))</div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;                    <span class="comment">// subscribed interrupt</span></div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;                {</div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;                    <a class="code" href="keyboard_8c.html#a7728c66e2e9db9eb8817e4508949976b">readKeyboard</a>(&amp;m1, &amp;m2);</div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;                    <a class="code" href="sprite_8c.html#a605fc554aaa4a7ddf248793976a3f8bc">updateSpeed</a>(pl1, pl2, m1, m2);</div>
+<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;                }</div>
+<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;                <span class="keywordflow">if</span> (msg.NOTIFY_ARG &amp; timer_set)</div>
+<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;                {</div>
+<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;                    n++;</div>
+<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;                    <a class="code" href="video_8c.html#ab36f1e43a3d76e1236e10d306004f1f3">drawXPM</a>(frame, 0, 0,bkg, bkgw,bkgh);</div>
+<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;                    <a class="code" href="sprite_8c.html#ab009384a9aeb421c51d2d13f85b7b319">updateFrame</a>(pl1, pl2, bal, frame, m1, m2, &amp;pl1score, &amp;pl2score, n);</div>
+<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;                    <span class="keywordflow">if</span>(n == 60)</div>
+<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;                    {</div>
+<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;                        n = 0;</div>
+<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;                        <a class="code" href="timer_8c.html#a237f6284703d25e34532e7f73b0eb209">updateTime</a>(frame, &amp;min, &amp;ssec);</div>
+<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;                        sec++;</div>
+<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;                    }</div>
+<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;                    memcpy(add, frame, fsize);</div>
+<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;                }</div>
+<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;                <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;            }</div>
+<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;        }</div>
+<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;    }</div>
+<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;</div>
+<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;    <a class="code" href="sprite_8c.html#af16c6befaac9ffb673b9e3c798d542ed">destroy_sprite</a>(pl1);</div>
+<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;    <a class="code" href="sprite_8c.html#af16c6befaac9ffb673b9e3c798d542ed">destroy_sprite</a>(pl2);</div>
+<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;    <a class="code" href="sprite_8c.html#af16c6befaac9ffb673b9e3c798d542ed">destroy_sprite</a>(bal);</div>
+<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;    memset(bkg, 0, fsize);</div>
+<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;    memset(frame, 0, fsize); <span class="comment">// sets the memory used to store the frames all black</span></div>
+<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;    free(bkg);</div>
+<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;    free(frame);</div>
+<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;</div>
+<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;}</div>
+<div class="ttc" id="sprite_8c_html_af16c6befaac9ffb673b9e3c798d542ed"><div class="ttname"><a href="sprite_8c.html#af16c6befaac9ffb673b9e3c798d542ed">destroy_sprite</a></div><div class="ttdeci">void destroy_sprite(Sprite *sp)</div><div class="ttdoc">Funcao responsavel por destruir a sprite, libertando a memoria alocada para a sprite. </div><div class="ttdef"><b>Definition:</b> sprite.c:43</div></div>
+<div class="ttc" id="sprite_8c_html_ab009384a9aeb421c51d2d13f85b7b319"><div class="ttname"><a href="sprite_8c.html#ab009384a9aeb421c51d2d13f85b7b319">updateFrame</a></div><div class="ttdeci">void updateFrame(Sprite *sp1, Sprite *sp2, Sprite *bal, char *base, mov m1, mov m2, int *pl1score, int *pl2score, int secs)</div><div class="ttdoc">Funcao responsavel por actualizar o frame a mostrar no ecra. </div><div class="ttdef"><b>Definition:</b> sprite.c:84</div></div>
+<div class="ttc" id="video_8c_html_aa55320d571dc2cb8179422a9d8114de0"><div class="ttname"><a href="video_8c.html#aa55320d571dc2cb8179422a9d8114de0">getHRes</a></div><div class="ttdeci">unsigned getHRes()</div><div class="ttdoc">Funcao que retorna a resolucao horizontal do ecra. </div><div class="ttdef"><b>Definition:</b> video.c:66</div></div>
+<div class="ttc" id="_campo_8h_html_a33fee3ac06e63fd5965d0769b3e8e730"><div class="ttname"><a href="_campo_8h.html#a33fee3ac06e63fd5965d0769b3e8e730">Campo</a></div><div class="ttdeci">static char * Campo[]</div><div class="ttdef"><b>Definition:</b> Campo.h:1</div></div>
+<div class="ttc" id="timer_8c_html_a237f6284703d25e34532e7f73b0eb209"><div class="ttname"><a href="timer_8c.html#a237f6284703d25e34532e7f73b0eb209">updateTime</a></div><div class="ttdeci">void updateTime(char *add, int *min, int *sec)</div><div class="ttdoc">Funcao que actualiza no ecra o tempo de jogo restante. </div><div class="ttdef"><b>Definition:</b> timer.c:43</div></div>
+<div class="ttc" id="keyboard_8c_html_a7728c66e2e9db9eb8817e4508949976b"><div class="ttname"><a href="keyboard_8c.html#a7728c66e2e9db9eb8817e4508949976b">readKeyboard</a></div><div class="ttdeci">void readKeyboard(mov *m1, mov *m2)</div><div class="ttdoc">Funcao que mediante o input do teclado vai definir o m1 e m2 que sao as movimentacoes mediante as set...</div><div class="ttdef"><b>Definition:</b> keyboard.c:25</div></div>
+<div class="ttc" id="struct_sprite_html"><div class="ttname"><a href="struct_sprite.html">Sprite</a></div><div class="ttdoc">Struct que guarda a informacao do "objecto" sprite. </div><div class="ttdef"><b>Definition:</b> sprite.h:12</div></div>
+<div class="ttc" id="video_8c_html_a36218c155eade74951ce7ffd60711a9e"><div class="ttname"><a href="video_8c.html#a36218c155eade74951ce7ffd60711a9e">getVRes</a></div><div class="ttdeci">unsigned getVRes()</div><div class="ttdoc">Funcao que retorna a resolucao vertical do ecra. </div><div class="ttdef"><b>Definition:</b> video.c:71</div></div>
+<div class="ttc" id="structmov_html_aa2517bb5160d1332ddc9f59bf8c39506"><div class="ttname"><a href="structmov.html#aa2517bb5160d1332ddc9f59bf8c39506">mov::pl</a></div><div class="ttdeci">int pl</div><div class="ttdef"><b>Definition:</b> keyboard.h:12</div></div>
+<div class="ttc" id="structmov_html_ab75b523bb5d08140b699ac77768b90f6"><div class="ttname"><a href="structmov.html#ab75b523bb5d08140b699ac77768b90f6">mov::pu</a></div><div class="ttdeci">int pu</div><div class="ttdef"><b>Definition:</b> keyboard.h:10</div></div>
+<div class="ttc" id="pixmap_8h_html_ad26b4ce0442671c0471fdeab493ff397"><div class="ttname"><a href="pixmap_8h.html#ad26b4ce0442671c0471fdeab493ff397">p2</a></div><div class="ttdeci">static char * p2[]</div><div class="ttdef"><b>Definition:</b> pixmap.h:473</div></div>
+<div class="ttc" id="video_8c_html_ab36f1e43a3d76e1236e10d306004f1f3"><div class="ttname"><a href="video_8c.html#ab36f1e43a3d76e1236e10d306004f1f3">drawXPM</a></div><div class="ttdeci">void drawXPM(char *add, unsigned short x, unsigned short y, char *a, int width, int heigth)</div><div class="ttdoc">Funcao que desenha o xpm no ecra. </div><div class="ttdef"><b>Definition:</b> video.c:132</div></div>
+<div class="ttc" id="pixmap_8h_html_a3aeac812c5db8fec49a32916f9a77a6f"><div class="ttname"><a href="pixmap_8h.html#a3aeac812c5db8fec49a32916f9a77a6f">ball</a></div><div class="ttdeci">static char * ball[]</div><div class="ttdef"><b>Definition:</b> pixmap.h:371</div></div>
+<div class="ttc" id="structmov_html_ac59f6609114e0f688cfe45e811217ad0"><div class="ttname"><a href="structmov.html#ac59f6609114e0f688cfe45e811217ad0">mov::ps</a></div><div class="ttdeci">int ps</div><div class="ttdef"><b>Definition:</b> keyboard.h:14</div></div>
+<div class="ttc" id="read__xpm_8c_html_a05b2c5e4dbcaffa701703b50a2111783"><div class="ttname"><a href="read__xpm_8c.html#a05b2c5e4dbcaffa701703b50a2111783">read_xpm</a></div><div class="ttdeci">char * read_xpm(char *map[], int *wd, int *ht)</div><div class="ttdef"><b>Definition:</b> read_xpm.c:21</div></div>
+<div class="ttc" id="structmov_html_aff52e0513c9e8ea9ecc51efc15d2b63f"><div class="ttname"><a href="structmov.html#aff52e0513c9e8ea9ecc51efc15d2b63f">mov::pr</a></div><div class="ttdeci">int pr</div><div class="ttdef"><b>Definition:</b> keyboard.h:13</div></div>
+<div class="ttc" id="structmov_html"><div class="ttname"><a href="structmov.html">mov</a></div><div class="ttdoc">Estrutura que mediante o input do teclado vai definir o movimento do jogador. </div><div class="ttdef"><b>Definition:</b> keyboard.h:8</div></div>
+<div class="ttc" id="const_8h_html_aba0f0ffdb9743e7285f974ca70e6ffff"><div class="ttname"><a href="const_8h.html#aba0f0ffdb9743e7285f974ca70e6ffff">PSTARTPOSY</a></div><div class="ttdeci">#define PSTARTPOSY</div><div class="ttdef"><b>Definition:</b> const.h:138</div></div>
+<div class="ttc" id="video_8c_html_a9017b0659a0bc0c6611328d9d9f42e94"><div class="ttname"><a href="video_8c.html#a9017b0659a0bc0c6611328d9d9f42e94">displayScore</a></div><div class="ttdeci">void displayScore(char *add, int *pl1score, int *pl2score)</div><div class="ttdoc">Imprime o score do jogo no ecra. </div><div class="ttdef"><b>Definition:</b> video.c:353</div></div>
+<div class="ttc" id="const_8h_html_a5b4ba4fa8533a4fe92156113df08f396"><div class="ttname"><a href="const_8h.html#a5b4ba4fa8533a4fe92156113df08f396">BSTARTPOSY</a></div><div class="ttdeci">#define BSTARTPOSY</div><div class="ttdef"><b>Definition:</b> const.h:140</div></div>
+<div class="ttc" id="structmov_html_af57c42ada61b0f6d85d521eda8713323"><div class="ttname"><a href="structmov.html#af57c42ada61b0f6d85d521eda8713323">mov::pd</a></div><div class="ttdeci">int pd</div><div class="ttdef"><b>Definition:</b> keyboard.h:11</div></div>
+<div class="ttc" id="const_8h_html_adeb446cc3f5cbeb9ee18a5ac37b19940"><div class="ttname"><a href="const_8h.html#adeb446cc3f5cbeb9ee18a5ac37b19940">P1STARTPOSX</a></div><div class="ttdeci">#define P1STARTPOSX</div><div class="ttdef"><b>Definition:</b> const.h:136</div></div>
+<div class="ttc" id="const_8h_html_af3dcfc8ae514e5db4930a6c60527f951"><div class="ttname"><a href="const_8h.html#af3dcfc8ae514e5db4930a6c60527f951">BSTARTPOSX</a></div><div class="ttdeci">#define BSTARTPOSX</div><div class="ttdef"><b>Definition:</b> const.h:139</div></div>
+<div class="ttc" id="const_8h_html_ad1832d5ae57dba178183c34e99d4bc6f"><div class="ttname"><a href="const_8h.html#ad1832d5ae57dba178183c34e99d4bc6f">P2STARTPOSX</a></div><div class="ttdeci">#define P2STARTPOSX</div><div class="ttdef"><b>Definition:</b> const.h:137</div></div>
+<div class="ttc" id="timer_8c_html_a291e73a2f4a9140f4d20bed57e96aa6f"><div class="ttname"><a href="timer_8c.html#a291e73a2f4a9140f4d20bed57e96aa6f">startTime</a></div><div class="ttdeci">void startTime(char *add, int min)</div><div class="ttdoc">Funcao que imprime no ecra o tempo pela primeira vez. </div><div class="ttdef"><b>Definition:</b> timer.c:23</div></div>
+<div class="ttc" id="pixmap_8h_html_af83761d92167fe610d46434aa63fab7b"><div class="ttname"><a href="pixmap_8h.html#af83761d92167fe610d46434aa63fab7b">p1</a></div><div class="ttdeci">static char * p1[]</div><div class="ttdef"><b>Definition:</b> pixmap.h:425</div></div>
+<div class="ttc" id="sprite_8c_html_a605fc554aaa4a7ddf248793976a3f8bc"><div class="ttname"><a href="sprite_8c.html#a605fc554aaa4a7ddf248793976a3f8bc">updateSpeed</a></div><div class="ttdeci">void updateSpeed(Sprite *sp1, Sprite *sp2, mov m1, mov m2)</div><div class="ttdoc">Funcao responsavel por actualizar as velocidades das sprites. </div><div class="ttdef"><b>Definition:</b> sprite.c:52</div></div>
+<div class="ttc" id="video_8c_html_a5c30cdd3eab0edd2734ab3871f7000c7"><div class="ttname"><a href="video_8c.html#a5c30cdd3eab0edd2734ab3871f7000c7">getBitsPerPixel</a></div><div class="ttdeci">unsigned getBitsPerPixel()</div><div class="ttdoc">Funcao que retorna a quantidade de bits por cada pixel. </div><div class="ttdef"><b>Definition:</b> video.c:76</div></div>
+<div class="ttc" id="sprite_8c_html_a3f7728feb84b250670d1ef33731ea7b4"><div class="ttname"><a href="sprite_8c.html#a3f7728feb84b250670d1ef33731ea7b4">create_sprite</a></div><div class="ttdeci">Sprite * create_sprite(char *pic[], char *bas, int px, int py)</div><div class="ttdoc">Funcao que inicializar o "objecto", lendo o xpm correspondente a sprite. </div><div class="ttdef"><b>Definition:</b> sprite.c:10</div></div>
+</div><!-- fragment -->
+<p><div class="dynheader">
+Grafo de chamadas desta função:</div>
+<div class="dyncontent">
+<div class="center"><img src="proj_8c_a460cfa57cc9fe97500d2f2cf510fd3d3_cgraph.png" border="0" usemap="#proj_8c_a460cfa57cc9fe97500d2f2cf510fd3d3_cgraph" alt=""/></div>
+<map name="proj_8c_a460cfa57cc9fe97500d2f2cf510fd3d3_cgraph" id="proj_8c_a460cfa57cc9fe97500d2f2cf510fd3d3_cgraph">
+<area shape="rect" id="node2" href="video_8c.html#aa55320d571dc2cb8179422a9d8114de0" title="Funcao que retorna a resolucao horizontal do ecra. " alt="" coords="128,5,200,32"/>
+<area shape="rect" id="node3" href="video_8c.html#a36218c155eade74951ce7ffd60711a9e" title="Funcao que retorna a resolucao vertical do ecra. " alt="" coords="128,56,200,83"/>
+<area shape="rect" id="node4" href="video_8c.html#a5c30cdd3eab0edd2734ab3871f7000c7" title="Funcao que retorna a quantidade de bits por cada pixel. " alt="" coords="108,107,220,133"/>
+<area shape="rect" id="node5" href="read__xpm_8c.html#a05b2c5e4dbcaffa701703b50a2111783" title="read_xpm" alt="" coords="576,284,655,311"/>
+<area shape="rect" id="node6" href="timer_8c.html#a291e73a2f4a9140f4d20bed57e96aa6f" title="Funcao que imprime no ecra o tempo pela primeira vez. " alt="" coords="284,284,360,311"/>
+<area shape="rect" id="node7" href="video_8c.html#ab36f1e43a3d76e1236e10d306004f1f3" title="Funcao que desenha o xpm no ecra. " alt="" coords="577,436,653,463"/>
+<area shape="rect" id="node10" href="video_8c.html#a9017b0659a0bc0c6611328d9d9f42e94" title="Imprime o score do jogo no ecra. " alt="" coords="427,487,524,513"/>
+<area shape="rect" id="node11" href="sprite_8c.html#a3f7728feb84b250670d1ef33731ea7b4" title="Funcao que inicializar o &quot;objecto&quot;, lendo o xpm correspondente a sprite. " alt="" coords="427,385,524,412"/>
+<area shape="rect" id="node12" href="keyboard_8c.html#a7728c66e2e9db9eb8817e4508949976b" title="Funcao que mediante o input do teclado vai definir o m1 e m2 que sao as movimentacoes mediante as set..." alt="" coords="113,740,215,767"/>
+<area shape="rect" id="node13" href="sprite_8c.html#a605fc554aaa4a7ddf248793976a3f8bc" title="Funcao responsavel por actualizar as velocidades das sprites. " alt="" coords="115,791,213,817"/>
+<area shape="rect" id="node14" href="sprite_8c.html#ab009384a9aeb421c51d2d13f85b7b319" title="Funcao responsavel por actualizar o frame a mostrar no ecra. " alt="" coords="115,537,213,564"/>
+<area shape="rect" id="node23" href="timer_8c.html#a237f6284703d25e34532e7f73b0eb209" title="Funcao que actualiza no ecra o tempo de jogo restante. " alt="" coords="277,233,367,260"/>
+<area shape="rect" id="node25" href="sprite_8c.html#af16c6befaac9ffb673b9e3c798d542ed" title="Funcao responsavel por destruir a sprite, libertando a memoria alocada para a sprite. " alt="" coords="112,841,216,868"/>
+<area shape="rect" id="node8" href="video_8c.html#a9a74d03fd11068ed1707d8267a7ad910" title="Imprime os minutos de jogo no ecra. " alt="" coords="433,335,517,361"/>
+<area shape="rect" id="node9" href="video_8c.html#a3546f839cb7d4e3d98328d7ca1e4bc6e" title="Funcao que apaga o xpm da memoria de video. " alt="" coords="575,335,656,361"/>
+<area shape="rect" id="node15" href="sprite_8c.html#ae7da390876c239f1bbdb3a57f96333c5" title="Funcao que verifica se existe colisao entre duas sprites. " alt="" coords="424,639,527,665"/>
+<area shape="rect" id="node16" href="sprite_8c.html#a2a5140e844ac8bf7f0dbdbb15cf08ff8" title="Funcao que altera a posicao das duas sprites consoante as suas velocidades. " alt="" coords="268,639,376,665"/>
+<area shape="rect" id="node17" href="sprite_8c.html#a48eef171979f7cc2cb2acefe405cd942" title="Funcao que efectua o tratamento das colisoes entre as sprites dos dois jogadores. ..." alt="" coords="269,436,375,463"/>
+<area shape="rect" id="node18" href="sprite_8c.html#aa058ce198ff0ced63ead3b1510914cb1" title="Funcao que movimenta a bola. " alt="" coords="285,537,359,564"/>
+<area shape="rect" id="node19" href="sprite_8c.html#a6ff45b3e88989483a4d4058635b47ae8" title="Funcao que actualiza a posicao e a velocidade da bola. " alt="" coords="281,588,363,615"/>
+<area shape="rect" id="node20" href="sprite_8c.html#a33ff853b6897c18e8c414d26fcce2c27" title="Funcao que mantem os jogadores a bola dentro dos limites de jogo e actualiza o numero de golos marcad..." alt="" coords="279,487,365,513"/>
+<area shape="rect" id="node22" href="sprite_8c.html#a74560924f6d0d263514ecdcd5dd7758d" title="Funcao que anima a bola. " alt="" coords="430,183,521,209"/>
+<area shape="rect" id="node21" href="sprite_8c.html#a9943321a7c59b1bf899a030f0cebcb3b" title="Funcao que reinicia as posicoes das sprites dos jogadores e da bola, pondo as velocidades das sprites..." alt="" coords="444,537,507,564"/>
+<area shape="rect" id="node24" href="video_8c.html#ac1b63a4a1ce54d502d4eece3005d91dc" title="Imprime os segundos de jogo no ecra. " alt="" coords="432,284,519,311"/>
+</map>
+</div>
+</p>
+
+<p><div class="dynheader">
+Este é o diagrama das funções que utilizam esta função:</div>
+<div class="dyncontent">
+<div class="center"><img src="proj_8c_a460cfa57cc9fe97500d2f2cf510fd3d3_icgraph.png" border="0" usemap="#proj_8c_a460cfa57cc9fe97500d2f2cf510fd3d3_icgraph" alt=""/></div>
+<map name="proj_8c_a460cfa57cc9fe97500d2f2cf510fd3d3_icgraph" id="proj_8c_a460cfa57cc9fe97500d2f2cf510fd3d3_icgraph">
+<area shape="rect" id="node2" href="proj_8c.html#aad96881d8e20c112ebe31f76842a27f9" title="Funcao que inicia um dos dois jogos mediante o modo escolhido. " alt="" coords="108,5,211,32"/>
+<area shape="rect" id="node3" href="proj_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="main" alt="" coords="259,5,309,32"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="aebbb7a5fa40a19e1f662848b478eec53"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void gameM </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>kbc_set</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>timer_set</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>mouse_set</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>add</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>time</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>goals</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Funcao que inicia o jogo com o teclado e o rato. </p>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">kbc_set</td><td>Retorno do hook do teclado </td></tr>
+    <tr><td class="paramname">timer_set</td><td>Retorno do hook do tempo </td></tr>
+    <tr><td class="paramname">mouse_set</td><td>Retorno do hook do rato </td></tr>
+    <tr><td class="paramname">add</td><td>Apontador para a primeira posicao da memoria grafica </td></tr>
+    <tr><td class="paramname">time</td><td>Tempo de jogo definido </td></tr>
+    <tr><td class="paramname">goals</td><td>Numero de golos definido </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="fragment"><div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;{</div>
+<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;    <span class="keywordtype">int</span> n = 0;</div>
+<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;    <span class="keywordtype">int</span> limit = time * 60;</div>
+<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;    <span class="keywordtype">int</span> sec = 0;</div>
+<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;    <span class="keywordtype">int</span> min = time - 1;</div>
+<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;    <span class="keywordtype">int</span> ssec = 60;</div>
+<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;    <span class="keywordtype">int</span> pl1score = 0;</div>
+<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;    <span class="keywordtype">int</span> pl2score = 0;</div>
+<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;    <span class="keywordtype">int</span> byt = 0;</div>
+<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;    <span class="keywordtype">int</span> counter = 0;</div>
+<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;</div>
+<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;</div>
+<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> fsize = <a class="code" href="video_8c.html#aa55320d571dc2cb8179422a9d8114de0">getHRes</a>() * <a class="code" href="video_8c.html#a36218c155eade74951ce7ffd60711a9e">getVRes</a>() * <a class="code" href="video_8c.html#a5c30cdd3eab0edd2734ab3871f7000c7">getBitsPerPixel</a>()/8;</div>
+<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;    <span class="keywordtype">char</span>* frame = malloc(fsize);</div>
+<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;</div>
+<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;    <span class="keywordtype">int</span> bkgw, bkgh;</div>
+<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;    <span class="keywordtype">char</span>* bkg = <a class="code" href="read__xpm_8c.html#a05b2c5e4dbcaffa701703b50a2111783">read_xpm</a>(<a class="code" href="_campo_8h.html#a33fee3ac06e63fd5965d0769b3e8e730">Campo</a>, &amp;bkgw, &amp;bkgh);</div>
+<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;</div>
+<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;</div>
+<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;    <a class="code" href="timer_8c.html#a291e73a2f4a9140f4d20bed57e96aa6f">startTime</a>(frame, time);</div>
+<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;    <a class="code" href="video_8c.html#a9017b0659a0bc0c6611328d9d9f42e94">displayScore</a>(frame, &amp;pl1score, &amp;pl2score);</div>
+<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;    <a class="code" href="struct_sprite.html">Sprite</a>* pl1 = <a class="code" href="sprite_8c.html#a3f7728feb84b250670d1ef33731ea7b4">create_sprite</a>(<a class="code" href="pixmap_8h.html#af83761d92167fe610d46434aa63fab7b">p1</a>, frame, <a class="code" href="const_8h.html#adeb446cc3f5cbeb9ee18a5ac37b19940">P1STARTPOSX</a>, <a class="code" href="const_8h.html#aba0f0ffdb9743e7285f974ca70e6ffff">PSTARTPOSY</a>);</div>
+<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;    <a class="code" href="struct_sprite.html">Sprite</a>* pl2 = <a class="code" href="sprite_8c.html#a3f7728feb84b250670d1ef33731ea7b4">create_sprite</a>(<a class="code" href="pixmap_8h.html#ad26b4ce0442671c0471fdeab493ff397">p2</a>, frame, <a class="code" href="const_8h.html#ad1832d5ae57dba178183c34e99d4bc6f">P2STARTPOSX</a>, <a class="code" href="const_8h.html#aba0f0ffdb9743e7285f974ca70e6ffff">PSTARTPOSY</a>);</div>
+<div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;    <a class="code" href="struct_sprite.html">Sprite</a>* bal = <a class="code" href="sprite_8c.html#a3f7728feb84b250670d1ef33731ea7b4">create_sprite</a>(<a class="code" href="pixmap_8h.html#a3aeac812c5db8fec49a32916f9a77a6f">ball</a>, frame, <a class="code" href="const_8h.html#af3dcfc8ae514e5db4930a6c60527f951">BSTARTPOSX</a>, <a class="code" href="const_8h.html#a5b4ba4fa8533a4fe92156113df08f396">BSTARTPOSY</a>);</div>
+<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;    memcpy(add, frame, fsize);</div>
+<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;</div>
+<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;    <a class="code" href="structmov.html">mov</a> m1, m2;</div>
+<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;    m1.<a class="code" href="structmov.html#ab75b523bb5d08140b699ac77768b90f6">pu</a> = 0;</div>
+<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;    m1.<a class="code" href="structmov.html#af57c42ada61b0f6d85d521eda8713323">pd</a> = 0;</div>
+<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;    m1.<a class="code" href="structmov.html#aa2517bb5160d1332ddc9f59bf8c39506">pl</a> = 0;</div>
+<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;    m1.<a class="code" href="structmov.html#aff52e0513c9e8ea9ecc51efc15d2b63f">pr</a> = 0;</div>
+<div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;    m1.<a class="code" href="structmov.html#ac59f6609114e0f688cfe45e811217ad0">ps</a> = 0;</div>
+<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;</div>
+<div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;    m2.<a class="code" href="structmov.html#ab75b523bb5d08140b699ac77768b90f6">pu</a> = 0;</div>
+<div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;    m2.<a class="code" href="structmov.html#af57c42ada61b0f6d85d521eda8713323">pd</a> = 0;</div>
+<div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;    m2.<a class="code" href="structmov.html#aa2517bb5160d1332ddc9f59bf8c39506">pl</a> = 0;</div>
+<div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;    m2.<a class="code" href="structmov.html#aff52e0513c9e8ea9ecc51efc15d2b63f">pr</a> = 0;</div>
+<div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;    m2.<a class="code" href="structmov.html#ac59f6609114e0f688cfe45e811217ad0">ps</a> = 0;</div>
+<div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;</div>
+<div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">long</span> packet[3];</div>
+<div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;</div>
+<div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;</div>
+<div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;    <span class="keywordflow">while</span>((sec &lt;= limit) &amp;&amp; (((pl1score &lt; goals) &amp;&amp; (pl2score &lt; goals)) || (goals == 6)))</div>
+<div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;    {</div>
+<div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;        <span class="keywordtype">int</span> ipc_status;</div>
+<div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;        message msg;</div>
+<div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;        <span class="keywordtype">int</span> r;</div>
+<div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;</div>
+<div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;</div>
+<div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;        <span class="keywordflow">if</span> ((r = driver_receive(ANY, &amp;msg, &amp;ipc_status)) != 0 )</div>
+<div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;        {</div>
+<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;            printf(<span class="stringliteral">&quot;driver_receive failed with: %d&quot;</span>, r);</div>
+<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;            <span class="keywordflow">continue</span>;</div>
+<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;        }</div>
+<div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;        <span class="keywordflow">if</span> (is_ipc_notify(ipc_status))</div>
+<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;        { <span class="comment">// received notification</span></div>
+<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;            <span class="keywordflow">switch</span> (_ENDPOINT_P(msg.m_source))</div>
+<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;            {</div>
+<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;            <span class="keywordflow">case</span> HARDWARE: <span class="comment">// hardware interrupt notification</span></div>
+<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;                <span class="keywordflow">if</span> ((msg.NOTIFY_ARG &amp; kbc_set))</div>
+<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;                    <span class="comment">// subscribed interrupt</span></div>
+<div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;                {</div>
+<div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;                    <a class="code" href="keyboard_8c.html#a7d9c87cc5bb4080cd24bb0223435d6d0">readKeyboardM</a>(&amp;m1);</div>
+<div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;                    <a class="code" href="sprite_8c.html#a605fc554aaa4a7ddf248793976a3f8bc">updateSpeed</a>(pl1, pl2, m1, m2);</div>
+<div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;                }</div>
+<div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;                <span class="keywordflow">if</span> (msg.NOTIFY_ARG &amp; mouse_set)</div>
+<div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;                {</div>
+<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;                    <a class="code" href="mouse_8c.html#a8b8249c6ce158458f9c65993913c7bbd">readMouse</a>(&amp;m2, packet, &amp;byt);</div>
+<div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;                    <span class="keywordflow">if</span>(byt == 2)</div>
+<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;                    {</div>
+<div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;                        byt = 0;</div>
+<div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;                        <a class="code" href="sprite_8c.html#a605fc554aaa4a7ddf248793976a3f8bc">updateSpeed</a>(pl1, pl2, m1, m2);</div>
+<div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;                        counter = 0;</div>
+<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;                    }</div>
+<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;                }</div>
+<div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;                <span class="keywordflow">if</span> (msg.NOTIFY_ARG &amp; timer_set)</div>
+<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;                {</div>
+<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;                    counter++;</div>
+<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;                    n++;</div>
+<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;                    <a class="code" href="video_8c.html#ab36f1e43a3d76e1236e10d306004f1f3">drawXPM</a>(frame, 0, 0,bkg, bkgw,bkgh);</div>
+<div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;                    <a class="code" href="sprite_8c.html#ab009384a9aeb421c51d2d13f85b7b319">updateFrame</a>(pl1, pl2, bal, frame, m1, m2, &amp;pl1score, &amp;pl2score, n);</div>
+<div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;                    <span class="keywordflow">if</span>(n == 60)</div>
+<div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;                    {</div>
+<div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;                        n = 0;</div>
+<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;                        <a class="code" href="timer_8c.html#a237f6284703d25e34532e7f73b0eb209">updateTime</a>(frame, &amp;min, &amp;ssec);</div>
+<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;                        sec++;</div>
+<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;                    }</div>
+<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;                    <span class="keywordflow">if</span>(counter == 15)</div>
+<div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;                    {</div>
+<div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;                        m2.<a class="code" href="structmov.html#aff52e0513c9e8ea9ecc51efc15d2b63f">pr</a> = 0;</div>
+<div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;                        m2.<a class="code" href="structmov.html#aa2517bb5160d1332ddc9f59bf8c39506">pl</a> = 0;</div>
+<div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;                        m2.<a class="code" href="structmov.html#ab75b523bb5d08140b699ac77768b90f6">pu</a> = 0;</div>
+<div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;                        m2.<a class="code" href="structmov.html#af57c42ada61b0f6d85d521eda8713323">pd</a> = 0;</div>
+<div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;                        m2.<a class="code" href="structmov.html#ac59f6609114e0f688cfe45e811217ad0">ps</a> = 0;</div>
+<div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;                        <a class="code" href="sprite_8c.html#a605fc554aaa4a7ddf248793976a3f8bc">updateSpeed</a>(pl1, pl2, m1, m2);</div>
+<div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;                        counter = 0;</div>
+<div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;                    }</div>
+<div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;                    memcpy(add, frame, fsize);</div>
+<div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;                }</div>
+<div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;                <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;            }</div>
+<div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;        }</div>
+<div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;    }</div>
+<div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;</div>
+<div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;    <a class="code" href="sprite_8c.html#af16c6befaac9ffb673b9e3c798d542ed">destroy_sprite</a>(pl1);</div>
+<div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;    <a class="code" href="sprite_8c.html#af16c6befaac9ffb673b9e3c798d542ed">destroy_sprite</a>(pl2);</div>
+<div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;    <a class="code" href="sprite_8c.html#af16c6befaac9ffb673b9e3c798d542ed">destroy_sprite</a>(bal);</div>
+<div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;    memset(bkg, 0, fsize);</div>
+<div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;    memset(frame, 0, fsize); <span class="comment">// sets the memory used to store the frames all black</span></div>
+<div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;    free(bkg);</div>
+<div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;    free(frame);</div>
+<div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;</div>
+<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;</div>
+<div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;    <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;}</div>
+<div class="ttc" id="sprite_8c_html_af16c6befaac9ffb673b9e3c798d542ed"><div class="ttname"><a href="sprite_8c.html#af16c6befaac9ffb673b9e3c798d542ed">destroy_sprite</a></div><div class="ttdeci">void destroy_sprite(Sprite *sp)</div><div class="ttdoc">Funcao responsavel por destruir a sprite, libertando a memoria alocada para a sprite. </div><div class="ttdef"><b>Definition:</b> sprite.c:43</div></div>
+<div class="ttc" id="sprite_8c_html_ab009384a9aeb421c51d2d13f85b7b319"><div class="ttname"><a href="sprite_8c.html#ab009384a9aeb421c51d2d13f85b7b319">updateFrame</a></div><div class="ttdeci">void updateFrame(Sprite *sp1, Sprite *sp2, Sprite *bal, char *base, mov m1, mov m2, int *pl1score, int *pl2score, int secs)</div><div class="ttdoc">Funcao responsavel por actualizar o frame a mostrar no ecra. </div><div class="ttdef"><b>Definition:</b> sprite.c:84</div></div>
+<div class="ttc" id="video_8c_html_aa55320d571dc2cb8179422a9d8114de0"><div class="ttname"><a href="video_8c.html#aa55320d571dc2cb8179422a9d8114de0">getHRes</a></div><div class="ttdeci">unsigned getHRes()</div><div class="ttdoc">Funcao que retorna a resolucao horizontal do ecra. </div><div class="ttdef"><b>Definition:</b> video.c:66</div></div>
+<div class="ttc" id="_campo_8h_html_a33fee3ac06e63fd5965d0769b3e8e730"><div class="ttname"><a href="_campo_8h.html#a33fee3ac06e63fd5965d0769b3e8e730">Campo</a></div><div class="ttdeci">static char * Campo[]</div><div class="ttdef"><b>Definition:</b> Campo.h:1</div></div>
+<div class="ttc" id="timer_8c_html_a237f6284703d25e34532e7f73b0eb209"><div class="ttname"><a href="timer_8c.html#a237f6284703d25e34532e7f73b0eb209">updateTime</a></div><div class="ttdeci">void updateTime(char *add, int *min, int *sec)</div><div class="ttdoc">Funcao que actualiza no ecra o tempo de jogo restante. </div><div class="ttdef"><b>Definition:</b> timer.c:43</div></div>
+<div class="ttc" id="struct_sprite_html"><div class="ttname"><a href="struct_sprite.html">Sprite</a></div><div class="ttdoc">Struct que guarda a informacao do "objecto" sprite. </div><div class="ttdef"><b>Definition:</b> sprite.h:12</div></div>
+<div class="ttc" id="video_8c_html_a36218c155eade74951ce7ffd60711a9e"><div class="ttname"><a href="video_8c.html#a36218c155eade74951ce7ffd60711a9e">getVRes</a></div><div class="ttdeci">unsigned getVRes()</div><div class="ttdoc">Funcao que retorna a resolucao vertical do ecra. </div><div class="ttdef"><b>Definition:</b> video.c:71</div></div>
+<div class="ttc" id="structmov_html_aa2517bb5160d1332ddc9f59bf8c39506"><div class="ttname"><a href="structmov.html#aa2517bb5160d1332ddc9f59bf8c39506">mov::pl</a></div><div class="ttdeci">int pl</div><div class="ttdef"><b>Definition:</b> keyboard.h:12</div></div>
+<div class="ttc" id="structmov_html_ab75b523bb5d08140b699ac77768b90f6"><div class="ttname"><a href="structmov.html#ab75b523bb5d08140b699ac77768b90f6">mov::pu</a></div><div class="ttdeci">int pu</div><div class="ttdef"><b>Definition:</b> keyboard.h:10</div></div>
+<div class="ttc" id="pixmap_8h_html_ad26b4ce0442671c0471fdeab493ff397"><div class="ttname"><a href="pixmap_8h.html#ad26b4ce0442671c0471fdeab493ff397">p2</a></div><div class="ttdeci">static char * p2[]</div><div class="ttdef"><b>Definition:</b> pixmap.h:473</div></div>
+<div class="ttc" id="video_8c_html_ab36f1e43a3d76e1236e10d306004f1f3"><div class="ttname"><a href="video_8c.html#ab36f1e43a3d76e1236e10d306004f1f3">drawXPM</a></div><div class="ttdeci">void drawXPM(char *add, unsigned short x, unsigned short y, char *a, int width, int heigth)</div><div class="ttdoc">Funcao que desenha o xpm no ecra. </div><div class="ttdef"><b>Definition:</b> video.c:132</div></div>
+<div class="ttc" id="pixmap_8h_html_a3aeac812c5db8fec49a32916f9a77a6f"><div class="ttname"><a href="pixmap_8h.html#a3aeac812c5db8fec49a32916f9a77a6f">ball</a></div><div class="ttdeci">static char * ball[]</div><div class="ttdef"><b>Definition:</b> pixmap.h:371</div></div>
+<div class="ttc" id="structmov_html_ac59f6609114e0f688cfe45e811217ad0"><div class="ttname"><a href="structmov.html#ac59f6609114e0f688cfe45e811217ad0">mov::ps</a></div><div class="ttdeci">int ps</div><div class="ttdef"><b>Definition:</b> keyboard.h:14</div></div>
+<div class="ttc" id="read__xpm_8c_html_a05b2c5e4dbcaffa701703b50a2111783"><div class="ttname"><a href="read__xpm_8c.html#a05b2c5e4dbcaffa701703b50a2111783">read_xpm</a></div><div class="ttdeci">char * read_xpm(char *map[], int *wd, int *ht)</div><div class="ttdef"><b>Definition:</b> read_xpm.c:21</div></div>
+<div class="ttc" id="structmov_html_aff52e0513c9e8ea9ecc51efc15d2b63f"><div class="ttname"><a href="structmov.html#aff52e0513c9e8ea9ecc51efc15d2b63f">mov::pr</a></div><div class="ttdeci">int pr</div><div class="ttdef"><b>Definition:</b> keyboard.h:13</div></div>
+<div class="ttc" id="structmov_html"><div class="ttname"><a href="structmov.html">mov</a></div><div class="ttdoc">Estrutura que mediante o input do teclado vai definir o movimento do jogador. </div><div class="ttdef"><b>Definition:</b> keyboard.h:8</div></div>
+<div class="ttc" id="const_8h_html_aba0f0ffdb9743e7285f974ca70e6ffff"><div class="ttname"><a href="const_8h.html#aba0f0ffdb9743e7285f974ca70e6ffff">PSTARTPOSY</a></div><div class="ttdeci">#define PSTARTPOSY</div><div class="ttdef"><b>Definition:</b> const.h:138</div></div>
+<div class="ttc" id="video_8c_html_a9017b0659a0bc0c6611328d9d9f42e94"><div class="ttname"><a href="video_8c.html#a9017b0659a0bc0c6611328d9d9f42e94">displayScore</a></div><div class="ttdeci">void displayScore(char *add, int *pl1score, int *pl2score)</div><div class="ttdoc">Imprime o score do jogo no ecra. </div><div class="ttdef"><b>Definition:</b> video.c:353</div></div>
+<div class="ttc" id="mouse_8c_html_a8b8249c6ce158458f9c65993913c7bbd"><div class="ttname"><a href="mouse_8c.html#a8b8249c6ce158458f9c65993913c7bbd">readMouse</a></div><div class="ttdeci">void readMouse(mov *m, unsigned long *packet, int *byt)</div><div class="ttdoc">Funcao que altera a movimentacao do jogador mediante o movimento do rato. Esta funcao e usada quando ...</div><div class="ttdef"><b>Definition:</b> mouse.c:60</div></div>
+<div class="ttc" id="const_8h_html_a5b4ba4fa8533a4fe92156113df08f396"><div class="ttname"><a href="const_8h.html#a5b4ba4fa8533a4fe92156113df08f396">BSTARTPOSY</a></div><div class="ttdeci">#define BSTARTPOSY</div><div class="ttdef"><b>Definition:</b> const.h:140</div></div>
+<div class="ttc" id="structmov_html_af57c42ada61b0f6d85d521eda8713323"><div class="ttname"><a href="structmov.html#af57c42ada61b0f6d85d521eda8713323">mov::pd</a></div><div class="ttdeci">int pd</div><div class="ttdef"><b>Definition:</b> keyboard.h:11</div></div>
+<div class="ttc" id="const_8h_html_adeb446cc3f5cbeb9ee18a5ac37b19940"><div class="ttname"><a href="const_8h.html#adeb446cc3f5cbeb9ee18a5ac37b19940">P1STARTPOSX</a></div><div class="ttdeci">#define P1STARTPOSX</div><div class="ttdef"><b>Definition:</b> const.h:136</div></div>
+<div class="ttc" id="const_8h_html_af3dcfc8ae514e5db4930a6c60527f951"><div class="ttname"><a href="const_8h.html#af3dcfc8ae514e5db4930a6c60527f951">BSTARTPOSX</a></div><div class="ttdeci">#define BSTARTPOSX</div><div class="ttdef"><b>Definition:</b> const.h:139</div></div>
+<div class="ttc" id="const_8h_html_ad1832d5ae57dba178183c34e99d4bc6f"><div class="ttname"><a href="const_8h.html#ad1832d5ae57dba178183c34e99d4bc6f">P2STARTPOSX</a></div><div class="ttdeci">#define P2STARTPOSX</div><div class="ttdef"><b>Definition:</b> const.h:137</div></div>
+<div class="ttc" id="timer_8c_html_a291e73a2f4a9140f4d20bed57e96aa6f"><div class="ttname"><a href="timer_8c.html#a291e73a2f4a9140f4d20bed57e96aa6f">startTime</a></div><div class="ttdeci">void startTime(char *add, int min)</div><div class="ttdoc">Funcao que imprime no ecra o tempo pela primeira vez. </div><div class="ttdef"><b>Definition:</b> timer.c:23</div></div>
+<div class="ttc" id="pixmap_8h_html_af83761d92167fe610d46434aa63fab7b"><div class="ttname"><a href="pixmap_8h.html#af83761d92167fe610d46434aa63fab7b">p1</a></div><div class="ttdeci">static char * p1[]</div><div class="ttdef"><b>Definition:</b> pixmap.h:425</div></div>
+<div class="ttc" id="sprite_8c_html_a605fc554aaa4a7ddf248793976a3f8bc"><div class="ttname"><a href="sprite_8c.html#a605fc554aaa4a7ddf248793976a3f8bc">updateSpeed</a></div><div class="ttdeci">void updateSpeed(Sprite *sp1, Sprite *sp2, mov m1, mov m2)</div><div class="ttdoc">Funcao responsavel por actualizar as velocidades das sprites. </div><div class="ttdef"><b>Definition:</b> sprite.c:52</div></div>
+<div class="ttc" id="video_8c_html_a5c30cdd3eab0edd2734ab3871f7000c7"><div class="ttname"><a href="video_8c.html#a5c30cdd3eab0edd2734ab3871f7000c7">getBitsPerPixel</a></div><div class="ttdeci">unsigned getBitsPerPixel()</div><div class="ttdoc">Funcao que retorna a quantidade de bits por cada pixel. </div><div class="ttdef"><b>Definition:</b> video.c:76</div></div>
+<div class="ttc" id="sprite_8c_html_a3f7728feb84b250670d1ef33731ea7b4"><div class="ttname"><a href="sprite_8c.html#a3f7728feb84b250670d1ef33731ea7b4">create_sprite</a></div><div class="ttdeci">Sprite * create_sprite(char *pic[], char *bas, int px, int py)</div><div class="ttdoc">Funcao que inicializar o "objecto", lendo o xpm correspondente a sprite. </div><div class="ttdef"><b>Definition:</b> sprite.c:10</div></div>
+<div class="ttc" id="keyboard_8c_html_a7d9c87cc5bb4080cd24bb0223435d6d0"><div class="ttname"><a href="keyboard_8c.html#a7d9c87cc5bb4080cd24bb0223435d6d0">readKeyboardM</a></div><div class="ttdeci">void readKeyboardM(mov *m1)</div><div class="ttdoc">Funcao que mediante o input do teclado vai definir o m1 que representa a movimentacao do jogador 1 me...</div><div class="ttdef"><b>Definition:</b> keyboard.c:86</div></div>
+</div><!-- fragment -->
+<p><div class="dynheader">
+Grafo de chamadas desta função:</div>
+<div class="dyncontent">
+<div class="center"><img src="proj_8c_aebbb7a5fa40a19e1f662848b478eec53_cgraph.png" border="0" usemap="#proj_8c_aebbb7a5fa40a19e1f662848b478eec53_cgraph" alt=""/></div>
+<map name="proj_8c_aebbb7a5fa40a19e1f662848b478eec53_cgraph" id="proj_8c_aebbb7a5fa40a19e1f662848b478eec53_cgraph">
+<area shape="rect" id="node2" href="video_8c.html#aa55320d571dc2cb8179422a9d8114de0" title="Funcao que retorna a resolucao horizontal do ecra. " alt="" coords="139,5,211,32"/>
+<area shape="rect" id="node3" href="video_8c.html#a36218c155eade74951ce7ffd60711a9e" title="Funcao que retorna a resolucao vertical do ecra. " alt="" coords="139,56,211,83"/>
+<area shape="rect" id="node4" href="video_8c.html#a5c30cdd3eab0edd2734ab3871f7000c7" title="Funcao que retorna a quantidade de bits por cada pixel. " alt="" coords="119,107,231,133"/>
+<area shape="rect" id="node5" href="read__xpm_8c.html#a05b2c5e4dbcaffa701703b50a2111783" title="read_xpm" alt="" coords="595,259,673,285"/>
+<area shape="rect" id="node6" href="timer_8c.html#a291e73a2f4a9140f4d20bed57e96aa6f" title="Funcao que imprime no ecra o tempo pela primeira vez. " alt="" coords="299,309,375,336"/>
+<area shape="rect" id="node7" href="video_8c.html#ab36f1e43a3d76e1236e10d306004f1f3" title="Funcao que desenha o xpm no ecra. " alt="" coords="596,411,672,437"/>
+<area shape="rect" id="node10" href="video_8c.html#a9017b0659a0bc0c6611328d9d9f42e94" title="Imprime o score do jogo no ecra. " alt="" coords="445,461,543,488"/>
+<area shape="rect" id="node11" href="sprite_8c.html#a3f7728feb84b250670d1ef33731ea7b4" title="Funcao que inicializar o &quot;objecto&quot;, lendo o xpm correspondente a sprite. " alt="" coords="445,360,543,387"/>
+<area shape="rect" id="node12" href="keyboard_8c.html#a7d9c87cc5bb4080cd24bb0223435d6d0" title="Funcao que mediante o input do teclado vai definir o m1 que representa a movimentacao do jogador 1 me..." alt="" coords="119,588,232,615"/>
+<area shape="rect" id="node13" href="sprite_8c.html#a605fc554aaa4a7ddf248793976a3f8bc" title="Funcao responsavel por actualizar as velocidades das sprites. " alt="" coords="126,639,225,665"/>
+<area shape="rect" id="node14" href="mouse_8c.html#a8b8249c6ce158458f9c65993913c7bbd" title="Funcao que altera a movimentacao do jogador mediante o movimento do rato. Esta funcao e usada quando ..." alt="" coords="132,689,219,716"/>
+<area shape="rect" id="node16" href="sprite_8c.html#ab009384a9aeb421c51d2d13f85b7b319" title="Funcao responsavel por actualizar o frame a mostrar no ecra. " alt="" coords="126,537,225,564"/>
+<area shape="rect" id="node25" href="timer_8c.html#a237f6284703d25e34532e7f73b0eb209" title="Funcao que actualiza no ecra o tempo de jogo restante. " alt="" coords="293,259,382,285"/>
+<area shape="rect" id="node27" href="sprite_8c.html#af16c6befaac9ffb673b9e3c798d542ed" title="Funcao responsavel por destruir a sprite, libertando a memoria alocada para a sprite. " alt="" coords="123,740,227,767"/>
+<area shape="rect" id="node8" href="video_8c.html#a9a74d03fd11068ed1707d8267a7ad910" title="Imprime os minutos de jogo no ecra. " alt="" coords="452,309,536,336"/>
+<area shape="rect" id="node9" href="video_8c.html#a3546f839cb7d4e3d98328d7ca1e4bc6e" title="Funcao que apaga o xpm da memoria de video. " alt="" coords="593,309,675,336"/>
+<area shape="rect" id="node15" href="mouse_8h.html#a60d910b8ae18d85640f28eb2a8dd00f9" title="twoComplement" alt="" coords="280,867,395,893"/>
+<area shape="rect" id="node17" href="sprite_8c.html#ae7da390876c239f1bbdb3a57f96333c5" title="Funcao que verifica se existe colisao entre duas sprites. " alt="" coords="443,765,545,792"/>
+<area shape="rect" id="node18" href="sprite_8c.html#a2a5140e844ac8bf7f0dbdbb15cf08ff8" title="Funcao que altera a posicao das duas sprites consoante as suas velocidades. " alt="" coords="283,765,391,792"/>
+<area shape="rect" id="node19" href="sprite_8c.html#a48eef171979f7cc2cb2acefe405cd942" title="Funcao que efectua o tratamento das colisoes entre as sprites dos dois jogadores. ..." alt="" coords="284,715,391,741"/>
+<area shape="rect" id="node20" href="sprite_8c.html#aa058ce198ff0ced63ead3b1510914cb1" title="Funcao que movimenta a bola. " alt="" coords="300,563,375,589"/>
+<area shape="rect" id="node21" href="sprite_8c.html#a6ff45b3e88989483a4d4058635b47ae8" title="Funcao que actualiza a posicao e a velocidade da bola. " alt="" coords="296,816,379,843"/>
+<area shape="rect" id="node22" href="sprite_8c.html#a33ff853b6897c18e8c414d26fcce2c27" title="Funcao que mantem os jogadores a bola dentro dos limites de jogo e actualiza o numero de golos marcad..." alt="" coords="294,512,381,539"/>
+<area shape="rect" id="node24" href="sprite_8c.html#a74560924f6d0d263514ecdcd5dd7758d" title="Funcao que anima a bola. " alt="" coords="449,157,539,184"/>
+<area shape="rect" id="node23" href="sprite_8c.html#a9943321a7c59b1bf899a030f0cebcb3b" title="Funcao que reinicia as posicoes das sprites dos jogadores e da bola, pondo as velocidades das sprites..." alt="" coords="463,563,525,589"/>
+<area shape="rect" id="node26" href="video_8c.html#ac1b63a4a1ce54d502d4eece3005d91dc" title="Imprime os segundos de jogo no ecra. " alt="" coords="451,259,537,285"/>
+</map>
+</div>
+</p>
+
+<p><div class="dynheader">
+Este é o diagrama das funções que utilizam esta função:</div>
+<div class="dyncontent">
+<div class="center"><img src="proj_8c_aebbb7a5fa40a19e1f662848b478eec53_icgraph.png" border="0" usemap="#proj_8c_aebbb7a5fa40a19e1f662848b478eec53_icgraph" alt=""/></div>
+<map name="proj_8c_aebbb7a5fa40a19e1f662848b478eec53_icgraph" id="proj_8c_aebbb7a5fa40a19e1f662848b478eec53_icgraph">
+<area shape="rect" id="node2" href="proj_8c.html#aad96881d8e20c112ebe31f76842a27f9" title="Funcao que inicia um dos dois jogos mediante o modo escolhido. " alt="" coords="119,5,221,32"/>
+<area shape="rect" id="node3" href="proj_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="main" alt="" coords="269,5,320,32"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="ae66f6b31b5ad750f1fe042a706a4e3d4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int main </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;{</div>
+<div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;    sef_startup();</div>
+<div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;</div>
+<div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;    <span class="keywordtype">int</span> kbc_set = <a class="code" href="keyboard_8c.html#a0c7d6ebe1e1129b76e27ce54b19378f8">keyboard_subscribe</a>();</div>
+<div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;    <span class="keywordflow">if</span>(kbc_set == -1)</div>
+<div class="line"><a name="l00296"></a><span class="lineno">  296</span>&#160;        <span class="keywordflow">return</span> -1;</div>
+<div class="line"><a name="l00297"></a><span class="lineno">  297</span>&#160;</div>
+<div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;    <span class="keywordtype">int</span> timer_set = <a class="code" href="timer_8c.html#ae68b8752ab7cdb69c747634070cb0696">timer_subscribe</a>();</div>
+<div class="line"><a name="l00299"></a><span class="lineno">  299</span>&#160;    <span class="keywordflow">if</span>(timer_set == -1)</div>
+<div class="line"><a name="l00300"></a><span class="lineno">  300</span>&#160;        <span class="keywordflow">return</span> -1;</div>
+<div class="line"><a name="l00301"></a><span class="lineno">  301</span>&#160;</div>
+<div class="line"><a name="l00302"></a><span class="lineno">  302</span>&#160;    <span class="keywordtype">int</span> mouse_set = <a class="code" href="mouse_8c.html#a45667d65540f45bba6cd5f805e21a273">mouse_subscribe</a>();</div>
+<div class="line"><a name="l00303"></a><span class="lineno">  303</span>&#160;    <span class="keywordflow">if</span> (mouse_set == -1)</div>
+<div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160;        <span class="keywordflow">return</span> -1;</div>
+<div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160;</div>
+<div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="mouse_8c.html#a3f2e7846b89ac30b1227f4bb98165cf2">mouse_write_command</a>(<a class="code" href="const_8h.html#addcd204eb15a640ac18a8675c1f8366a">WRITEB</a>, <a class="code" href="const_8h.html#a210e589169f76e11c465669f282dbada">SSTRM</a>) == -1)</div>
+<div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;        <span class="keywordflow">return</span> -1;</div>
+<div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;</div>
+<div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;    <span class="keywordtype">int</span> rtc_set = <a class="code" href="rtc_8c.html#ad541628ec8bd836bbd3b2eefd316069b">rtc_subscribe</a>();</div>
+<div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;    <span class="keywordflow">if</span>(rtc_set == -1)</div>
+<div class="line"><a name="l00311"></a><span class="lineno">  311</span>&#160;        <span class="keywordflow">return</span> -1;</div>
+<div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160;</div>
+<div class="line"><a name="l00313"></a><span class="lineno">  313</span>&#160;    <span class="keywordtype">char</span>* add = (<span class="keywordtype">char</span> *)<a class="code" href="video_8c.html#acef21667c79365d57a084bed994c2189">vg_init</a>(0x105);</div>
+<div class="line"><a name="l00314"></a><span class="lineno">  314</span>&#160;    <span class="keywordflow">if</span>(add == NULL)</div>
+<div class="line"><a name="l00315"></a><span class="lineno">  315</span>&#160;        <span class="keywordflow">return</span> -1;</div>
+<div class="line"><a name="l00316"></a><span class="lineno">  316</span>&#160;</div>
+<div class="line"><a name="l00317"></a><span class="lineno">  317</span>&#160;    <span class="keywordtype">int</span> msw, msh;</div>
+<div class="line"><a name="l00318"></a><span class="lineno">  318</span>&#160;    <span class="keywordtype">char</span>* mensel = <a class="code" href="read__xpm_8c.html#a05b2c5e4dbcaffa701703b50a2111783">read_xpm</a>(<a class="code" href="menu-selection_8h.html#ac8df8ee8c2bd4315a4424ea6b5cc35c2">menu_selection</a>, &amp;msw, &amp;msh);</div>
+<div class="line"><a name="l00319"></a><span class="lineno">  319</span>&#160;</div>
+<div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160;</div>
+<div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160;    <span class="keywordtype">int</span> mensely = <a class="code" href="const_8h.html#aefbbf4f7f75378acd25cc7d2f2b66c4f">MENSELY</a>;</div>
+<div class="line"><a name="l00322"></a><span class="lineno">  322</span>&#160;    <span class="keywordtype">int</span> ent = 0;</div>
+<div class="line"><a name="l00323"></a><span class="lineno">  323</span>&#160;    <span class="keywordtype">int</span> rl = 0;</div>
+<div class="line"><a name="l00324"></a><span class="lineno">  324</span>&#160;</div>
+<div class="line"><a name="l00325"></a><span class="lineno">  325</span>&#160;    <span class="keywordtype">int</span> exit = 0;</div>
+<div class="line"><a name="l00326"></a><span class="lineno">  326</span>&#160;    <span class="keywordtype">int</span> n = 0;</div>
+<div class="line"><a name="l00327"></a><span class="lineno">  327</span>&#160;    <span class="keywordtype">int</span> sec = 0;</div>
+<div class="line"><a name="l00328"></a><span class="lineno">  328</span>&#160;</div>
+<div class="line"><a name="l00329"></a><span class="lineno">  329</span>&#160;    <a class="code" href="struct_date.html">Date</a> d;</div>
+<div class="line"><a name="l00330"></a><span class="lineno">  330</span>&#160;    <a class="code" href="rtc_8c.html#a5bc627c1610d9b2e3fb76ae88a9a6987">getDate</a>(&amp;d);</div>
+<div class="line"><a name="l00331"></a><span class="lineno">  331</span>&#160;    <a class="code" href="rtc_8c.html#a486f22824bd83c5308a0d70ffac6f758">enable</a>();</div>
+<div class="line"><a name="l00332"></a><span class="lineno">  332</span>&#160;</div>
+<div class="line"><a name="l00333"></a><span class="lineno">  333</span>&#160;    <span class="keywordtype">int</span> mx = <a class="code" href="video_8c.html#aa55320d571dc2cb8179422a9d8114de0">getHRes</a>()/2;</div>
+<div class="line"><a name="l00334"></a><span class="lineno">  334</span>&#160;    <span class="keywordtype">int</span> my = <a class="code" href="video_8c.html#a36218c155eade74951ce7ffd60711a9e">getVRes</a>()/2;</div>
+<div class="line"><a name="l00335"></a><span class="lineno">  335</span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">long</span> mousePacket[3];</div>
+<div class="line"><a name="l00336"></a><span class="lineno">  336</span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> byt = 0;</div>
+<div class="line"><a name="l00337"></a><span class="lineno">  337</span>&#160;    <span class="keywordtype">int</span> lb;</div>
+<div class="line"><a name="l00338"></a><span class="lineno">  338</span>&#160;</div>
+<div class="line"><a name="l00339"></a><span class="lineno">  339</span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> fsize = <a class="code" href="video_8c.html#aa55320d571dc2cb8179422a9d8114de0">getHRes</a>() * <a class="code" href="video_8c.html#a36218c155eade74951ce7ffd60711a9e">getVRes</a>() * <a class="code" href="video_8c.html#a5c30cdd3eab0edd2734ab3871f7000c7">getBitsPerPixel</a>()/8;</div>
+<div class="line"><a name="l00340"></a><span class="lineno">  340</span>&#160;    <span class="keywordtype">char</span>* frame = malloc(fsize);</div>
+<div class="line"><a name="l00341"></a><span class="lineno">  341</span>&#160;</div>
+<div class="line"><a name="l00342"></a><span class="lineno">  342</span>&#160;    <span class="keywordtype">int</span> bkgw, bkgh;</div>
+<div class="line"><a name="l00343"></a><span class="lineno">  343</span>&#160;    <span class="keywordtype">char</span>* mtxt = <a class="code" href="read__xpm_8c.html#a05b2c5e4dbcaffa701703b50a2111783">read_xpm</a>(<a class="code" href="mtxt_8h.html#ac09bcd07c4e36686b0e90853cdf013f4">menutext</a>, &amp;bkgw, &amp;bkgh);</div>
+<div class="line"><a name="l00344"></a><span class="lineno">  344</span>&#160;</div>
+<div class="line"><a name="l00345"></a><span class="lineno">  345</span>&#160;    <span class="keywordtype">int</span> tlimw, tlimh;</div>
+<div class="line"><a name="l00346"></a><span class="lineno">  346</span>&#160;    <span class="keywordtype">char</span>* tlim = <a class="code" href="read__xpm_8c.html#a05b2c5e4dbcaffa701703b50a2111783">read_xpm</a>(<a class="code" href="minute-limit_8h.html#a93326b9a9883c9e9b5c2f023a68e6f8e">threemins</a>, &amp;tlimw, &amp;tlimh);</div>
+<div class="line"><a name="l00347"></a><span class="lineno">  347</span>&#160;    <span class="keywordtype">int</span> time = 3;</div>
+<div class="line"><a name="l00348"></a><span class="lineno">  348</span>&#160;</div>
+<div class="line"><a name="l00349"></a><span class="lineno">  349</span>&#160;    <span class="keywordtype">int</span> glimw, glimh;</div>
+<div class="line"><a name="l00350"></a><span class="lineno">  350</span>&#160;    <span class="keywordtype">char</span>* glim = <a class="code" href="read__xpm_8c.html#a05b2c5e4dbcaffa701703b50a2111783">read_xpm</a>(<a class="code" href="goal-limit_8h.html#a1ac4be968074ec7a355738249664d23a">threegoals</a>, &amp;glimw, &amp;glimh);</div>
+<div class="line"><a name="l00351"></a><span class="lineno">  351</span>&#160;    <span class="keywordtype">int</span> goals = 3;</div>
+<div class="line"><a name="l00352"></a><span class="lineno">  352</span>&#160;</div>
+<div class="line"><a name="l00353"></a><span class="lineno">  353</span>&#160;    <span class="keywordtype">int</span> mlimw, mlimh;</div>
+<div class="line"><a name="l00354"></a><span class="lineno">  354</span>&#160;    <span class="keywordtype">char</span>* md = <a class="code" href="read__xpm_8c.html#a05b2c5e4dbcaffa701703b50a2111783">read_xpm</a>(<a class="code" href="mode_8h.html#abccee27db6de682c8514b0c83f50afc4">keybrd</a>, &amp;mlimw, &amp;mlimh);</div>
+<div class="line"><a name="l00355"></a><span class="lineno">  355</span>&#160;    <span class="keywordtype">int</span> mode = 0;</div>
+<div class="line"><a name="l00356"></a><span class="lineno">  356</span>&#160;</div>
+<div class="line"><a name="l00357"></a><span class="lineno">  357</span>&#160;    <span class="keywordtype">int</span> rw, rh;</div>
+<div class="line"><a name="l00358"></a><span class="lineno">  358</span>&#160;    <span class="keywordtype">char</span>* lr = <a class="code" href="read__xpm_8c.html#a05b2c5e4dbcaffa701703b50a2111783">read_xpm</a>(<a class="code" href="mode_8h.html#ae91384fbab2f5db4408ad5f61915abe4">lrow</a>, &amp;rw, &amp;rh);</div>
+<div class="line"><a name="l00359"></a><span class="lineno">  359</span>&#160;    <span class="keywordtype">char</span>* rr = <a class="code" href="read__xpm_8c.html#a05b2c5e4dbcaffa701703b50a2111783">read_xpm</a>(<a class="code" href="mode_8h.html#a227651276278ae21c6a30dfcf6d79f22">rrow</a>, &amp;rw, &amp;rh);</div>
+<div class="line"><a name="l00360"></a><span class="lineno">  360</span>&#160;</div>
+<div class="line"><a name="l00361"></a><span class="lineno">  361</span>&#160;    <span class="keywordtype">int</span> mw, mh;</div>
+<div class="line"><a name="l00362"></a><span class="lineno">  362</span>&#160;    <span class="keywordtype">char</span>* mMouse = <a class="code" href="read__xpm_8c.html#a05b2c5e4dbcaffa701703b50a2111783">read_xpm</a>(<a class="code" href="pixmap_8h.html#abe0e301afde4b3874b9f527e216ed2e1">mouse</a>, &amp;mw, &amp;mh);</div>
+<div class="line"><a name="l00363"></a><span class="lineno">  363</span>&#160;</div>
+<div class="line"><a name="l00364"></a><span class="lineno">  364</span>&#160;    <a class="code" href="proj_8c.html#a63775c0553a6f57aca7b67f7be477b75">MenuOptions</a> current = <a class="code" href="proj_8c.html#a63775c0553a6f57aca7b67f7be477b75a0352906d1ea1dfcd663c918f3a86755b">PLAY</a>;</div>
+<div class="line"><a name="l00365"></a><span class="lineno">  365</span>&#160;</div>
+<div class="line"><a name="l00366"></a><span class="lineno">  366</span>&#160;</div>
+<div class="line"><a name="l00367"></a><span class="lineno">  367</span>&#160;    <span class="keywordflow">while</span> (exit != 1)</div>
+<div class="line"><a name="l00368"></a><span class="lineno">  368</span>&#160;    {</div>
+<div class="line"><a name="l00369"></a><span class="lineno">  369</span>&#160;        <span class="keywordtype">int</span> ipc_status;</div>
+<div class="line"><a name="l00370"></a><span class="lineno">  370</span>&#160;        message msg;</div>
+<div class="line"><a name="l00371"></a><span class="lineno">  371</span>&#160;        <span class="keywordtype">int</span> r;</div>
+<div class="line"><a name="l00372"></a><span class="lineno">  372</span>&#160;        <span class="keywordflow">if</span> ((r = driver_receive(ANY, &amp;msg, &amp;ipc_status)) != 0 )</div>
+<div class="line"><a name="l00373"></a><span class="lineno">  373</span>&#160;        {</div>
+<div class="line"><a name="l00374"></a><span class="lineno">  374</span>&#160;            printf(<span class="stringliteral">&quot;driver_receive failed with: %d&quot;</span>, r);</div>
+<div class="line"><a name="l00375"></a><span class="lineno">  375</span>&#160;            <span class="keywordflow">continue</span>;</div>
+<div class="line"><a name="l00376"></a><span class="lineno">  376</span>&#160;        }</div>
+<div class="line"><a name="l00377"></a><span class="lineno">  377</span>&#160;        <span class="keywordflow">if</span> (is_ipc_notify(ipc_status))</div>
+<div class="line"><a name="l00378"></a><span class="lineno">  378</span>&#160;        { <span class="comment">// received notification</span></div>
+<div class="line"><a name="l00379"></a><span class="lineno">  379</span>&#160;            <span class="keywordflow">switch</span> (_ENDPOINT_P(msg.m_source))</div>
+<div class="line"><a name="l00380"></a><span class="lineno">  380</span>&#160;            {</div>
+<div class="line"><a name="l00381"></a><span class="lineno">  381</span>&#160;            <span class="keywordflow">case</span> HARDWARE: <span class="comment">// hardware interrupt notification</span></div>
+<div class="line"><a name="l00382"></a><span class="lineno">  382</span>&#160;                <span class="keywordflow">if</span> ((msg.NOTIFY_ARG &amp; kbc_set))</div>
+<div class="line"><a name="l00383"></a><span class="lineno">  383</span>&#160;                    <span class="comment">// subscribed interrupt</span></div>
+<div class="line"><a name="l00384"></a><span class="lineno">  384</span>&#160;                {</div>
+<div class="line"><a name="l00385"></a><span class="lineno">  385</span>&#160;                    <a class="code" href="keyboard_8c.html#a1013ba5b068ff02e34eb999e27a0e8b8">scrollMenu</a>(&amp;mensely, &amp;ent, &amp;rl);</div>
+<div class="line"><a name="l00386"></a><span class="lineno">  386</span>&#160;                    <a class="code" href="proj_8c.html#ade82443ceede71076503da50a0677398">updateOption</a>(&amp;current, mensely);</div>
+<div class="line"><a name="l00387"></a><span class="lineno">  387</span>&#160;                    <span class="keywordflow">if</span>(current == <a class="code" href="proj_8c.html#a63775c0553a6f57aca7b67f7be477b75a0352906d1ea1dfcd663c918f3a86755b">PLAY</a> &amp;&amp; ent == 1)</div>
+<div class="line"><a name="l00388"></a><span class="lineno">  388</span>&#160;                        <a class="code" href="proj_8c.html#aad96881d8e20c112ebe31f76842a27f9">modeSelector</a>(mode, kbc_set, timer_set, mouse_set, add, time, goals);</div>
+<div class="line"><a name="l00389"></a><span class="lineno">  389</span>&#160;                    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (current == <a class="code" href="proj_8c.html#a63775c0553a6f57aca7b67f7be477b75a5889a64b6298bb7cd5c91b96782ab11e">TIMEL</a> &amp;&amp; rl != 0)</div>
+<div class="line"><a name="l00390"></a><span class="lineno">  390</span>&#160;                    {</div>
+<div class="line"><a name="l00391"></a><span class="lineno">  391</span>&#160;                        <a class="code" href="proj_8c.html#ae7d43579456e83856339f2422849028c">changeTime</a>(rl, &amp;time);</div>
+<div class="line"><a name="l00392"></a><span class="lineno">  392</span>&#160;                        <span class="keywordflow">if</span>(time == 2)</div>
+<div class="line"><a name="l00393"></a><span class="lineno">  393</span>&#160;                            tlim = <a class="code" href="read__xpm_8c.html#a05b2c5e4dbcaffa701703b50a2111783">read_xpm</a>(<a class="code" href="minute-limit_8h.html#af5ed1fc0c0158dbd5644eacc25987c5b">twomins</a>, &amp;tlimw, &amp;tlimh);</div>
+<div class="line"><a name="l00394"></a><span class="lineno">  394</span>&#160;                        <span class="keywordflow">else</span> <span class="keywordflow">if</span> (time == 3)</div>
+<div class="line"><a name="l00395"></a><span class="lineno">  395</span>&#160;                            tlim = <a class="code" href="read__xpm_8c.html#a05b2c5e4dbcaffa701703b50a2111783">read_xpm</a>(<a class="code" href="minute-limit_8h.html#a93326b9a9883c9e9b5c2f023a68e6f8e">threemins</a>, &amp;tlimw, &amp;tlimh);</div>
+<div class="line"><a name="l00396"></a><span class="lineno">  396</span>&#160;                        <span class="keywordflow">else</span> <span class="keywordflow">if</span> (time == 4)</div>
+<div class="line"><a name="l00397"></a><span class="lineno">  397</span>&#160;                            tlim = <a class="code" href="read__xpm_8c.html#a05b2c5e4dbcaffa701703b50a2111783">read_xpm</a>(<a class="code" href="minute-limit_8h.html#a1d71cb66d461267f82da18ca468e4e2d">fourmins</a>, &amp;tlimw, &amp;tlimh);</div>
+<div class="line"><a name="l00398"></a><span class="lineno">  398</span>&#160;                        <span class="keywordflow">else</span> <span class="keywordflow">if</span> (time == 5)</div>
+<div class="line"><a name="l00399"></a><span class="lineno">  399</span>&#160;                            tlim = <a class="code" href="read__xpm_8c.html#a05b2c5e4dbcaffa701703b50a2111783">read_xpm</a>(<a class="code" href="minute-limit_8h.html#a91e6a8b24046467a91d3de4f77c394b4">fivemins</a>, &amp;tlimw, &amp;tlimh);</div>
+<div class="line"><a name="l00400"></a><span class="lineno">  400</span>&#160;                        rl = 0;</div>
+<div class="line"><a name="l00401"></a><span class="lineno">  401</span>&#160;                    }</div>
+<div class="line"><a name="l00402"></a><span class="lineno">  402</span>&#160;                    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (current == <a class="code" href="proj_8c.html#a63775c0553a6f57aca7b67f7be477b75acc2a643e91e2cd7b89f5c9eef5d9b015">GOALL</a> &amp;&amp; rl != 0)</div>
+<div class="line"><a name="l00403"></a><span class="lineno">  403</span>&#160;                    {</div>
+<div class="line"><a name="l00404"></a><span class="lineno">  404</span>&#160;                        <a class="code" href="proj_8c.html#ac7770d968c65ecaee6c8c77a0114d2eb">changeGoals</a>(rl, &amp;goals);</div>
+<div class="line"><a name="l00405"></a><span class="lineno">  405</span>&#160;                        <span class="keywordflow">if</span>(goals == 3)</div>
+<div class="line"><a name="l00406"></a><span class="lineno">  406</span>&#160;                            glim = <a class="code" href="read__xpm_8c.html#a05b2c5e4dbcaffa701703b50a2111783">read_xpm</a>(<a class="code" href="goal-limit_8h.html#a1ac4be968074ec7a355738249664d23a">threegoals</a>, &amp;glimw, &amp;glimh);</div>
+<div class="line"><a name="l00407"></a><span class="lineno">  407</span>&#160;                        <span class="keywordflow">else</span> <span class="keywordflow">if</span> (goals == 4)</div>
+<div class="line"><a name="l00408"></a><span class="lineno">  408</span>&#160;                            glim = <a class="code" href="read__xpm_8c.html#a05b2c5e4dbcaffa701703b50a2111783">read_xpm</a>(<a class="code" href="goal-limit_8h.html#afe7bf7cb09da8343147e7a955648658a">fourgoals</a>, &amp;glimw, &amp;glimh);</div>
+<div class="line"><a name="l00409"></a><span class="lineno">  409</span>&#160;                        <span class="keywordflow">else</span> <span class="keywordflow">if</span> (goals == 5)</div>
+<div class="line"><a name="l00410"></a><span class="lineno">  410</span>&#160;                            glim = <a class="code" href="read__xpm_8c.html#a05b2c5e4dbcaffa701703b50a2111783">read_xpm</a>(<a class="code" href="goal-limit_8h.html#a5cd0ba72d84676e941cfcfe5d467fccb">fivegoals</a>, &amp;glimw, &amp;glimh);</div>
+<div class="line"><a name="l00411"></a><span class="lineno">  411</span>&#160;                        <span class="keywordflow">else</span> <span class="keywordflow">if</span> (goals == 6)</div>
+<div class="line"><a name="l00412"></a><span class="lineno">  412</span>&#160;                            glim = <a class="code" href="read__xpm_8c.html#a05b2c5e4dbcaffa701703b50a2111783">read_xpm</a>(<a class="code" href="mode_8h.html#a25e206330aee1b78f0fe32cd8d9b05b9">no_limit</a>, &amp;glimw, &amp;glimh);</div>
+<div class="line"><a name="l00413"></a><span class="lineno">  413</span>&#160;                        rl = 0;</div>
+<div class="line"><a name="l00414"></a><span class="lineno">  414</span>&#160;                    }</div>
+<div class="line"><a name="l00415"></a><span class="lineno">  415</span>&#160;                    <span class="keywordflow">else</span> <span class="keywordflow">if</span>(current == <a class="code" href="proj_8c.html#a63775c0553a6f57aca7b67f7be477b75a865d4bfdc2dd5f698e4558474765cba8">MODE</a> &amp;&amp; rl != 0)</div>
+<div class="line"><a name="l00416"></a><span class="lineno">  416</span>&#160;                    {</div>
+<div class="line"><a name="l00417"></a><span class="lineno">  417</span>&#160;                        <a class="code" href="proj_8c.html#ae2cdaf20d565b3090b8a6282ef2e35b6">changeMode</a>(rl, &amp;mode);</div>
+<div class="line"><a name="l00418"></a><span class="lineno">  418</span>&#160;                        <span class="keywordflow">if</span>(mode == 0)</div>
+<div class="line"><a name="l00419"></a><span class="lineno">  419</span>&#160;                            md = <a class="code" href="read__xpm_8c.html#a05b2c5e4dbcaffa701703b50a2111783">read_xpm</a>(<a class="code" href="mode_8h.html#abccee27db6de682c8514b0c83f50afc4">keybrd</a>, &amp;mlimw, &amp;mlimh);</div>
+<div class="line"><a name="l00420"></a><span class="lineno">  420</span>&#160;                        <span class="keywordflow">else</span> <span class="keywordflow">if</span> (mode == 1)</div>
+<div class="line"><a name="l00421"></a><span class="lineno">  421</span>&#160;                            md = <a class="code" href="read__xpm_8c.html#a05b2c5e4dbcaffa701703b50a2111783">read_xpm</a>(<a class="code" href="mode_8h.html#ac8d1cf65f69aa1a86ef76171f6d2a2b7">kbdmouse</a>, &amp;mlimw, &amp;mlimh);</div>
+<div class="line"><a name="l00422"></a><span class="lineno">  422</span>&#160;                        rl = 0;</div>
+<div class="line"><a name="l00423"></a><span class="lineno">  423</span>&#160;                    }</div>
+<div class="line"><a name="l00424"></a><span class="lineno">  424</span>&#160;                    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (current == <a class="code" href="proj_8c.html#a63775c0553a6f57aca7b67f7be477b75a81ee9ebe7f7566a2ccfce0361c85bc56">EXITG</a> &amp;&amp; ent == 1)</div>
+<div class="line"><a name="l00425"></a><span class="lineno">  425</span>&#160;                        exit = 1;</div>
+<div class="line"><a name="l00426"></a><span class="lineno">  426</span>&#160;                }</div>
+<div class="line"><a name="l00427"></a><span class="lineno">  427</span>&#160;                <span class="keywordflow">if</span> (msg.NOTIFY_ARG &amp; mouse_set)</div>
+<div class="line"><a name="l00428"></a><span class="lineno">  428</span>&#160;                {</div>
+<div class="line"><a name="l00429"></a><span class="lineno">  429</span>&#160;                    <a class="code" href="mouse_8c.html#a0eea5631027c6579399ae603628fcda2">mouseCursor</a>(&amp;byt, mousePacket, &amp;mx, &amp;my, &amp;lb);</div>
+<div class="line"><a name="l00430"></a><span class="lineno">  430</span>&#160;                    <span class="keywordflow">if</span>(byt == 2)</div>
+<div class="line"><a name="l00431"></a><span class="lineno">  431</span>&#160;                    {</div>
+<div class="line"><a name="l00432"></a><span class="lineno">  432</span>&#160;                        byt = 0;</div>
+<div class="line"><a name="l00433"></a><span class="lineno">  433</span>&#160;                        <a class="code" href="proj_8c.html#a15b7f5f6ef5495d96a5a61915ab2b8e3">updateMouseSel</a>(&amp;current, mx, my, &amp;mensely, lb, &amp;rl);</div>
+<div class="line"><a name="l00434"></a><span class="lineno">  434</span>&#160;                    }</div>
+<div class="line"><a name="l00435"></a><span class="lineno">  435</span>&#160;                    <span class="keywordflow">if</span>(current == <a class="code" href="proj_8c.html#a63775c0553a6f57aca7b67f7be477b75a0352906d1ea1dfcd663c918f3a86755b">PLAY</a> &amp;&amp; lb == 1)</div>
+<div class="line"><a name="l00436"></a><span class="lineno">  436</span>&#160;                        <a class="code" href="proj_8c.html#aad96881d8e20c112ebe31f76842a27f9">modeSelector</a>(mode, kbc_set, timer_set, mouse_set, add, time, goals);</div>
+<div class="line"><a name="l00437"></a><span class="lineno">  437</span>&#160;                    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (current == <a class="code" href="proj_8c.html#a63775c0553a6f57aca7b67f7be477b75a5889a64b6298bb7cd5c91b96782ab11e">TIMEL</a> &amp;&amp; rl != 0)</div>
+<div class="line"><a name="l00438"></a><span class="lineno">  438</span>&#160;                    {</div>
+<div class="line"><a name="l00439"></a><span class="lineno">  439</span>&#160;                        <a class="code" href="proj_8c.html#ae7d43579456e83856339f2422849028c">changeTime</a>(rl, &amp;time);</div>
+<div class="line"><a name="l00440"></a><span class="lineno">  440</span>&#160;                        <span class="keywordflow">if</span>(time == 2)</div>
+<div class="line"><a name="l00441"></a><span class="lineno">  441</span>&#160;                            tlim = <a class="code" href="read__xpm_8c.html#a05b2c5e4dbcaffa701703b50a2111783">read_xpm</a>(<a class="code" href="minute-limit_8h.html#af5ed1fc0c0158dbd5644eacc25987c5b">twomins</a>, &amp;tlimw, &amp;tlimh);</div>
+<div class="line"><a name="l00442"></a><span class="lineno">  442</span>&#160;                        <span class="keywordflow">else</span> <span class="keywordflow">if</span> (time == 3)</div>
+<div class="line"><a name="l00443"></a><span class="lineno">  443</span>&#160;                            tlim = <a class="code" href="read__xpm_8c.html#a05b2c5e4dbcaffa701703b50a2111783">read_xpm</a>(<a class="code" href="minute-limit_8h.html#a93326b9a9883c9e9b5c2f023a68e6f8e">threemins</a>, &amp;tlimw, &amp;tlimh);</div>
+<div class="line"><a name="l00444"></a><span class="lineno">  444</span>&#160;                        <span class="keywordflow">else</span> <span class="keywordflow">if</span> (time == 4)</div>
+<div class="line"><a name="l00445"></a><span class="lineno">  445</span>&#160;                            tlim = <a class="code" href="read__xpm_8c.html#a05b2c5e4dbcaffa701703b50a2111783">read_xpm</a>(<a class="code" href="minute-limit_8h.html#a1d71cb66d461267f82da18ca468e4e2d">fourmins</a>, &amp;tlimw, &amp;tlimh);</div>
+<div class="line"><a name="l00446"></a><span class="lineno">  446</span>&#160;                        <span class="keywordflow">else</span> <span class="keywordflow">if</span> (time == 5)</div>
+<div class="line"><a name="l00447"></a><span class="lineno">  447</span>&#160;                            tlim = <a class="code" href="read__xpm_8c.html#a05b2c5e4dbcaffa701703b50a2111783">read_xpm</a>(<a class="code" href="minute-limit_8h.html#a91e6a8b24046467a91d3de4f77c394b4">fivemins</a>, &amp;tlimw, &amp;tlimh);</div>
+<div class="line"><a name="l00448"></a><span class="lineno">  448</span>&#160;                        rl = 0;</div>
+<div class="line"><a name="l00449"></a><span class="lineno">  449</span>&#160;                    }</div>
+<div class="line"><a name="l00450"></a><span class="lineno">  450</span>&#160;                    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (current == <a class="code" href="proj_8c.html#a63775c0553a6f57aca7b67f7be477b75acc2a643e91e2cd7b89f5c9eef5d9b015">GOALL</a> &amp;&amp; rl != 0)</div>
+<div class="line"><a name="l00451"></a><span class="lineno">  451</span>&#160;                    {</div>
+<div class="line"><a name="l00452"></a><span class="lineno">  452</span>&#160;                        <a class="code" href="proj_8c.html#ac7770d968c65ecaee6c8c77a0114d2eb">changeGoals</a>(rl, &amp;goals);</div>
+<div class="line"><a name="l00453"></a><span class="lineno">  453</span>&#160;                        <span class="keywordflow">if</span>(goals == 3)</div>
+<div class="line"><a name="l00454"></a><span class="lineno">  454</span>&#160;                            glim = <a class="code" href="read__xpm_8c.html#a05b2c5e4dbcaffa701703b50a2111783">read_xpm</a>(<a class="code" href="goal-limit_8h.html#a1ac4be968074ec7a355738249664d23a">threegoals</a>, &amp;glimw, &amp;glimh);</div>
+<div class="line"><a name="l00455"></a><span class="lineno">  455</span>&#160;                        <span class="keywordflow">else</span> <span class="keywordflow">if</span> (goals == 4)</div>
+<div class="line"><a name="l00456"></a><span class="lineno">  456</span>&#160;                            glim = <a class="code" href="read__xpm_8c.html#a05b2c5e4dbcaffa701703b50a2111783">read_xpm</a>(<a class="code" href="goal-limit_8h.html#afe7bf7cb09da8343147e7a955648658a">fourgoals</a>, &amp;glimw, &amp;glimh);</div>
+<div class="line"><a name="l00457"></a><span class="lineno">  457</span>&#160;                        <span class="keywordflow">else</span> <span class="keywordflow">if</span> (goals == 5)</div>
+<div class="line"><a name="l00458"></a><span class="lineno">  458</span>&#160;                            glim = <a class="code" href="read__xpm_8c.html#a05b2c5e4dbcaffa701703b50a2111783">read_xpm</a>(<a class="code" href="goal-limit_8h.html#a5cd0ba72d84676e941cfcfe5d467fccb">fivegoals</a>, &amp;glimw, &amp;glimh);</div>
+<div class="line"><a name="l00459"></a><span class="lineno">  459</span>&#160;                        <span class="keywordflow">else</span> <span class="keywordflow">if</span> (goals == 6)</div>
+<div class="line"><a name="l00460"></a><span class="lineno">  460</span>&#160;                            glim = <a class="code" href="read__xpm_8c.html#a05b2c5e4dbcaffa701703b50a2111783">read_xpm</a>(<a class="code" href="mode_8h.html#a25e206330aee1b78f0fe32cd8d9b05b9">no_limit</a>, &amp;glimw, &amp;glimh);</div>
+<div class="line"><a name="l00461"></a><span class="lineno">  461</span>&#160;                        rl = 0;</div>
+<div class="line"><a name="l00462"></a><span class="lineno">  462</span>&#160;                    }</div>
+<div class="line"><a name="l00463"></a><span class="lineno">  463</span>&#160;                    <span class="keywordflow">else</span> <span class="keywordflow">if</span>(current == <a class="code" href="proj_8c.html#a63775c0553a6f57aca7b67f7be477b75a865d4bfdc2dd5f698e4558474765cba8">MODE</a> &amp;&amp; rl != 0)</div>
+<div class="line"><a name="l00464"></a><span class="lineno">  464</span>&#160;                    {</div>
+<div class="line"><a name="l00465"></a><span class="lineno">  465</span>&#160;                        <a class="code" href="proj_8c.html#ae2cdaf20d565b3090b8a6282ef2e35b6">changeMode</a>(rl, &amp;mode);</div>
+<div class="line"><a name="l00466"></a><span class="lineno">  466</span>&#160;                        <span class="keywordflow">if</span>(mode == 0)</div>
+<div class="line"><a name="l00467"></a><span class="lineno">  467</span>&#160;                            md = <a class="code" href="read__xpm_8c.html#a05b2c5e4dbcaffa701703b50a2111783">read_xpm</a>(<a class="code" href="mode_8h.html#abccee27db6de682c8514b0c83f50afc4">keybrd</a>, &amp;mlimw, &amp;mlimh);</div>
+<div class="line"><a name="l00468"></a><span class="lineno">  468</span>&#160;                        <span class="keywordflow">else</span> <span class="keywordflow">if</span> (mode == 1)</div>
+<div class="line"><a name="l00469"></a><span class="lineno">  469</span>&#160;                            md = <a class="code" href="read__xpm_8c.html#a05b2c5e4dbcaffa701703b50a2111783">read_xpm</a>(<a class="code" href="mode_8h.html#ac8d1cf65f69aa1a86ef76171f6d2a2b7">kbdmouse</a>, &amp;mlimw, &amp;mlimh);</div>
+<div class="line"><a name="l00470"></a><span class="lineno">  470</span>&#160;                        rl = 0;</div>
+<div class="line"><a name="l00471"></a><span class="lineno">  471</span>&#160;                    }</div>
+<div class="line"><a name="l00472"></a><span class="lineno">  472</span>&#160;                    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (current == <a class="code" href="proj_8c.html#a63775c0553a6f57aca7b67f7be477b75a81ee9ebe7f7566a2ccfce0361c85bc56">EXITG</a> &amp;&amp; lb == 1)</div>
+<div class="line"><a name="l00473"></a><span class="lineno">  473</span>&#160;                        exit = 1;</div>
+<div class="line"><a name="l00474"></a><span class="lineno">  474</span>&#160;                }</div>
+<div class="line"><a name="l00475"></a><span class="lineno">  475</span>&#160;                <span class="keywordflow">if</span> ((msg.NOTIFY_ARG &amp; rtc_set))</div>
+<div class="line"><a name="l00476"></a><span class="lineno">  476</span>&#160;                {</div>
+<div class="line"><a name="l00477"></a><span class="lineno">  477</span>&#160;                    <a class="code" href="rtc_8c.html#a5bc627c1610d9b2e3fb76ae88a9a6987">getDate</a>(&amp;d);</div>
+<div class="line"><a name="l00478"></a><span class="lineno">  478</span>&#160;                }</div>
+<div class="line"><a name="l00479"></a><span class="lineno">  479</span>&#160;                <span class="keywordflow">if</span> (msg.NOTIFY_ARG &amp; timer_set)</div>
+<div class="line"><a name="l00480"></a><span class="lineno">  480</span>&#160;                {</div>
+<div class="line"><a name="l00481"></a><span class="lineno">  481</span>&#160;                    memset(frame, 10, fsize); <span class="comment">// fills the background with green</span></div>
+<div class="line"><a name="l00482"></a><span class="lineno">  482</span>&#160;                    <a class="code" href="video_8c.html#ab36f1e43a3d76e1236e10d306004f1f3">drawXPM</a>(frame, 300, 100, mtxt, bkgw, bkgh); <span class="comment">// menu text</span></div>
+<div class="line"><a name="l00483"></a><span class="lineno">  483</span>&#160;                    <a class="code" href="video_8c.html#ab36f1e43a3d76e1236e10d306004f1f3">drawXPM</a>(frame, <a class="code" href="const_8h.html#a47f3690c75ac92dd2304ed29f990ab4b">GLX</a>, <a class="code" href="const_8h.html#a02129dc12f863c33e1f495f44a7e741d">GLY</a>, glim, glimw, glimh); <span class="comment">// goals limit text</span></div>
+<div class="line"><a name="l00484"></a><span class="lineno">  484</span>&#160;                    <a class="code" href="video_8c.html#ab36f1e43a3d76e1236e10d306004f1f3">drawXPM</a>(frame, <a class="code" href="const_8h.html#ab4fa14ac804e3a2133d3bb0f9dd3f31a">TLX</a>, <a class="code" href="const_8h.html#a11d43c3dded45eb3cc08f31cc09aa493">TLY</a>, tlim, tlimw, tlimh); <span class="comment">// time limit text</span></div>
+<div class="line"><a name="l00485"></a><span class="lineno">  485</span>&#160;                    <a class="code" href="video_8c.html#ab36f1e43a3d76e1236e10d306004f1f3">drawXPM</a>(frame, <a class="code" href="const_8h.html#ab6ce1f4b18f29507b2c5353425c5ca1d">MLX</a>, <a class="code" href="const_8h.html#ac87f5a19e48e063f25734a21a17bbb09">MLY</a>, md, mlimw, mlimh); <span class="comment">// game mode text</span></div>
+<div class="line"><a name="l00486"></a><span class="lineno">  486</span>&#160;                    <a class="code" href="video_8c.html#ab36f1e43a3d76e1236e10d306004f1f3">drawXPM</a>(frame, <a class="code" href="const_8h.html#ae64244a12c09cfe7eb73b9f29a414564">MENSELX</a>, mensely, mensel, msw, msh); <span class="comment">// box outside the selected option</span></div>
+<div class="line"><a name="l00487"></a><span class="lineno">  487</span>&#160;                    <a class="code" href="video_8c.html#a4c8fbcbca54f70001b78061e5a9a53d7">displayTime</a>(&amp;d, frame); <span class="comment">// displays the real time</span></div>
+<div class="line"><a name="l00488"></a><span class="lineno">  488</span>&#160;                    <span class="keywordflow">if</span>(current == <a class="code" href="proj_8c.html#a63775c0553a6f57aca7b67f7be477b75a5889a64b6298bb7cd5c91b96782ab11e">TIMEL</a>) <span class="comment">// arrows arround the selected box</span></div>
+<div class="line"><a name="l00489"></a><span class="lineno">  489</span>&#160;                    {</div>
+<div class="line"><a name="l00490"></a><span class="lineno">  490</span>&#160;                        <span class="keywordflow">if</span> (time &gt; 2)</div>
+<div class="line"><a name="l00491"></a><span class="lineno">  491</span>&#160;                            <a class="code" href="video_8c.html#ab36f1e43a3d76e1236e10d306004f1f3">drawXPM</a>(frame, <a class="code" href="const_8h.html#a143f09b9731005220e5143ad8cd9477c">LAX</a>, mensely + 15, lr, rw, rh);</div>
+<div class="line"><a name="l00492"></a><span class="lineno">  492</span>&#160;                        <span class="keywordflow">if</span> (time &lt; 5)</div>
+<div class="line"><a name="l00493"></a><span class="lineno">  493</span>&#160;                            <a class="code" href="video_8c.html#ab36f1e43a3d76e1236e10d306004f1f3">drawXPM</a>(frame, <a class="code" href="const_8h.html#a21538a757097d3cdbdffdfaf3cb5e570">RAX</a>, mensely + 15, rr, rw, rh);</div>
+<div class="line"><a name="l00494"></a><span class="lineno">  494</span>&#160;                    }</div>
+<div class="line"><a name="l00495"></a><span class="lineno">  495</span>&#160;</div>
+<div class="line"><a name="l00496"></a><span class="lineno">  496</span>&#160;                    <span class="keywordflow">if</span>(current == <a class="code" href="proj_8c.html#a63775c0553a6f57aca7b67f7be477b75acc2a643e91e2cd7b89f5c9eef5d9b015">GOALL</a>)</div>
+<div class="line"><a name="l00497"></a><span class="lineno">  497</span>&#160;                    {</div>
+<div class="line"><a name="l00498"></a><span class="lineno">  498</span>&#160;                        <span class="keywordflow">if</span> (goals &gt; 3)</div>
+<div class="line"><a name="l00499"></a><span class="lineno">  499</span>&#160;                            <a class="code" href="video_8c.html#ab36f1e43a3d76e1236e10d306004f1f3">drawXPM</a>(frame, <a class="code" href="const_8h.html#a143f09b9731005220e5143ad8cd9477c">LAX</a>, mensely + 15, lr, rw, rh);</div>
+<div class="line"><a name="l00500"></a><span class="lineno">  500</span>&#160;                        <span class="keywordflow">if</span> (goals &lt; 6)</div>
+<div class="line"><a name="l00501"></a><span class="lineno">  501</span>&#160;                            <a class="code" href="video_8c.html#ab36f1e43a3d76e1236e10d306004f1f3">drawXPM</a>(frame, <a class="code" href="const_8h.html#a21538a757097d3cdbdffdfaf3cb5e570">RAX</a>, mensely + 15, rr, rw, rh);</div>
+<div class="line"><a name="l00502"></a><span class="lineno">  502</span>&#160;                    }</div>
+<div class="line"><a name="l00503"></a><span class="lineno">  503</span>&#160;</div>
+<div class="line"><a name="l00504"></a><span class="lineno">  504</span>&#160;                    <span class="keywordflow">if</span>(current == <a class="code" href="proj_8c.html#a63775c0553a6f57aca7b67f7be477b75a865d4bfdc2dd5f698e4558474765cba8">MODE</a>)</div>
+<div class="line"><a name="l00505"></a><span class="lineno">  505</span>&#160;                    {</div>
+<div class="line"><a name="l00506"></a><span class="lineno">  506</span>&#160;                        <span class="keywordflow">if</span> (mode == 1)</div>
+<div class="line"><a name="l00507"></a><span class="lineno">  507</span>&#160;                            <a class="code" href="video_8c.html#ab36f1e43a3d76e1236e10d306004f1f3">drawXPM</a>(frame, <a class="code" href="const_8h.html#a143f09b9731005220e5143ad8cd9477c">LAX</a>, mensely + 15, lr, rw, rh);</div>
+<div class="line"><a name="l00508"></a><span class="lineno">  508</span>&#160;                        <span class="keywordflow">if</span> (mode == 0)</div>
+<div class="line"><a name="l00509"></a><span class="lineno">  509</span>&#160;                            <a class="code" href="video_8c.html#ab36f1e43a3d76e1236e10d306004f1f3">drawXPM</a>(frame, <a class="code" href="const_8h.html#a21538a757097d3cdbdffdfaf3cb5e570">RAX</a>, mensely + 15, rr, rw, rh);</div>
+<div class="line"><a name="l00510"></a><span class="lineno">  510</span>&#160;                    }</div>
+<div class="line"><a name="l00511"></a><span class="lineno">  511</span>&#160;                    <a class="code" href="video_8c.html#ab36f1e43a3d76e1236e10d306004f1f3">drawXPM</a>(frame, mx, my, mMouse, mw, mh); <span class="comment">// mouse cursor</span></div>
+<div class="line"><a name="l00512"></a><span class="lineno">  512</span>&#160;                    n++;</div>
+<div class="line"><a name="l00513"></a><span class="lineno">  513</span>&#160;                    <span class="keywordflow">if</span>(n == 60)</div>
+<div class="line"><a name="l00514"></a><span class="lineno">  514</span>&#160;                    {</div>
+<div class="line"><a name="l00515"></a><span class="lineno">  515</span>&#160;                        n = 0;</div>
+<div class="line"><a name="l00516"></a><span class="lineno">  516</span>&#160;                        sec++;</div>
+<div class="line"><a name="l00517"></a><span class="lineno">  517</span>&#160;                    }</div>
+<div class="line"><a name="l00518"></a><span class="lineno">  518</span>&#160;                    memcpy(add, frame, fsize);</div>
+<div class="line"><a name="l00519"></a><span class="lineno">  519</span>&#160;                }</div>
+<div class="line"><a name="l00520"></a><span class="lineno">  520</span>&#160;                <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00521"></a><span class="lineno">  521</span>&#160;            }</div>
+<div class="line"><a name="l00522"></a><span class="lineno">  522</span>&#160;        }</div>
+<div class="line"><a name="l00523"></a><span class="lineno">  523</span>&#160;    }</div>
+<div class="line"><a name="l00524"></a><span class="lineno">  524</span>&#160;</div>
+<div class="line"><a name="l00525"></a><span class="lineno">  525</span>&#160;    free(frame);</div>
+<div class="line"><a name="l00526"></a><span class="lineno">  526</span>&#160;    free(mensel);</div>
+<div class="line"><a name="l00527"></a><span class="lineno">  527</span>&#160;    free(mtxt);</div>
+<div class="line"><a name="l00528"></a><span class="lineno">  528</span>&#160;    free(tlim);</div>
+<div class="line"><a name="l00529"></a><span class="lineno">  529</span>&#160;    free(glim);</div>
+<div class="line"><a name="l00530"></a><span class="lineno">  530</span>&#160;    free(md);</div>
+<div class="line"><a name="l00531"></a><span class="lineno">  531</span>&#160;    free(lr);</div>
+<div class="line"><a name="l00532"></a><span class="lineno">  532</span>&#160;    free(rr);</div>
+<div class="line"><a name="l00533"></a><span class="lineno">  533</span>&#160;    free(mMouse);</div>
+<div class="line"><a name="l00534"></a><span class="lineno">  534</span>&#160;    <a class="code" href="rtc_8c.html#a8cfbbe53c1cf6e3054736daea3044c0f">disable</a>();</div>
+<div class="line"><a name="l00535"></a><span class="lineno">  535</span>&#160;</div>
+<div class="line"><a name="l00536"></a><span class="lineno">  536</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="video_8c.html#a9805b7e746b90143a74ad077d5d68223">vg_exit</a>() == 1)</div>
+<div class="line"><a name="l00537"></a><span class="lineno">  537</span>&#160;    {</div>
+<div class="line"><a name="l00538"></a><span class="lineno">  538</span>&#160;        printf(<span class="stringliteral">&quot;failure exiting video mode \n&quot;</span>);</div>
+<div class="line"><a name="l00539"></a><span class="lineno">  539</span>&#160;        <span class="keywordflow">return</span> -1;</div>
+<div class="line"><a name="l00540"></a><span class="lineno">  540</span>&#160;    }</div>
+<div class="line"><a name="l00541"></a><span class="lineno">  541</span>&#160;</div>
+<div class="line"><a name="l00542"></a><span class="lineno">  542</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="timer_8c.html#a10260b74f313089215e302d62bed3916">timer_unsubscribe</a>() == -1)</div>
+<div class="line"><a name="l00543"></a><span class="lineno">  543</span>&#160;        <span class="keywordflow">return</span> -1;</div>
+<div class="line"><a name="l00544"></a><span class="lineno">  544</span>&#160;</div>
+<div class="line"><a name="l00545"></a><span class="lineno">  545</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="keyboard_8c.html#ac5a55c875cfe613e7fc3dec67ab0dde8">keyboard_unsubscribe</a>() == -1)</div>
+<div class="line"><a name="l00546"></a><span class="lineno">  546</span>&#160;        <span class="keywordflow">return</span> -1;</div>
+<div class="line"><a name="l00547"></a><span class="lineno">  547</span>&#160;</div>
+<div class="line"><a name="l00548"></a><span class="lineno">  548</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="mouse_8c.html#a3f2e7846b89ac30b1227f4bb98165cf2">mouse_write_command</a>(<a class="code" href="const_8h.html#addcd204eb15a640ac18a8675c1f8366a">WRITEB</a>, <a class="code" href="const_8h.html#ad43bda2db014417ed0a07535a6680a90">DISTRM</a>) == -1)</div>
+<div class="line"><a name="l00549"></a><span class="lineno">  549</span>&#160;        <span class="keywordflow">return</span> -1;</div>
+<div class="line"><a name="l00550"></a><span class="lineno">  550</span>&#160;</div>
+<div class="line"><a name="l00551"></a><span class="lineno">  551</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="mouse_8c.html#abb62339e13d96f9050f69a71428f8eb9">mouse_unsubscribe</a>() == -1)</div>
+<div class="line"><a name="l00552"></a><span class="lineno">  552</span>&#160;        <span class="keywordflow">return</span> -1;</div>
+<div class="line"><a name="l00553"></a><span class="lineno">  553</span>&#160;</div>
+<div class="line"><a name="l00554"></a><span class="lineno">  554</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="rtc_8c.html#a8ee1ffb1e38bc735ccf645370fe5b573">rtc_unsubscribe</a>() == -1)</div>
+<div class="line"><a name="l00555"></a><span class="lineno">  555</span>&#160;        <span class="keywordflow">return</span> -1;</div>
+<div class="line"><a name="l00556"></a><span class="lineno">  556</span>&#160;</div>
+<div class="line"><a name="l00557"></a><span class="lineno">  557</span>&#160;</div>
+<div class="line"><a name="l00558"></a><span class="lineno">  558</span>&#160;}</div>
+<div class="ttc" id="const_8h_html_aefbbf4f7f75378acd25cc7d2f2b66c4f"><div class="ttname"><a href="const_8h.html#aefbbf4f7f75378acd25cc7d2f2b66c4f">MENSELY</a></div><div class="ttdeci">#define MENSELY</div><div class="ttdef"><b>Definition:</b> const.h:99</div></div>
+<div class="ttc" id="const_8h_html_ad43bda2db014417ed0a07535a6680a90"><div class="ttname"><a href="const_8h.html#ad43bda2db014417ed0a07535a6680a90">DISTRM</a></div><div class="ttdeci">#define DISTRM</div><div class="ttdef"><b>Definition:</b> const.h:19</div></div>
+<div class="ttc" id="goal-limit_8h_html_afe7bf7cb09da8343147e7a955648658a"><div class="ttname"><a href="goal-limit_8h.html#afe7bf7cb09da8343147e7a955648658a">fourgoals</a></div><div class="ttdeci">static char * fourgoals[]</div><div class="ttdef"><b>Definition:</b> goal-limit.h:63</div></div>
+<div class="ttc" id="minute-limit_8h_html_af5ed1fc0c0158dbd5644eacc25987c5b"><div class="ttname"><a href="minute-limit_8h.html#af5ed1fc0c0158dbd5644eacc25987c5b">twomins</a></div><div class="ttdeci">static char * twomins[]</div><div class="ttdef"><b>Definition:</b> minute-limit.h:1</div></div>
+<div class="ttc" id="mouse_8c_html_a3f2e7846b89ac30b1227f4bb98165cf2"><div class="ttname"><a href="mouse_8c.html#a3f2e7846b89ac30b1227f4bb98165cf2">mouse_write_command</a></div><div class="ttdeci">int mouse_write_command(unsigned long command, unsigned long argument)</div><div class="ttdoc">Funcao que envia um comando e o respectivo argumento para o rato. </div><div class="ttdef"><b>Definition:</b> mouse.c:21</div></div>
+<div class="ttc" id="video_8c_html_aa55320d571dc2cb8179422a9d8114de0"><div class="ttname"><a href="video_8c.html#aa55320d571dc2cb8179422a9d8114de0">getHRes</a></div><div class="ttdeci">unsigned getHRes()</div><div class="ttdoc">Funcao que retorna a resolucao horizontal do ecra. </div><div class="ttdef"><b>Definition:</b> video.c:66</div></div>
+<div class="ttc" id="proj_8c_html_aad96881d8e20c112ebe31f76842a27f9"><div class="ttname"><a href="proj_8c.html#aad96881d8e20c112ebe31f76842a27f9">modeSelector</a></div><div class="ttdeci">void modeSelector(int mode, int kbc_set, int timer_set, int mouse_set, char *add, int time, int goals)</div><div class="ttdoc">Funcao que inicia um dos dois jogos mediante o modo escolhido. </div><div class="ttdef"><b>Definition:</b> proj.c:640</div></div>
+<div class="ttc" id="const_8h_html_a47f3690c75ac92dd2304ed29f990ab4b"><div class="ttname"><a href="const_8h.html#a47f3690c75ac92dd2304ed29f990ab4b">GLX</a></div><div class="ttdeci">#define GLX</div><div class="ttdef"><b>Definition:</b> const.h:103</div></div>
+<div class="ttc" id="struct_date_html"><div class="ttname"><a href="struct_date.html">Date</a></div><div class="ttdoc">Estrutura que guarda a informacao da data e hora atual. </div><div class="ttdef"><b>Definition:</b> rtc.h:9</div></div>
+<div class="ttc" id="proj_8c_html_ae7d43579456e83856339f2422849028c"><div class="ttname"><a href="proj_8c.html#ae7d43579456e83856339f2422849028c">changeTime</a></div><div class="ttdeci">void changeTime(int rl, int *time)</div><div class="ttdoc">Altera o tempo na opcao do menu. </div><div class="ttdef"><b>Definition:</b> proj.c:616</div></div>
+<div class="ttc" id="const_8h_html_ab4fa14ac804e3a2133d3bb0f9dd3f31a"><div class="ttname"><a href="const_8h.html#ab4fa14ac804e3a2133d3bb0f9dd3f31a">TLX</a></div><div class="ttdeci">#define TLX</div><div class="ttdef"><b>Definition:</b> const.h:105</div></div>
+<div class="ttc" id="video_8c_html_a4c8fbcbca54f70001b78061e5a9a53d7"><div class="ttname"><a href="video_8c.html#a4c8fbcbca54f70001b78061e5a9a53d7">displayTime</a></div><div class="ttdeci">void displayTime(Date *d, char *add)</div><div class="ttdoc">Imprime a data e horas atuais no ecra. </div><div class="ttdef"><b>Definition:</b> video.c:871</div></div>
+<div class="ttc" id="keyboard_8c_html_a1013ba5b068ff02e34eb999e27a0e8b8"><div class="ttname"><a href="keyboard_8c.html#a1013ba5b068ff02e34eb999e27a0e8b8">scrollMenu</a></div><div class="ttdeci">void scrollMenu(int *y, int *ent, int *rl)</div><div class="ttdoc">Funcao que vai alterar a caixa de selecao mediante a opcao escolhida no menu. </div><div class="ttdef"><b>Definition:</b> keyboard.c:126</div></div>
+<div class="ttc" id="goal-limit_8h_html_a1ac4be968074ec7a355738249664d23a"><div class="ttname"><a href="goal-limit_8h.html#a1ac4be968074ec7a355738249664d23a">threegoals</a></div><div class="ttdeci">static char * threegoals[]</div><div class="ttdef"><b>Definition:</b> goal-limit.h:1</div></div>
+<div class="ttc" id="video_8c_html_a36218c155eade74951ce7ffd60711a9e"><div class="ttname"><a href="video_8c.html#a36218c155eade74951ce7ffd60711a9e">getVRes</a></div><div class="ttdeci">unsigned getVRes()</div><div class="ttdoc">Funcao que retorna a resolucao vertical do ecra. </div><div class="ttdef"><b>Definition:</b> video.c:71</div></div>
+<div class="ttc" id="video_8c_html_ab36f1e43a3d76e1236e10d306004f1f3"><div class="ttname"><a href="video_8c.html#ab36f1e43a3d76e1236e10d306004f1f3">drawXPM</a></div><div class="ttdeci">void drawXPM(char *add, unsigned short x, unsigned short y, char *a, int width, int heigth)</div><div class="ttdoc">Funcao que desenha o xpm no ecra. </div><div class="ttdef"><b>Definition:</b> video.c:132</div></div>
+<div class="ttc" id="rtc_8c_html_a5bc627c1610d9b2e3fb76ae88a9a6987"><div class="ttname"><a href="rtc_8c.html#a5bc627c1610d9b2e3fb76ae88a9a6987">getDate</a></div><div class="ttdeci">void getDate(Date *d)</div><div class="ttdoc">Funcao que recolher a informacao do RTC e guarda-la na struct que e passada como argumento. </div><div class="ttdef"><b>Definition:</b> rtc.c:45</div></div>
+<div class="ttc" id="keyboard_8c_html_ac5a55c875cfe613e7fc3dec67ab0dde8"><div class="ttname"><a href="keyboard_8c.html#ac5a55c875cfe613e7fc3dec67ab0dde8">keyboard_unsubscribe</a></div><div class="ttdeci">int keyboard_unsubscribe()</div><div class="ttdoc">Funcao que vai desactivar as interrupcoes do teclado. </div><div class="ttdef"><b>Definition:</b> keyboard.c:16</div></div>
+<div class="ttc" id="proj_8c_html_ae2cdaf20d565b3090b8a6282ef2e35b6"><div class="ttname"><a href="proj_8c.html#ae2cdaf20d565b3090b8a6282ef2e35b6">changeMode</a></div><div class="ttdeci">void changeMode(int rl, int *mode)</div><div class="ttdoc">Altera o modo na opcao do menu. </div><div class="ttdef"><b>Definition:</b> proj.c:632</div></div>
+<div class="ttc" id="rtc_8c_html_a8ee1ffb1e38bc735ccf645370fe5b573"><div class="ttname"><a href="rtc_8c.html#a8ee1ffb1e38bc735ccf645370fe5b573">rtc_unsubscribe</a></div><div class="ttdeci">int rtc_unsubscribe()</div><div class="ttdoc">Funcao que vai desactivar as interrupcoes do rtc. </div><div class="ttdef"><b>Definition:</b> rtc.c:13</div></div>
+<div class="ttc" id="mtxt_8h_html_ac09bcd07c4e36686b0e90853cdf013f4"><div class="ttname"><a href="mtxt_8h.html#ac09bcd07c4e36686b0e90853cdf013f4">menutext</a></div><div class="ttdeci">static char * menutext[]</div><div class="ttdef"><b>Definition:</b> mtxt.h:1</div></div>
+<div class="ttc" id="read__xpm_8c_html_a05b2c5e4dbcaffa701703b50a2111783"><div class="ttname"><a href="read__xpm_8c.html#a05b2c5e4dbcaffa701703b50a2111783">read_xpm</a></div><div class="ttdeci">char * read_xpm(char *map[], int *wd, int *ht)</div><div class="ttdef"><b>Definition:</b> read_xpm.c:21</div></div>
+<div class="ttc" id="const_8h_html_ab6ce1f4b18f29507b2c5353425c5ca1d"><div class="ttname"><a href="const_8h.html#ab6ce1f4b18f29507b2c5353425c5ca1d">MLX</a></div><div class="ttdeci">#define MLX</div><div class="ttdef"><b>Definition:</b> const.h:107</div></div>
+<div class="ttc" id="minute-limit_8h_html_a93326b9a9883c9e9b5c2f023a68e6f8e"><div class="ttname"><a href="minute-limit_8h.html#a93326b9a9883c9e9b5c2f023a68e6f8e">threemins</a></div><div class="ttdeci">static char * threemins[]</div><div class="ttdef"><b>Definition:</b> minute-limit.h:48</div></div>
+<div class="ttc" id="goal-limit_8h_html_a5cd0ba72d84676e941cfcfe5d467fccb"><div class="ttname"><a href="goal-limit_8h.html#a5cd0ba72d84676e941cfcfe5d467fccb">fivegoals</a></div><div class="ttdeci">static char * fivegoals[]</div><div class="ttdef"><b>Definition:</b> goal-limit.h:124</div></div>
+<div class="ttc" id="proj_8c_html_a63775c0553a6f57aca7b67f7be477b75acc2a643e91e2cd7b89f5c9eef5d9b015"><div class="ttname"><a href="proj_8c.html#a63775c0553a6f57aca7b67f7be477b75acc2a643e91e2cd7b89f5c9eef5d9b015">GOALL</a></div><div class="ttdef"><b>Definition:</b> proj.c:17</div></div>
+<div class="ttc" id="const_8h_html_ae64244a12c09cfe7eb73b9f29a414564"><div class="ttname"><a href="const_8h.html#ae64244a12c09cfe7eb73b9f29a414564">MENSELX</a></div><div class="ttdeci">#define MENSELX</div><div class="ttdef"><b>Definition:</b> const.h:98</div></div>
+<div class="ttc" id="rtc_8c_html_a8cfbbe53c1cf6e3054736daea3044c0f"><div class="ttname"><a href="rtc_8c.html#a8cfbbe53c1cf6e3054736daea3044c0f">disable</a></div><div class="ttdeci">void disable()</div><div class="ttdoc">Funcao que vai desactivar as interrupcoes por actualizacao do rtc. </div><div class="ttdef"><b>Definition:</b> rtc.c:33</div></div>
+<div class="ttc" id="video_8c_html_a9805b7e746b90143a74ad077d5d68223"><div class="ttname"><a href="video_8c.html#a9805b7e746b90143a74ad077d5d68223">vg_exit</a></div><div class="ttdeci">int vg_exit()</div><div class="ttdoc">Funcao que sai do modo de video. </div><div class="ttdef"><b>Definition:</b> video.c:50</div></div>
+<div class="ttc" id="const_8h_html_a02129dc12f863c33e1f495f44a7e741d"><div class="ttname"><a href="const_8h.html#a02129dc12f863c33e1f495f44a7e741d">GLY</a></div><div class="ttdeci">#define GLY</div><div class="ttdef"><b>Definition:</b> const.h:104</div></div>
+<div class="ttc" id="mode_8h_html_a227651276278ae21c6a30dfcf6d79f22"><div class="ttname"><a href="mode_8h.html#a227651276278ae21c6a30dfcf6d79f22">rrow</a></div><div class="ttdeci">static char * rrow[]</div><div class="ttdef"><b>Definition:</b> mode.h:174</div></div>
+<div class="ttc" id="proj_8c_html_ade82443ceede71076503da50a0677398"><div class="ttname"><a href="proj_8c.html#ade82443ceede71076503da50a0677398">updateOption</a></div><div class="ttdeci">void updateOption(MenuOptions *current, int y)</div><div class="ttdoc">Altera o estado atual do menu mediante a posicao y, com o teclado. </div><div class="ttdef"><b>Definition:</b> proj.c:560</div></div>
+<div class="ttc" id="rtc_8c_html_ad541628ec8bd836bbd3b2eefd316069b"><div class="ttname"><a href="rtc_8c.html#ad541628ec8bd836bbd3b2eefd316069b">rtc_subscribe</a></div><div class="ttdeci">int rtc_subscribe()</div><div class="ttdoc">Funcao que vai subscrever as interrupcoes do rtc. </div><div class="ttdef"><b>Definition:</b> rtc.c:3</div></div>
+<div class="ttc" id="mode_8h_html_ae91384fbab2f5db4408ad5f61915abe4"><div class="ttname"><a href="mode_8h.html#ae91384fbab2f5db4408ad5f61915abe4">lrow</a></div><div class="ttdeci">static char * lrow[]</div><div class="ttdef"><b>Definition:</b> mode.h:217</div></div>
+<div class="ttc" id="const_8h_html_addcd204eb15a640ac18a8675c1f8366a"><div class="ttname"><a href="const_8h.html#addcd204eb15a640ac18a8675c1f8366a">WRITEB</a></div><div class="ttdeci">#define WRITEB</div><div class="ttdef"><b>Definition:</b> const.h:17</div></div>
+<div class="ttc" id="mouse_8c_html_a0eea5631027c6579399ae603628fcda2"><div class="ttname"><a href="mouse_8c.html#a0eea5631027c6579399ae603628fcda2">mouseCursor</a></div><div class="ttdeci">void mouseCursor(unsigned int *byt, unsigned long *mousePacket, int *mx, int *my, int *lb)</div><div class="ttdoc">Funcao que altera a movimentacao do cursor do rato, no menu. </div><div class="ttdef"><b>Definition:</b> mouse.c:136</div></div>
+<div class="ttc" id="proj_8c_html_a63775c0553a6f57aca7b67f7be477b75a5889a64b6298bb7cd5c91b96782ab11e"><div class="ttname"><a href="proj_8c.html#a63775c0553a6f57aca7b67f7be477b75a5889a64b6298bb7cd5c91b96782ab11e">TIMEL</a></div><div class="ttdef"><b>Definition:</b> proj.c:17</div></div>
+<div class="ttc" id="proj_8c_html_a63775c0553a6f57aca7b67f7be477b75a865d4bfdc2dd5f698e4558474765cba8"><div class="ttname"><a href="proj_8c.html#a63775c0553a6f57aca7b67f7be477b75a865d4bfdc2dd5f698e4558474765cba8">MODE</a></div><div class="ttdef"><b>Definition:</b> proj.c:17</div></div>
+<div class="ttc" id="proj_8c_html_a63775c0553a6f57aca7b67f7be477b75a0352906d1ea1dfcd663c918f3a86755b"><div class="ttname"><a href="proj_8c.html#a63775c0553a6f57aca7b67f7be477b75a0352906d1ea1dfcd663c918f3a86755b">PLAY</a></div><div class="ttdef"><b>Definition:</b> proj.c:17</div></div>
+<div class="ttc" id="const_8h_html_a21538a757097d3cdbdffdfaf3cb5e570"><div class="ttname"><a href="const_8h.html#a21538a757097d3cdbdffdfaf3cb5e570">RAX</a></div><div class="ttdeci">#define RAX</div><div class="ttdef"><b>Definition:</b> const.h:101</div></div>
+<div class="ttc" id="proj_8c_html_a63775c0553a6f57aca7b67f7be477b75a81ee9ebe7f7566a2ccfce0361c85bc56"><div class="ttname"><a href="proj_8c.html#a63775c0553a6f57aca7b67f7be477b75a81ee9ebe7f7566a2ccfce0361c85bc56">EXITG</a></div><div class="ttdef"><b>Definition:</b> proj.c:17</div></div>
+<div class="ttc" id="proj_8c_html_a15b7f5f6ef5495d96a5a61915ab2b8e3"><div class="ttname"><a href="proj_8c.html#a15b7f5f6ef5495d96a5a61915ab2b8e3">updateMouseSel</a></div><div class="ttdeci">void updateMouseSel(MenuOptions *current, int mx, int my, int *mensely, int lb, int *rl)</div><div class="ttdoc">Altera o estado atual do menu mediante as posicos mx e my, com o rato. </div><div class="ttdef"><b>Definition:</b> proj.c:574</div></div>
+<div class="ttc" id="const_8h_html_a143f09b9731005220e5143ad8cd9477c"><div class="ttname"><a href="const_8h.html#a143f09b9731005220e5143ad8cd9477c">LAX</a></div><div class="ttdeci">#define LAX</div><div class="ttdef"><b>Definition:</b> const.h:100</div></div>
+<div class="ttc" id="pixmap_8h_html_abe0e301afde4b3874b9f527e216ed2e1"><div class="ttname"><a href="pixmap_8h.html#abe0e301afde4b3874b9f527e216ed2e1">mouse</a></div><div class="ttdeci">static char * mouse[]</div><div class="ttdef"><b>Definition:</b> pixmap.h:545</div></div>
+<div class="ttc" id="const_8h_html_a210e589169f76e11c465669f282dbada"><div class="ttname"><a href="const_8h.html#a210e589169f76e11c465669f282dbada">SSTRM</a></div><div class="ttdeci">#define SSTRM</div><div class="ttdef"><b>Definition:</b> const.h:18</div></div>
+<div class="ttc" id="timer_8c_html_ae68b8752ab7cdb69c747634070cb0696"><div class="ttname"><a href="timer_8c.html#ae68b8752ab7cdb69c747634070cb0696">timer_subscribe</a></div><div class="ttdeci">int timer_subscribe(void)</div><div class="ttdoc">Funcao que vai subscrever as interrupcoes do timer. </div><div class="ttdef"><b>Definition:</b> timer.c:3</div></div>
+<div class="ttc" id="mouse_8c_html_a45667d65540f45bba6cd5f805e21a273"><div class="ttname"><a href="mouse_8c.html#a45667d65540f45bba6cd5f805e21a273">mouse_subscribe</a></div><div class="ttdeci">int mouse_subscribe()</div><div class="ttdoc">Funcao que vai subscrever as interrupcoes do rato. </div><div class="ttdef"><b>Definition:</b> mouse.c:3</div></div>
+<div class="ttc" id="proj_8c_html_a63775c0553a6f57aca7b67f7be477b75"><div class="ttname"><a href="proj_8c.html#a63775c0553a6f57aca7b67f7be477b75">MenuOptions</a></div><div class="ttdeci">MenuOptions</div><div class="ttdef"><b>Definition:</b> proj.c:17</div></div>
+<div class="ttc" id="minute-limit_8h_html_a1d71cb66d461267f82da18ca468e4e2d"><div class="ttname"><a href="minute-limit_8h.html#a1d71cb66d461267f82da18ca468e4e2d">fourmins</a></div><div class="ttdeci">static char * fourmins[]</div><div class="ttdef"><b>Definition:</b> minute-limit.h:96</div></div>
+<div class="ttc" id="const_8h_html_ac87f5a19e48e063f25734a21a17bbb09"><div class="ttname"><a href="const_8h.html#ac87f5a19e48e063f25734a21a17bbb09">MLY</a></div><div class="ttdeci">#define MLY</div><div class="ttdef"><b>Definition:</b> const.h:108</div></div>
+<div class="ttc" id="mode_8h_html_ac8d1cf65f69aa1a86ef76171f6d2a2b7"><div class="ttname"><a href="mode_8h.html#ac8d1cf65f69aa1a86ef76171f6d2a2b7">kbdmouse</a></div><div class="ttdeci">static char * kbdmouse[]</div><div class="ttdef"><b>Definition:</b> mode.h:1</div></div>
+<div class="ttc" id="video_8c_html_acef21667c79365d57a084bed994c2189"><div class="ttname"><a href="video_8c.html#acef21667c79365d57a084bed994c2189">vg_init</a></div><div class="ttdeci">void * vg_init(unsigned short mode)</div><div class="ttdoc">Funcao que inicia o modo de video definido. </div><div class="ttdef"><b>Definition:</b> video.c:3</div></div>
+<div class="ttc" id="mouse_8c_html_abb62339e13d96f9050f69a71428f8eb9"><div class="ttname"><a href="mouse_8c.html#abb62339e13d96f9050f69a71428f8eb9">mouse_unsubscribe</a></div><div class="ttdeci">int mouse_unsubscribe()</div><div class="ttdoc">Funcao que vai desativar as interrupcoes do rato. </div><div class="ttdef"><b>Definition:</b> mouse.c:13</div></div>
+<div class="ttc" id="rtc_8c_html_a486f22824bd83c5308a0d70ffac6f758"><div class="ttname"><a href="rtc_8c.html#a486f22824bd83c5308a0d70ffac6f758">enable</a></div><div class="ttdeci">void enable()</div><div class="ttdoc">Funcao que vai activar as interrupcoes por actualizacao do rtc. </div><div class="ttdef"><b>Definition:</b> rtc.c:21</div></div>
+<div class="ttc" id="proj_8c_html_ac7770d968c65ecaee6c8c77a0114d2eb"><div class="ttname"><a href="proj_8c.html#ac7770d968c65ecaee6c8c77a0114d2eb">changeGoals</a></div><div class="ttdeci">void changeGoals(int rl, int *goals)</div><div class="ttdoc">Altera o numero de golos na opcao do menu. </div><div class="ttdef"><b>Definition:</b> proj.c:624</div></div>
+<div class="ttc" id="timer_8c_html_a10260b74f313089215e302d62bed3916"><div class="ttname"><a href="timer_8c.html#a10260b74f313089215e302d62bed3916">timer_unsubscribe</a></div><div class="ttdeci">int timer_unsubscribe()</div><div class="ttdoc">Funcao que vai desactivar as interrupcoes do timer. </div><div class="ttdef"><b>Definition:</b> timer.c:15</div></div>
+<div class="ttc" id="keyboard_8c_html_a0c7d6ebe1e1129b76e27ce54b19378f8"><div class="ttname"><a href="keyboard_8c.html#a0c7d6ebe1e1129b76e27ce54b19378f8">keyboard_subscribe</a></div><div class="ttdeci">int keyboard_subscribe()</div><div class="ttdoc">Funcao que vai subscrever as interrupcoes do teclado. </div><div class="ttdef"><b>Definition:</b> keyboard.c:4</div></div>
+<div class="ttc" id="video_8c_html_a5c30cdd3eab0edd2734ab3871f7000c7"><div class="ttname"><a href="video_8c.html#a5c30cdd3eab0edd2734ab3871f7000c7">getBitsPerPixel</a></div><div class="ttdeci">unsigned getBitsPerPixel()</div><div class="ttdoc">Funcao que retorna a quantidade de bits por cada pixel. </div><div class="ttdef"><b>Definition:</b> video.c:76</div></div>
+<div class="ttc" id="mode_8h_html_a25e206330aee1b78f0fe32cd8d9b05b9"><div class="ttname"><a href="mode_8h.html#a25e206330aee1b78f0fe32cd8d9b05b9">no_limit</a></div><div class="ttdeci">static char * no_limit[]</div><div class="ttdef"><b>Definition:</b> mode.h:111</div></div>
+<div class="ttc" id="mode_8h_html_abccee27db6de682c8514b0c83f50afc4"><div class="ttname"><a href="mode_8h.html#abccee27db6de682c8514b0c83f50afc4">keybrd</a></div><div class="ttdeci">static char * keybrd[]</div><div class="ttdef"><b>Definition:</b> mode.h:56</div></div>
+<div class="ttc" id="const_8h_html_a11d43c3dded45eb3cc08f31cc09aa493"><div class="ttname"><a href="const_8h.html#a11d43c3dded45eb3cc08f31cc09aa493">TLY</a></div><div class="ttdeci">#define TLY</div><div class="ttdef"><b>Definition:</b> const.h:106</div></div>
+<div class="ttc" id="menu-selection_8h_html_ac8df8ee8c2bd4315a4424ea6b5cc35c2"><div class="ttname"><a href="menu-selection_8h.html#ac8df8ee8c2bd4315a4424ea6b5cc35c2">menu_selection</a></div><div class="ttdeci">static char * menu_selection[]</div><div class="ttdef"><b>Definition:</b> menu-selection.h:1</div></div>
+<div class="ttc" id="minute-limit_8h_html_a91e6a8b24046467a91d3de4f77c394b4"><div class="ttname"><a href="minute-limit_8h.html#a91e6a8b24046467a91d3de4f77c394b4">fivemins</a></div><div class="ttdeci">static char * fivemins[]</div><div class="ttdef"><b>Definition:</b> minute-limit.h:143</div></div>
+</div><!-- fragment -->
+<p><div class="dynheader">
+Grafo de chamadas desta função:</div>
+<div class="dyncontent">
+<div class="center"><img src="proj_8c_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph.png" border="0" usemap="#proj_8c_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph" alt=""/></div>
+<map name="proj_8c_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph" id="proj_8c_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph">
+<area shape="rect" id="node2" href="keyboard_8c.html#a0c7d6ebe1e1129b76e27ce54b19378f8" title="Funcao que vai subscrever as interrupcoes do teclado. " alt="" coords="114,68,253,95"/>
+<area shape="rect" id="node3" href="timer_8c.html#ae68b8752ab7cdb69c747634070cb0696" title="Funcao que vai subscrever as interrupcoes do timer. " alt="" coords="126,119,241,145"/>
+<area shape="rect" id="node4" href="mouse_8c.html#a45667d65540f45bba6cd5f805e21a273" title="Funcao que vai subscrever as interrupcoes do rato. " alt="" coords="121,169,245,196"/>
+<area shape="rect" id="node5" href="mouse_8c.html#a3f2e7846b89ac30b1227f4bb98165cf2" title="Funcao que envia um comando e o respectivo argumento para o rato. " alt="" coords="104,220,263,247"/>
+<area shape="rect" id="node6" href="rtc_8c.html#ad541628ec8bd836bbd3b2eefd316069b" title="Funcao que vai subscrever as interrupcoes do rtc. " alt="" coords="133,271,233,297"/>
+<area shape="rect" id="node7" href="video_8c.html#acef21667c79365d57a084bed994c2189" title="Funcao que inicia o modo de video definido. " alt="" coords="154,321,213,348"/>
+<area shape="rect" id="node10" href="video_8c.html#a9805b7e746b90143a74ad077d5d68223" title="Funcao que sai do modo de video. " alt="" coords="516,157,579,184"/>
+<area shape="rect" id="node13" href="read__xpm_8c.html#a05b2c5e4dbcaffa701703b50a2111783" title="read_xpm" alt="" coords="967,537,1045,564"/>
+<area shape="rect" id="node14" href="rtc_8c.html#a5bc627c1610d9b2e3fb76ae88a9a6987" title="Funcao que recolher a informacao do RTC e guarda&#45;la na struct que e passada como argumento. " alt="" coords="150,473,217,500"/>
+<area shape="rect" id="node15" href="rtc_8c.html#a486f22824bd83c5308a0d70ffac6f758" title="Funcao que vai activar as interrupcoes por actualizacao do rtc. " alt="" coords="347,625,407,652"/>
+<area shape="rect" id="node16" href="video_8c.html#aa55320d571dc2cb8179422a9d8114de0" title="Funcao que retorna a resolucao horizontal do ecra. " alt="" coords="511,1272,583,1299"/>
+<area shape="rect" id="node17" href="video_8c.html#a36218c155eade74951ce7ffd60711a9e" title="Funcao que retorna a resolucao vertical do ecra. " alt="" coords="511,259,583,285"/>
+<area shape="rect" id="node18" href="video_8c.html#a5c30cdd3eab0edd2734ab3871f7000c7" title="Funcao que retorna a quantidade de bits por cada pixel. " alt="" coords="491,512,603,539"/>
+<area shape="rect" id="node19" href="keyboard_8c.html#a1013ba5b068ff02e34eb999e27a0e8b8" title="Funcao que vai alterar a caixa de selecao mediante a opcao escolhida no menu. " alt="" coords="141,759,226,785"/>
+<area shape="rect" id="node20" href="proj_8c.html#ade82443ceede71076503da50a0677398" title="Altera o estado atual do menu mediante a posicao y, com o teclado. " alt="" coords="134,809,233,836"/>
+<area shape="rect" id="node21" href="proj_8c.html#aad96881d8e20c112ebe31f76842a27f9" title="Funcao que inicia um dos dois jogos mediante o modo escolhido. " alt="" coords="132,708,235,735"/>
+<area shape="rect" id="node22" href="rtc_8c.html#a8cfbbe53c1cf6e3054736daea3044c0f" title="Funcao que vai desactivar as interrupcoes por actualizacao do rtc. " alt="" coords="345,860,408,887"/>
+<area shape="rect" id="node25" href="video_8c.html#ab36f1e43a3d76e1236e10d306004f1f3" title="Funcao que desenha o xpm no ecra. " alt="" coords="968,917,1044,944"/>
+<area shape="rect" id="node48" href="proj_8c.html#ae7d43579456e83856339f2422849028c" title="Altera o tempo na opcao do menu. " alt="" coords="137,1012,229,1039"/>
+<area shape="rect" id="node49" href="proj_8c.html#ac7770d968c65ecaee6c8c77a0114d2eb" title="Altera o numero de golos na opcao do menu. " alt="" coords="134,1063,233,1089"/>
+<area shape="rect" id="node50" href="proj_8c.html#ae2cdaf20d565b3090b8a6282ef2e35b6" title="Altera o modo na opcao do menu. " alt="" coords="135,1113,231,1140"/>
+<area shape="rect" id="node51" href="mouse_8c.html#a0eea5631027c6579399ae603628fcda2" title="Funcao que altera a movimentacao do cursor do rato, no menu. " alt="" coords="327,1252,426,1279"/>
+<area shape="rect" id="node52" href="proj_8c.html#a15b7f5f6ef5495d96a5a61915ab2b8e3" title="Altera o estado atual do menu mediante as posicos mx e my, com o rato. " alt="" coords="124,1215,243,1241"/>
+<area shape="rect" id="node53" href="video_8c.html#a4c8fbcbca54f70001b78061e5a9a53d7" title="Imprime a data e horas atuais no ecra. " alt="" coords="821,1120,911,1147"/>
+<area shape="rect" id="node54" href="timer_8c.html#a10260b74f313089215e302d62bed3916" title="Funcao que vai desactivar as interrupcoes do timer. " alt="" coords="119,1316,247,1343"/>
+<area shape="rect" id="node55" href="keyboard_8c.html#ac5a55c875cfe613e7fc3dec67ab0dde8" title="Funcao que vai desactivar as interrupcoes do teclado. " alt="" coords="107,1367,259,1393"/>
+<area shape="rect" id="node56" href="mouse_8c.html#abb62339e13d96f9050f69a71428f8eb9" title="Funcao que vai desativar as interrupcoes do rato. " alt="" coords="114,1417,253,1444"/>
+<area shape="rect" id="node57" href="rtc_8c.html#a8ee1ffb1e38bc735ccf645370fe5b573" title="Funcao que vai desactivar as interrupcoes do rtc. " alt="" coords="126,1468,241,1495"/>
+<area shape="rect" id="node8" href="video_8c.html#a4ef3234e41f2050bc094a22049b69e45" title="Funcao que inicia e alloca a memoria de video. " alt="" coords="311,107,443,133"/>
+<area shape="rect" id="node9" href="group__lmlib.html#ga00a9c17c01e794a6bfc80fc5c6ab1ed1" title="Initializes the low memory area, the region up to the 1 MByte physical address, by mapping it on the ..." alt="" coords="517,5,577,32"/>
+<area shape="rect" id="node11" href="group__lmlib.html#gae45d971ce2ffcf4dc2677eba033a92cd" title="Allocates a memory block in low memory area with the specified size. " alt="" coords="512,56,583,83"/>
+<area shape="rect" id="node12" href="group__lmlib.html#ga73e89d9c297b7390021fb545513579c6" title="Frees a memory block in the low memory area, previously allocated using lm_alloc() ..." alt="" coords="515,107,579,133"/>
+<area shape="rect" id="node23" href="proj_8c.html#a460cfa57cc9fe97500d2f2cf510fd3d3" title="Funcao que inicia o jogo apenas com o teclado. " alt="" coords="349,676,404,703"/>
+<area shape="rect" id="node44" href="proj_8c.html#aebbb7a5fa40a19e1f662848b478eec53" title="Funcao que inicia o jogo com o teclado e o rato. " alt="" coords="344,809,409,836"/>
+<area shape="rect" id="node24" href="timer_8c.html#a291e73a2f4a9140f4d20bed57e96aa6f" title="Funcao que imprime no ecra o tempo pela primeira vez. " alt="" coords="671,563,747,589"/>
+<area shape="rect" id="node28" href="video_8c.html#a9017b0659a0bc0c6611328d9d9f42e94" title="Imprime o score do jogo no ecra. " alt="" coords="817,512,915,539"/>
+<area shape="rect" id="node29" href="sprite_8c.html#a3f7728feb84b250670d1ef33731ea7b4" title="Funcao que inicializar o &quot;objecto&quot;, lendo o xpm correspondente a sprite. " alt="" coords="817,765,915,792"/>
+<area shape="rect" id="node30" href="keyboard_8c.html#a7728c66e2e9db9eb8817e4508949976b" title="Funcao que mediante o input do teclado vai definir o m1 e m2 que sao as movimentacoes mediante as set..." alt="" coords="496,411,599,437"/>
+<area shape="rect" id="node31" href="sprite_8c.html#a605fc554aaa4a7ddf248793976a3f8bc" title="Funcao responsavel por actualizar as velocidades das sprites. " alt="" coords="498,715,597,741"/>
+<area shape="rect" id="node32" href="sprite_8c.html#ab009384a9aeb421c51d2d13f85b7b319" title="Funcao responsavel por actualizar o frame a mostrar no ecra. " alt="" coords="498,1019,597,1045"/>
+<area shape="rect" id="node41" href="timer_8c.html#a237f6284703d25e34532e7f73b0eb209" title="Funcao que actualiza no ecra o tempo de jogo restante. " alt="" coords="665,411,754,437"/>
+<area shape="rect" id="node43" href="sprite_8c.html#af16c6befaac9ffb673b9e3c798d542ed" title="Funcao responsavel por destruir a sprite, libertando a memoria alocada para a sprite. " alt="" coords="495,664,599,691"/>
+<area shape="rect" id="node26" href="video_8c.html#a9a74d03fd11068ed1707d8267a7ad910" title="Imprime os minutos de jogo no ecra. " alt="" coords="824,461,908,488"/>
+<area shape="rect" id="node27" href="video_8c.html#a3546f839cb7d4e3d98328d7ca1e4bc6e" title="Funcao que apaga o xpm da memoria de video. " alt="" coords="965,461,1047,488"/>
+<area shape="rect" id="node33" href="sprite_8c.html#ae7da390876c239f1bbdb3a57f96333c5" title="Funcao que verifica se existe colisao entre duas sprites. " alt="" coords="815,1019,917,1045"/>
+<area shape="rect" id="node34" href="sprite_8c.html#a2a5140e844ac8bf7f0dbdbb15cf08ff8" title="Funcao que altera a posicao das duas sprites consoante as suas velocidades. " alt="" coords="655,968,763,995"/>
+<area shape="rect" id="node35" href="sprite_8c.html#a48eef171979f7cc2cb2acefe405cd942" title="Funcao que efectua o tratamento das colisoes entre as sprites dos dois jogadores. ..." alt="" coords="656,867,763,893"/>
+<area shape="rect" id="node36" href="sprite_8c.html#aa058ce198ff0ced63ead3b1510914cb1" title="Funcao que movimenta a bola. " alt="" coords="672,917,747,944"/>
+<area shape="rect" id="node37" href="sprite_8c.html#a6ff45b3e88989483a4d4058635b47ae8" title="Funcao que actualiza a posicao e a velocidade da bola. " alt="" coords="668,1019,751,1045"/>
+<area shape="rect" id="node38" href="sprite_8c.html#a33ff853b6897c18e8c414d26fcce2c27" title="Funcao que mantem os jogadores a bola dentro dos limites de jogo e actualiza o numero de golos marcad..." alt="" coords="666,613,753,640"/>
+<area shape="rect" id="node40" href="sprite_8c.html#a74560924f6d0d263514ecdcd5dd7758d" title="Funcao que anima a bola. " alt="" coords="821,816,911,843"/>
+<area shape="rect" id="node39" href="sprite_8c.html#a9943321a7c59b1bf899a030f0cebcb3b" title="Funcao que reinicia as posicoes das sprites dos jogadores e da bola, pondo as velocidades das sprites..." alt="" coords="835,664,897,691"/>
+<area shape="rect" id="node42" href="video_8c.html#ac1b63a4a1ce54d502d4eece3005d91dc" title="Imprime os segundos de jogo no ecra. " alt="" coords="823,411,909,437"/>
+<area shape="rect" id="node45" href="keyboard_8c.html#a7d9c87cc5bb4080cd24bb0223435d6d0" title="Funcao que mediante o input do teclado vai definir o m1 que representa a movimentacao do jogador 1 me..." alt="" coords="491,1120,604,1147"/>
+<area shape="rect" id="node46" href="mouse_8c.html#a8b8249c6ce158458f9c65993913c7bbd" title="Funcao que altera a movimentacao do jogador mediante o movimento do rato. Esta funcao e usada quando ..." alt="" coords="504,1221,591,1248"/>
+<area shape="rect" id="node47" href="mouse_8h.html#a60d910b8ae18d85640f28eb2a8dd00f9" title="twoComplement" alt="" coords="652,1297,767,1324"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="aad96881d8e20c112ebe31f76842a27f9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void modeSelector </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>mode</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>kbc_set</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>timer_set</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>mouse_set</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>add</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>time</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>goals</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Funcao que inicia um dos dois jogos mediante o modo escolhido. </p>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">mode</td><td>Modo escolhido </td></tr>
+    <tr><td class="paramname">kbc_set</td><td>Retorno do hook do teclado </td></tr>
+    <tr><td class="paramname">timer_set</td><td>Retorno do hook do tempo </td></tr>
+    <tr><td class="paramname">mouse_set</td><td>Retorno do hook do rato </td></tr>
+    <tr><td class="paramname">add</td><td>Apontador para a primeira posicao da memoria grafica </td></tr>
+    <tr><td class="paramname">time</td><td>Tempo de jogo definido </td></tr>
+    <tr><td class="paramname">goals</td><td>Numero de golos definido </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="fragment"><div class="line"><a name="l00641"></a><span class="lineno">  641</span>&#160;{</div>
+<div class="line"><a name="l00642"></a><span class="lineno">  642</span>&#160;    <a class="code" href="rtc_8c.html#a8cfbbe53c1cf6e3054736daea3044c0f">disable</a>();</div>
+<div class="line"><a name="l00643"></a><span class="lineno">  643</span>&#160;    <span class="keywordflow">if</span>(mode == 0) <span class="comment">// keyboard only</span></div>
+<div class="line"><a name="l00644"></a><span class="lineno">  644</span>&#160;        <a class="code" href="proj_8c.html#a460cfa57cc9fe97500d2f2cf510fd3d3">game</a>(kbc_set, timer_set, add, time, goals);</div>
+<div class="line"><a name="l00645"></a><span class="lineno">  645</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span>(mode == 1)</div>
+<div class="line"><a name="l00646"></a><span class="lineno">  646</span>&#160;        <a class="code" href="proj_8c.html#aebbb7a5fa40a19e1f662848b478eec53">gameM</a>(kbc_set, timer_set, mouse_set, add, time, goals);</div>
+<div class="line"><a name="l00647"></a><span class="lineno">  647</span>&#160;    <a class="code" href="rtc_8c.html#a486f22824bd83c5308a0d70ffac6f758">enable</a>();</div>
+<div class="line"><a name="l00648"></a><span class="lineno">  648</span>&#160;}</div>
+<div class="ttc" id="proj_8c_html_aebbb7a5fa40a19e1f662848b478eec53"><div class="ttname"><a href="proj_8c.html#aebbb7a5fa40a19e1f662848b478eec53">gameM</a></div><div class="ttdeci">void gameM(int kbc_set, int timer_set, int mouse_set, char *add, int time, int goals)</div><div class="ttdoc">Funcao que inicia o jogo com o teclado e o rato. </div><div class="ttdef"><b>Definition:</b> proj.c:173</div></div>
+<div class="ttc" id="proj_8c_html_a460cfa57cc9fe97500d2f2cf510fd3d3"><div class="ttname"><a href="proj_8c.html#a460cfa57cc9fe97500d2f2cf510fd3d3">game</a></div><div class="ttdeci">void game(int kbc_set, int timer_set, char *add, int time, int goals)</div><div class="ttdoc">Funcao que inicia o jogo apenas com o teclado. </div><div class="ttdef"><b>Definition:</b> proj.c:78</div></div>
+<div class="ttc" id="rtc_8c_html_a8cfbbe53c1cf6e3054736daea3044c0f"><div class="ttname"><a href="rtc_8c.html#a8cfbbe53c1cf6e3054736daea3044c0f">disable</a></div><div class="ttdeci">void disable()</div><div class="ttdoc">Funcao que vai desactivar as interrupcoes por actualizacao do rtc. </div><div class="ttdef"><b>Definition:</b> rtc.c:33</div></div>
+<div class="ttc" id="rtc_8c_html_a486f22824bd83c5308a0d70ffac6f758"><div class="ttname"><a href="rtc_8c.html#a486f22824bd83c5308a0d70ffac6f758">enable</a></div><div class="ttdeci">void enable()</div><div class="ttdoc">Funcao que vai activar as interrupcoes por actualizacao do rtc. </div><div class="ttdef"><b>Definition:</b> rtc.c:21</div></div>
+</div><!-- fragment -->
+<p><div class="dynheader">
+Grafo de chamadas desta função:</div>
+<div class="dyncontent">
+<div class="center"><img src="proj_8c_aad96881d8e20c112ebe31f76842a27f9_cgraph.png" border="0" usemap="#proj_8c_aad96881d8e20c112ebe31f76842a27f9_cgraph" alt=""/></div>
+<map name="proj_8c_aad96881d8e20c112ebe31f76842a27f9_cgraph" id="proj_8c_aad96881d8e20c112ebe31f76842a27f9_cgraph">
+<area shape="rect" id="node2" href="rtc_8c.html#a8cfbbe53c1cf6e3054736daea3044c0f" title="Funcao que vai desactivar as interrupcoes por actualizacao do rtc. " alt="" coords="157,297,220,324"/>
+<area shape="rect" id="node3" href="proj_8c.html#a460cfa57cc9fe97500d2f2cf510fd3d3" title="Funcao que inicia o jogo apenas com o teclado. " alt="" coords="161,348,216,374"/>
+<area shape="rect" id="node28" href="proj_8c.html#aebbb7a5fa40a19e1f662848b478eec53" title="Funcao que inicia o jogo com o teclado e o rato. " alt="" coords="156,626,221,653"/>
+<area shape="rect" id="node32" href="rtc_8c.html#a486f22824bd83c5308a0d70ffac6f758" title="Funcao que vai activar as interrupcoes por actualizacao do rtc. " alt="" coords="159,677,219,704"/>
+<area shape="rect" id="node4" href="video_8c.html#aa55320d571dc2cb8179422a9d8114de0" title="Funcao que retorna a resolucao horizontal do ecra. " alt="" coords="290,398,362,425"/>
+<area shape="rect" id="node5" href="video_8c.html#a36218c155eade74951ce7ffd60711a9e" title="Funcao que retorna a resolucao vertical do ecra. " alt="" coords="290,449,362,476"/>
+<area shape="rect" id="node6" href="video_8c.html#a5c30cdd3eab0edd2734ab3871f7000c7" title="Funcao que retorna a quantidade de bits por cada pixel. " alt="" coords="270,500,382,526"/>
+<area shape="rect" id="node7" href="read__xpm_8c.html#a05b2c5e4dbcaffa701703b50a2111783" title="read_xpm" alt="" coords="745,246,824,273"/>
+<area shape="rect" id="node8" href="timer_8c.html#a291e73a2f4a9140f4d20bed57e96aa6f" title="Funcao que imprime no ecra o tempo pela primeira vez. " alt="" coords="450,145,526,172"/>
+<area shape="rect" id="node9" href="video_8c.html#ab36f1e43a3d76e1236e10d306004f1f3" title="Funcao que desenha o xpm no ecra. " alt="" coords="747,398,823,425"/>
+<area shape="rect" id="node12" href="video_8c.html#a9017b0659a0bc0c6611328d9d9f42e94" title="Imprime o score do jogo no ecra. " alt="" coords="596,297,693,324"/>
+<area shape="rect" id="node13" href="sprite_8c.html#a3f7728feb84b250670d1ef33731ea7b4" title="Funcao que inicializar o &quot;objecto&quot;, lendo o xpm correspondente a sprite. " alt="" coords="596,500,693,526"/>
+<area shape="rect" id="node14" href="keyboard_8c.html#a7728c66e2e9db9eb8817e4508949976b" title="Funcao que mediante o input do teclado vai definir o m1 e m2 que sao as movimentacoes mediante as set..." alt="" coords="275,94,377,121"/>
+<area shape="rect" id="node15" href="sprite_8c.html#a605fc554aaa4a7ddf248793976a3f8bc" title="Funcao responsavel por actualizar as velocidades das sprites. " alt="" coords="277,550,375,577"/>
+<area shape="rect" id="node16" href="sprite_8c.html#ab009384a9aeb421c51d2d13f85b7b319" title="Funcao responsavel por actualizar o frame a mostrar no ecra. " alt="" coords="277,804,375,830"/>
+<area shape="rect" id="node25" href="timer_8c.html#a237f6284703d25e34532e7f73b0eb209" title="Funcao que actualiza no ecra o tempo de jogo restante. " alt="" coords="443,94,533,121"/>
+<area shape="rect" id="node27" href="sprite_8c.html#af16c6befaac9ffb673b9e3c798d542ed" title="Funcao responsavel por destruir a sprite, libertando a memoria alocada para a sprite. " alt="" coords="274,348,378,374"/>
+<area shape="rect" id="node10" href="video_8c.html#a9a74d03fd11068ed1707d8267a7ad910" title="Imprime os minutos de jogo no ecra. " alt="" coords="603,145,687,172"/>
+<area shape="rect" id="node11" href="video_8c.html#a3546f839cb7d4e3d98328d7ca1e4bc6e" title="Funcao que apaga o xpm da memoria de video. " alt="" coords="744,145,825,172"/>
+<area shape="rect" id="node17" href="sprite_8c.html#ae7da390876c239f1bbdb3a57f96333c5" title="Funcao que verifica se existe colisao entre duas sprites. " alt="" coords="593,804,696,830"/>
+<area shape="rect" id="node18" href="sprite_8c.html#a2a5140e844ac8bf7f0dbdbb15cf08ff8" title="Funcao que altera a posicao das duas sprites consoante as suas velocidades. " alt="" coords="434,753,542,780"/>
+<area shape="rect" id="node19" href="sprite_8c.html#a48eef171979f7cc2cb2acefe405cd942" title="Funcao que efectua o tratamento das colisoes entre as sprites dos dois jogadores. ..." alt="" coords="435,601,541,628"/>
+<area shape="rect" id="node20" href="sprite_8c.html#aa058ce198ff0ced63ead3b1510914cb1" title="Funcao que movimenta a bola. " alt="" coords="451,652,525,678"/>
+<area shape="rect" id="node21" href="sprite_8c.html#a6ff45b3e88989483a4d4058635b47ae8" title="Funcao que actualiza a posicao e a velocidade da bola. " alt="" coords="447,804,529,830"/>
+<area shape="rect" id="node22" href="sprite_8c.html#a33ff853b6897c18e8c414d26fcce2c27" title="Funcao que mantem os jogadores a bola dentro dos limites de jogo e actualiza o numero de golos marcad..." alt="" coords="445,398,531,425"/>
+<area shape="rect" id="node24" href="sprite_8c.html#a74560924f6d0d263514ecdcd5dd7758d" title="Funcao que anima a bola. " alt="" coords="599,449,690,476"/>
+<area shape="rect" id="node23" href="sprite_8c.html#a9943321a7c59b1bf899a030f0cebcb3b" title="Funcao que reinicia as posicoes das sprites dos jogadores e da bola, pondo as velocidades das sprites..." alt="" coords="613,398,676,425"/>
+<area shape="rect" id="node26" href="video_8c.html#ac1b63a4a1ce54d502d4eece3005d91dc" title="Imprime os segundos de jogo no ecra. " alt="" coords="601,94,688,121"/>
+<area shape="rect" id="node29" href="keyboard_8c.html#a7d9c87cc5bb4080cd24bb0223435d6d0" title="Funcao que mediante o input do teclado vai definir o m1 que representa a movimentacao do jogador 1 me..." alt="" coords="269,956,383,982"/>
+<area shape="rect" id="node30" href="mouse_8c.html#a8b8249c6ce158458f9c65993913c7bbd" title="Funcao que altera a movimentacao do jogador mediante o movimento do rato. Esta funcao e usada quando ..." alt="" coords="283,905,369,932"/>
+<area shape="rect" id="node31" href="mouse_8h.html#a60d910b8ae18d85640f28eb2a8dd00f9" title="twoComplement" alt="" coords="431,956,545,982"/>
+</map>
+</div>
+</p>
+
+<p><div class="dynheader">
+Este é o diagrama das funções que utilizam esta função:</div>
+<div class="dyncontent">
+<div class="center"><img src="proj_8c_aad96881d8e20c112ebe31f76842a27f9_icgraph.png" border="0" usemap="#proj_8c_aad96881d8e20c112ebe31f76842a27f9_icgraph" alt=""/></div>
+<map name="proj_8c_aad96881d8e20c112ebe31f76842a27f9_icgraph" id="proj_8c_aad96881d8e20c112ebe31f76842a27f9_icgraph">
+<area shape="rect" id="node2" href="proj_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="main" alt="" coords="156,5,207,32"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a15b7f5f6ef5495d96a5a61915ab2b8e3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void updateMouseSel </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="proj_8c.html#a63775c0553a6f57aca7b67f7be477b75">MenuOptions</a> *&#160;</td>
+          <td class="paramname"><em>current</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>mx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>my</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int *&#160;</td>
+          <td class="paramname"><em>mensely</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>lb</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int *&#160;</td>
+          <td class="paramname"><em>rl</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Altera o estado atual do menu mediante as posicos mx e my, com o rato. </p>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">current</td><td>Oestado que se vai definir </td></tr>
+    <tr><td class="paramname">mx</td><td>Posicao em x do rato </td></tr>
+    <tr><td class="paramname">my</td><td>Posicao em y do rato </td></tr>
+    <tr><td class="paramname">mensely</td><td>Posicao inicial do y da caixa de selecao </td></tr>
+    <tr><td class="paramname">lb</td><td>Informacao acerca de estar ou nao pressionado o botao esquerdo do rato </td></tr>
+    <tr><td class="paramname">rl</td><td>Informacao da mudanca do tempo/golos/modo no menu </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="fragment"><div class="line"><a name="l00575"></a><span class="lineno">  575</span>&#160;{</div>
+<div class="line"><a name="l00576"></a><span class="lineno">  576</span>&#160;    <span class="keywordflow">if</span>(mx &gt;= 280 &amp;&amp; mx &lt; 744)</div>
+<div class="line"><a name="l00577"></a><span class="lineno">  577</span>&#160;    {</div>
+<div class="line"><a name="l00578"></a><span class="lineno">  578</span>&#160;        <span class="keywordflow">if</span>(my &gt;= 306 &amp;&amp; my &lt;= 379)</div>
+<div class="line"><a name="l00579"></a><span class="lineno">  579</span>&#160;        {</div>
+<div class="line"><a name="l00580"></a><span class="lineno">  580</span>&#160;            *current = <a class="code" href="proj_8c.html#a63775c0553a6f57aca7b67f7be477b75a0352906d1ea1dfcd663c918f3a86755b">PLAY</a>;</div>
+<div class="line"><a name="l00581"></a><span class="lineno">  581</span>&#160;            *mensely = 306;</div>
+<div class="line"><a name="l00582"></a><span class="lineno">  582</span>&#160;        }</div>
+<div class="line"><a name="l00583"></a><span class="lineno">  583</span>&#160;        <span class="keywordflow">else</span> <span class="keywordflow">if</span>(my &gt;= 386 &amp;&amp; my &lt;= 459)</div>
+<div class="line"><a name="l00584"></a><span class="lineno">  584</span>&#160;        {</div>
+<div class="line"><a name="l00585"></a><span class="lineno">  585</span>&#160;            *current = <a class="code" href="proj_8c.html#a63775c0553a6f57aca7b67f7be477b75a5889a64b6298bb7cd5c91b96782ab11e">TIMEL</a>;</div>
+<div class="line"><a name="l00586"></a><span class="lineno">  586</span>&#160;            *mensely = 386;</div>
+<div class="line"><a name="l00587"></a><span class="lineno">  587</span>&#160;        }</div>
+<div class="line"><a name="l00588"></a><span class="lineno">  588</span>&#160;        <span class="keywordflow">else</span> <span class="keywordflow">if</span>(my &gt;= 466 &amp;&amp; my &lt;= 539)</div>
+<div class="line"><a name="l00589"></a><span class="lineno">  589</span>&#160;        {</div>
+<div class="line"><a name="l00590"></a><span class="lineno">  590</span>&#160;            *current = <a class="code" href="proj_8c.html#a63775c0553a6f57aca7b67f7be477b75acc2a643e91e2cd7b89f5c9eef5d9b015">GOALL</a>;</div>
+<div class="line"><a name="l00591"></a><span class="lineno">  591</span>&#160;            *mensely = 466;</div>
+<div class="line"><a name="l00592"></a><span class="lineno">  592</span>&#160;        }</div>
+<div class="line"><a name="l00593"></a><span class="lineno">  593</span>&#160;        <span class="keywordflow">else</span> <span class="keywordflow">if</span> (my &gt;= 546 &amp;&amp; my &lt;= 619)</div>
+<div class="line"><a name="l00594"></a><span class="lineno">  594</span>&#160;        {</div>
+<div class="line"><a name="l00595"></a><span class="lineno">  595</span>&#160;            *current = <a class="code" href="proj_8c.html#a63775c0553a6f57aca7b67f7be477b75a865d4bfdc2dd5f698e4558474765cba8">MODE</a>;</div>
+<div class="line"><a name="l00596"></a><span class="lineno">  596</span>&#160;            *mensely = 546;</div>
+<div class="line"><a name="l00597"></a><span class="lineno">  597</span>&#160;        }</div>
+<div class="line"><a name="l00598"></a><span class="lineno">  598</span>&#160;        <span class="keywordflow">else</span> <span class="keywordflow">if</span> (my &gt;= 626 &amp;&amp; my &lt;= 699)</div>
+<div class="line"><a name="l00599"></a><span class="lineno">  599</span>&#160;        {</div>
+<div class="line"><a name="l00600"></a><span class="lineno">  600</span>&#160;            *current = <a class="code" href="proj_8c.html#a63775c0553a6f57aca7b67f7be477b75a81ee9ebe7f7566a2ccfce0361c85bc56">EXITG</a>;</div>
+<div class="line"><a name="l00601"></a><span class="lineno">  601</span>&#160;            *mensely = 626;</div>
+<div class="line"><a name="l00602"></a><span class="lineno">  602</span>&#160;        }</div>
+<div class="line"><a name="l00603"></a><span class="lineno">  603</span>&#160;    }</div>
+<div class="line"><a name="l00604"></a><span class="lineno">  604</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (mx &gt;= 230 &amp;&amp; mx &lt;= 269) <span class="comment">// left arrow</span></div>
+<div class="line"><a name="l00605"></a><span class="lineno">  605</span>&#160;    {</div>
+<div class="line"><a name="l00606"></a><span class="lineno">  606</span>&#160;        <span class="keywordflow">if</span>(my &gt;= *mensely + 15 &amp;&amp; my &lt;= *mensely + 37 &amp;&amp; lb == 1)</div>
+<div class="line"><a name="l00607"></a><span class="lineno">  607</span>&#160;            *rl = -1;</div>
+<div class="line"><a name="l00608"></a><span class="lineno">  608</span>&#160;    }</div>
+<div class="line"><a name="l00609"></a><span class="lineno">  609</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (mx &gt;= 735 &amp;&amp; mx &lt;= 773) <span class="comment">// right arrow</span></div>
+<div class="line"><a name="l00610"></a><span class="lineno">  610</span>&#160;    {</div>
+<div class="line"><a name="l00611"></a><span class="lineno">  611</span>&#160;        <span class="keywordflow">if</span>(my &gt;= *mensely + 15 &amp;&amp; my &lt;= *mensely + 37 &amp;&amp; lb == 1)</div>
+<div class="line"><a name="l00612"></a><span class="lineno">  612</span>&#160;            *rl = 1;</div>
+<div class="line"><a name="l00613"></a><span class="lineno">  613</span>&#160;    }</div>
+<div class="line"><a name="l00614"></a><span class="lineno">  614</span>&#160;}</div>
+<div class="ttc" id="proj_8c_html_a63775c0553a6f57aca7b67f7be477b75acc2a643e91e2cd7b89f5c9eef5d9b015"><div class="ttname"><a href="proj_8c.html#a63775c0553a6f57aca7b67f7be477b75acc2a643e91e2cd7b89f5c9eef5d9b015">GOALL</a></div><div class="ttdef"><b>Definition:</b> proj.c:17</div></div>
+<div class="ttc" id="proj_8c_html_a63775c0553a6f57aca7b67f7be477b75a5889a64b6298bb7cd5c91b96782ab11e"><div class="ttname"><a href="proj_8c.html#a63775c0553a6f57aca7b67f7be477b75a5889a64b6298bb7cd5c91b96782ab11e">TIMEL</a></div><div class="ttdef"><b>Definition:</b> proj.c:17</div></div>
+<div class="ttc" id="proj_8c_html_a63775c0553a6f57aca7b67f7be477b75a865d4bfdc2dd5f698e4558474765cba8"><div class="ttname"><a href="proj_8c.html#a63775c0553a6f57aca7b67f7be477b75a865d4bfdc2dd5f698e4558474765cba8">MODE</a></div><div class="ttdef"><b>Definition:</b> proj.c:17</div></div>
+<div class="ttc" id="proj_8c_html_a63775c0553a6f57aca7b67f7be477b75a0352906d1ea1dfcd663c918f3a86755b"><div class="ttname"><a href="proj_8c.html#a63775c0553a6f57aca7b67f7be477b75a0352906d1ea1dfcd663c918f3a86755b">PLAY</a></div><div class="ttdef"><b>Definition:</b> proj.c:17</div></div>
+<div class="ttc" id="proj_8c_html_a63775c0553a6f57aca7b67f7be477b75a81ee9ebe7f7566a2ccfce0361c85bc56"><div class="ttname"><a href="proj_8c.html#a63775c0553a6f57aca7b67f7be477b75a81ee9ebe7f7566a2ccfce0361c85bc56">EXITG</a></div><div class="ttdef"><b>Definition:</b> proj.c:17</div></div>
+</div><!-- fragment -->
+<p><div class="dynheader">
+Este é o diagrama das funções que utilizam esta função:</div>
+<div class="dyncontent">
+<div class="center"><img src="proj_8c_a15b7f5f6ef5495d96a5a61915ab2b8e3_icgraph.png" border="0" usemap="#proj_8c_a15b7f5f6ef5495d96a5a61915ab2b8e3_icgraph" alt=""/></div>
+<map name="proj_8c_a15b7f5f6ef5495d96a5a61915ab2b8e3_icgraph" id="proj_8c_a15b7f5f6ef5495d96a5a61915ab2b8e3_icgraph">
+<area shape="rect" id="node2" href="proj_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="main" alt="" coords="172,5,223,32"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="ade82443ceede71076503da50a0677398"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void updateOption </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="proj_8c.html#a63775c0553a6f57aca7b67f7be477b75">MenuOptions</a> *&#160;</td>
+          <td class="paramname"><em>current</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>y</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Altera o estado atual do menu mediante a posicao y, com o teclado. </p>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">current</td><td>O estado que se vai definir </td></tr>
+    <tr><td class="paramname">y</td><td>A posicao nos eixos do y </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="fragment"><div class="line"><a name="l00561"></a><span class="lineno">  561</span>&#160;{</div>
+<div class="line"><a name="l00562"></a><span class="lineno">  562</span>&#160;    <span class="keywordflow">if</span> (y == 306)</div>
+<div class="line"><a name="l00563"></a><span class="lineno">  563</span>&#160;        *current = <a class="code" href="proj_8c.html#a63775c0553a6f57aca7b67f7be477b75a0352906d1ea1dfcd663c918f3a86755b">PLAY</a>;</div>
+<div class="line"><a name="l00564"></a><span class="lineno">  564</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (y == 386)</div>
+<div class="line"><a name="l00565"></a><span class="lineno">  565</span>&#160;        *current = <a class="code" href="proj_8c.html#a63775c0553a6f57aca7b67f7be477b75a5889a64b6298bb7cd5c91b96782ab11e">TIMEL</a>;</div>
+<div class="line"><a name="l00566"></a><span class="lineno">  566</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (y == 466)</div>
+<div class="line"><a name="l00567"></a><span class="lineno">  567</span>&#160;        *current = <a class="code" href="proj_8c.html#a63775c0553a6f57aca7b67f7be477b75acc2a643e91e2cd7b89f5c9eef5d9b015">GOALL</a>;</div>
+<div class="line"><a name="l00568"></a><span class="lineno">  568</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (y == 546)</div>
+<div class="line"><a name="l00569"></a><span class="lineno">  569</span>&#160;        *current = <a class="code" href="proj_8c.html#a63775c0553a6f57aca7b67f7be477b75a865d4bfdc2dd5f698e4558474765cba8">MODE</a>;</div>
+<div class="line"><a name="l00570"></a><span class="lineno">  570</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (y == 626)</div>
+<div class="line"><a name="l00571"></a><span class="lineno">  571</span>&#160;        *current = <a class="code" href="proj_8c.html#a63775c0553a6f57aca7b67f7be477b75a81ee9ebe7f7566a2ccfce0361c85bc56">EXITG</a>;</div>
+<div class="line"><a name="l00572"></a><span class="lineno">  572</span>&#160;}</div>
+<div class="ttc" id="proj_8c_html_a63775c0553a6f57aca7b67f7be477b75acc2a643e91e2cd7b89f5c9eef5d9b015"><div class="ttname"><a href="proj_8c.html#a63775c0553a6f57aca7b67f7be477b75acc2a643e91e2cd7b89f5c9eef5d9b015">GOALL</a></div><div class="ttdef"><b>Definition:</b> proj.c:17</div></div>
+<div class="ttc" id="proj_8c_html_a63775c0553a6f57aca7b67f7be477b75a5889a64b6298bb7cd5c91b96782ab11e"><div class="ttname"><a href="proj_8c.html#a63775c0553a6f57aca7b67f7be477b75a5889a64b6298bb7cd5c91b96782ab11e">TIMEL</a></div><div class="ttdef"><b>Definition:</b> proj.c:17</div></div>
+<div class="ttc" id="proj_8c_html_a63775c0553a6f57aca7b67f7be477b75a865d4bfdc2dd5f698e4558474765cba8"><div class="ttname"><a href="proj_8c.html#a63775c0553a6f57aca7b67f7be477b75a865d4bfdc2dd5f698e4558474765cba8">MODE</a></div><div class="ttdef"><b>Definition:</b> proj.c:17</div></div>
+<div class="ttc" id="proj_8c_html_a63775c0553a6f57aca7b67f7be477b75a0352906d1ea1dfcd663c918f3a86755b"><div class="ttname"><a href="proj_8c.html#a63775c0553a6f57aca7b67f7be477b75a0352906d1ea1dfcd663c918f3a86755b">PLAY</a></div><div class="ttdef"><b>Definition:</b> proj.c:17</div></div>
+<div class="ttc" id="proj_8c_html_a63775c0553a6f57aca7b67f7be477b75a81ee9ebe7f7566a2ccfce0361c85bc56"><div class="ttname"><a href="proj_8c.html#a63775c0553a6f57aca7b67f7be477b75a81ee9ebe7f7566a2ccfce0361c85bc56">EXITG</a></div><div class="ttdef"><b>Definition:</b> proj.c:17</div></div>
+</div><!-- fragment -->
+<p><div class="dynheader">
+Este é o diagrama das funções que utilizam esta função:</div>
+<div class="dyncontent">
+<div class="center"><img src="proj_8c_ade82443ceede71076503da50a0677398_icgraph.png" border="0" usemap="#proj_8c_ade82443ceede71076503da50a0677398_icgraph" alt=""/></div>
+<map name="proj_8c_ade82443ceede71076503da50a0677398_icgraph" id="proj_8c_ade82443ceede71076503da50a0677398_icgraph">
+<area shape="rect" id="node2" href="proj_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="main" alt="" coords="152,5,203,32"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Gerado por &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.10
+</small></address>
+</body>
+</html>
